@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -
+  -->
+
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="wolfram_bin.svg"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs8" /><sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="10.429825"
+     inkscape:cx="13.087468"
+     inkscape:cy="9.4920097"
+     inkscape:window-width="1353"
+     inkscape:window-height="818"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" /><g
+     id="g3412"
+     transform="matrix(0.56521929,0,0,0.56521929,-1.0510536,-0.99060526)"><path
+       d="m 25.94,16 c 4.690578,-5.420203 4.935192,-4.186393 -1.888,-5.844 0.953985,-6.7038044 2.227552,-6.3269674 -4.981,-3.613 -3.588245,-6.00878277 -2.347435,-5.87644815 -6.142,0 C 6.0519327,3.6272758 7.4344353,3.250806 7.948,10.156 1.3244053,11.77148 1.8976871,10.743295 6.059,16 c -4.4458721,5.156034 -4.54722,3.810328 1.889,5.844 -1.0151609,6.886934 -2.1155286,6.225141 4.981,3.613 3.588214,5.88633 2.540311,5.531254 6.141,0 6.836164,3.02195 5.653741,3.33311 4.981,-3.613 6.949843,-1.981768 6.18373,-0.6379 1.889,-5.844 z"
+       style="fill:#dd1100"
+       id="path10683"
+       sodipodi:nodetypes="ccccccccccc" /></g><path
+     d="m 6.3517998,11.907195 h 1.1759004 v 1.175899 H 4 V 11.907195 H 5.1759006 V 9.5553956 H 4 V 8.3794952 H 6.3517998 Z M 11.055397,2.5 H 8.7035993 v 1.1759001 h 1.175897 V 6.0276977 H 8.7035993 V 7.2035971 H 12.231293 V 6.0276977 H 11.055397 Z M 4,2.5 H 7.5277002 V 7.2035971 H 4 Z M 5.1759006,6.0276977 H 6.3517998 V 3.6759001 H 5.1759006 Z M 8.7035993,8.3794952 H 12.231293 V 13.083092 H 8.7035993 Z m 1.175897,3.5276998 H 11.055397 V 9.5553956 H 9.8794963 Z"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:1.17591"
+     id="path4608" /></svg>

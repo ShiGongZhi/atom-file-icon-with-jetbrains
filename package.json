@@ -1,0 +1,75 @@
+{
+  "name": "atom-file-icon-with-jetbrains",
+  "displayName": "Atom Material Icons + Jetbrains Icons",
+  "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
+  "version": "0.1.13",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShiGongZhi/a-file-icon-vscode/tree/simple-project-structure"
+  },
+  "publisher": "SoulFriends",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "atom-file-icon-with-jetbrains",
+        "label": "Atom Material Icons With Jetbrains",
+        "path": "./themes/a-wl-file-icon-vscode-icon-theme.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "homepage": "https://github.com/ShiGongZhi/a-file-icon-vscode/blob/simple-project-structure/README.md",
+  "browser": "./dist/web/extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#263238",
+    "theme": "dark"
+  },
+  "keywords": [
+    "icons",
+    "theme",
+    "material",
+    "atom",
+    "icon-theme",
+    "customization",
+    "jetbrains",
+    "intellij",
+    "pycharm",
+    "goland",
+    "rustrover",
+    "webstorm",
+    "idea",
+    "clion",
+    "phpstorm",
+    "rubymiine",
+    "appcode",
+    "datagrip",
+    "rider",
+    "dataspell",
+    "icons",
+    "icon-theme",
+    "theme",
+    "new ui",
+    "JetBrains Mono",
+    "font",
+    "cold",
+    "dark",
+    "material"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "sideEffects": false
+}
