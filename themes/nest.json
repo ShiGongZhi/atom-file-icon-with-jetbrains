@@ -1,0 +1,264 @@
+{
+  "iconDefinitions": {
+    "nestadapter": {
+      "iconPath": "./files/nestadapter.svg"
+    },
+    "nestargs": {
+      "iconPath": "./files/nestargs.svg"
+    },
+    "nestcommands": {
+      "iconPath": "./files/nestcommands.svg"
+    },
+    "nestconstants": {
+      "iconPath": "./files/nestconstants.svg"
+    },
+    "nestconstants_dark": {
+      "iconPath": "./files/nestconstants_dark.svg"
+    },
+    "nestcontroller": {
+      "iconPath": "./files/nestcontroller.svg"
+    },
+    "nestcron": {
+      "iconPath": "./files/nestcron.svg"
+    },
+    "nestdecorator": {
+      "iconPath": "./files/nestdecorator.svg"
+    },
+    "nestdto": {
+      "iconPath": "./files/nestdto.svg"
+    },
+    "neste2e": {
+      "iconPath": "./files/neste2e.svg"
+    },
+    "nestentity": {
+      "iconPath": "./files/nestentity.svg"
+    },
+    "nestfilter": {
+      "iconPath": "./files/nestfilter.svg"
+    },
+    "nestgateway": {
+      "iconPath": "./files/nestgateway.svg"
+    },
+    "nestgql": {
+      "iconPath": "./files/nestgql.svg"
+    },
+    "nestguard": {
+      "iconPath": "./files/nestguard.svg"
+    },
+    "nesthandlers": {
+      "iconPath": "./files/nesthandlers.svg"
+    },
+    "nestinput": {
+      "iconPath": "./files/nestinput.svg"
+    },
+    "nestinterceptor": {
+      "iconPath": "./files/nestinterceptor.svg"
+    },
+    "nestlisteners": {
+      "iconPath": "./files/nestlisteners.svg"
+    },
+    "nestloader": {
+      "iconPath": "./files/nestloader.svg"
+    },
+    "nestmiddleware": {
+      "iconPath": "./files/nestmiddleware.svg"
+    },
+    "nestmodel": {
+      "iconPath": "./files/nestmodel.svg"
+    },
+    "nestmodule": {
+      "iconPath": "./files/nestmodule.svg"
+    },
+    "nestpipe": {
+      "iconPath": "./files/nestpipe.svg"
+    },
+    "nestprocessor": {
+      "iconPath": "./files/nestprocessor.svg"
+    },
+    "nestprovider": {
+      "iconPath": "./files/nestprovider.svg"
+    },
+    "nestqueues": {
+      "iconPath": "./files/nestqueues.svg"
+    },
+    "nestrepository": {
+      "iconPath": "./files/nestrepository.svg"
+    },
+    "nestresolver": {
+      "iconPath": "./files/nestresolver.svg"
+    },
+    "nestscalar": {
+      "iconPath": "./files/nestscalar.svg"
+    },
+    "nestschema": {
+      "iconPath": "./files/nestschema.svg"
+    },
+    "nestservice": {
+      "iconPath": "./files/nestservice.svg"
+    },
+    "neststrategy": {
+      "iconPath": "./files/neststrategy.svg"
+    },
+    "nestsubscriber": {
+      "iconPath": "./files/nestsubscriber.svg"
+    },
+    "nesttypes": {
+      "iconPath": "./files/nesttypes.svg"
+    },
+    "nestutil": {
+      "iconPath": "./files/nestutil.svg"
+    }
+  },
+  "fileExtensions": {
+    "adapter.ts": "nestadapter",
+    "adapter.js": "nestadapter",
+    "adapters.ts": "nestadapter",
+    "adapters.js": "nestadapter",
+    "args.ts": "nestargs",
+    "args.js": "nestargs",
+    "arguments.ts": "nestargs",
+    "arguments.js": "nestargs",
+    "command.ts": "nestcommands",
+    "command.js": "nestcommands",
+    "commands.ts": "nestcommands",
+    "commands.js": "nestcommands",
+    "constant.ts": "nestconstants_dark",
+    "constant.js": "nestconstants_dark",
+    "constants.ts": "nestconstants_dark",
+    "constants.js": "nestconstants_dark",
+    "controller.ts": "nestcontroller",
+    "controller.js": "nestcontroller",
+    "controllers.ts": "nestcontroller",
+    "controllers.js": "nestcontroller",
+    "cron.ts": "nestcron",
+    "cron.js": "nestcron",
+    "task.ts": "nestcron",
+    "task.js": "nestcron",
+    "tasks.ts": "nestcron",
+    "tasks.js": "nestcron",
+    "decorator.ts": "nestdecorator",
+    "decorator.js": "nestdecorator",
+    "decorators.ts": "nestdecorator",
+    "decorators.js": "nestdecorator",
+    "dto.ts": "nestdto",
+    "dto.js": "nestdto",
+    "e2e.ts": "neste2e",
+    "e2e.js": "neste2e",
+    "e2e-spec.js": "neste2e",
+    "e2e-spec.ts": "neste2e",
+    "entity.ts": "nestentity",
+    "entity.js": "nestentity",
+    "entities.js": "nestentity",
+    "entities.ts": "nestentity",
+    "filter.ts": "nestfilter",
+    "filter.js": "nestfilter",
+    "filters.ts": "nestfilter",
+    "filters.js": "nestfilter",
+    "gateway.ts": "nestgateway",
+    "gateway.js": "nestgateway",
+    "gateways.ts": "nestgateway",
+    "gateways.js": "nestgateway",
+    "gql.ts": "nestgql",
+    "gql.js": "nestgql",
+    "graphql.ts": "nestgql",
+    "graphql.js": "nestgql",
+    "guard.ts": "nestguard",
+    "guard.js": "nestguard",
+    "guards.ts": "nestguard",
+    "guards.js": "nestguard",
+    "handler.ts": "nesthandlers",
+    "handler.js": "nesthandlers",
+    "handlers.ts": "nesthandlers",
+    "handlers.js": "nesthandlers",
+    "input.ts": "nestinput",
+    "input.js": "nestinput",
+    "inputs.ts": "nestinput",
+    "inputs.js": "nestinput",
+    "interceptor.ts": "nestinterceptor",
+    "interceptor.js": "nestinterceptor",
+    "interceptors.ts": "nestinterceptor",
+    "interceptors.js": "nestinterceptor",
+    "listener.ts": "nestlisteners",
+    "listener.js": "nestlisteners",
+    "listeners.ts": "nestlisteners",
+    "listeners.js": "nestlisteners",
+    "loader.ts": "nestloader",
+    "loader.js": "nestloader",
+    "loaders.ts": "nestloader",
+    "loaders.js": "nestloader",
+    "dataloader.ts": "nestloader",
+    "dataloader.js": "nestloader",
+    "dataloaders.ts": "nestloader",
+    "dataloaders.js": "nestloader",
+    "middleware.ts": "nestmiddleware",
+    "middleware.js": "nestmiddleware",
+    "middlewares.ts": "nestmiddleware",
+    "middlewares.js": "nestmiddleware",
+    "model.ts": "nestmodel",
+    "model.js": "nestmodel",
+    "models.ts": "nestmodel",
+    "models.js": "nestmodel",
+    "module.ts": "nestmodule",
+    "module.js": "nestmodule",
+    "pipe.ts": "nestpipe",
+    "pipe.js": "nestpipe",
+    "pipes.ts": "nestpipe",
+    "pipes.js": "nestpipe",
+    "processor.ts": "nestprocessor",
+    "processor.js": "nestprocessor",
+    "processors.ts": "nestprocessor",
+    "processors.js": "nestprocessor",
+    "provider.ts": "nestprovider",
+    "provider.js": "nestprovider",
+    "providers.ts": "nestprovider",
+    "providers.js": "nestprovider",
+    "queue.ts": "nestqueues",
+    "queue.js": "nestqueues",
+    "queues.ts": "nestqueues",
+    "queues.js": "nestqueues",
+    "repository.ts": "nestrepository",
+    "repository.js": "nestrepository",
+    "repositories.ts": "nestrepository",
+    "repositories.js": "nestrepository",
+    "resolver.ts": "nestresolver",
+    "resolver.js": "nestresolver",
+    "resolvers.ts": "nestresolver",
+    "resolvers.js": "nestresolver",
+    "scalar.ts": "nestscalar",
+    "scalar.js": "nestscalar",
+    "scalars.ts": "nestscalar",
+    "scalars.js": "nestscalar",
+    "schema.ts": "nestschema",
+    "schema.js": "nestschema",
+    "schemas.ts": "nestschema",
+    "schemas.js": "nestschema",
+    "service.ts": "nestservice",
+    "service.js": "nestservice",
+    "services.ts": "nestservice",
+    "services.js": "nestservice",
+    "strategy.ts": "neststrategy",
+    "strategy.js": "neststrategy",
+    "strategies.ts": "neststrategy",
+    "strategies.js": "neststrategy",
+    "subscriber.ts": "nestsubscriber",
+    "subscriber.js": "nestsubscriber",
+    "subscribers.ts": "nestsubscriber",
+    "subscribers.js": "nestsubscriber",
+    "type.ts": "nesttypes",
+    "type.js": "nesttypes",
+    "types.ts": "nesttypes",
+    "types.js": "nesttypes",
+    "util.ts": "nestutil",
+    "util.js": "nestutil",
+    "utils.ts": "nestutil",
+    "utils.js": "nestutil"
+  },
+  "light": {
+    "fileExtensions": {
+      "constant.ts": "nestconstants",
+      "constant.js": "nestconstants",
+      "constants.ts": "nestconstants",
+      "constants.js": "nestconstants"
+    }
+  }
+}

@@ -2,12 +2,16 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.14",
+  "version": "0.1.19",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
   },
   "publisher": "SoulFriends",
+  "main": "./src/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "iconThemes": [
       {
@@ -15,7 +19,22 @@
         "label": "Atom Material Icons With Jetbrains",
         "path": "./themes/a-wl-file-icon-vscode-icon-theme.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "angularIconPackNew",
+      "properties": {
+        "atom-file-icon-with-jetbrains.angularIconPackNew": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use New Angular Icons"
+        },
+        "atom-file-icon-with-jetbrains.nestIconPack": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use NestJS Icons"
+        }
+      }
+    }
   },
   "engines": {
     "vscode": "^1.21.0"

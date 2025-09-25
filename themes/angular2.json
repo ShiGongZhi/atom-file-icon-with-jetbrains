@@ -1,0 +1,74 @@
+{
+  "iconDefinitions": {
+    "angular2": {
+      "iconPath": "./files/angular2.svg"
+    },
+    "angular2component": {
+      "iconPath": "./files/angular2component.svg"
+    },
+    "angular2controller": {
+      "iconPath": "./files/angular2controller.svg"
+    },
+    "angular2directive": {
+      "iconPath": "./files/angular2directive.svg"
+    },
+    "angular2guard": {
+      "iconPath": "./files/angular2guard.svg"
+    },
+    "angular2interceptor": {
+      "iconPath": "./files/angular2interceptor.svg"
+    },
+    "angular2module": {
+      "iconPath": "./files/angular2module.svg"
+    },
+    "angular2service": {
+      "iconPath": "./files/angular2service.svg"
+    },
+    "angular2pipe": {
+      "iconPath": "./files/angular2pipe.svg"
+    },
+    "angular2resolver": {
+      "iconPath": "./files/angular2resolver.svg"
+    }
+  },
+  "fileExtensions": {
+    "ng-template": "angular2",
+    "ng.html": "angular2",
+    "ng.js": "angular2",
+    "ng.ts": "angular2",
+    "ngtemplate": "angular2",
+    "comp.dart": "angular2component",
+    "comp.js": "angular2component",
+    "comp.ts": "angular2component",
+    "component.dart": "angular2component",
+    "component.js": "angular2component",
+    "component.ts": "angular2component",
+    "controller.dart": "angular2controller",
+    "controller.js": "angular2controller",
+    "controller.ts": "angular2controller",
+    "ctrl.dart": "angular2controller",
+    "ctrl.js": "angular2controller",
+    "ctrl.ts": "angular2controller",
+    "directive.js": "angular2directive",
+    "directive.ts": "angular2directive",
+    "directive.dart": "angular2directive",
+    "guard.js": "angular2guard",
+    "guard.ts": "angular2guard",
+    "guard.dart": "angular2guard",
+    "interceptor.js": "angular2interceptor",
+    "interceptor.ts": "angular2interceptor",
+    "interceptor.dart": "angular2interceptor",
+    "module.js": "angular2module",
+    "module.ts": "angular2module",
+    "module.dart": "angular2module",
+    "service.js": "angular2service",
+    "service.ts": "angular2service",
+    "service.dart": "angular2service",
+    "pipe.js": "angular2pipe",
+    "pipe.ts": "angular2pipe",
+    "pipe.dart": "angular2pipe",
+    "resolver.js": "angular2resolver",
+    "resolver.ts": "angular2resolver",
+    "resolver.dart": "angular2resolver"
+  }
+}

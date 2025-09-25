@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+node_modules/**
+.gitignore
+.git/**
+.idea/**
+.DS_Store
+src/test-*.js
+src/create-base-theme.js
+src/fix-icon-paths.js
+DYNAMIC_ICONS.md
