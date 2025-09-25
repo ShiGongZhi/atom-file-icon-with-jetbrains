@@ -2,10 +2,10 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShiGongZhi/a-file-icon-vscode/tree/simple-project-structure"
+    "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
   },
   "publisher": "SoulFriends",
   "contributes": {
@@ -22,8 +22,7 @@
   },
   "license": "MIT",
   "icon": "logo.png",
-  "homepage": "https://github.com/ShiGongZhi/a-file-icon-vscode/blob/simple-project-structure/README.md",
-  "browser": "./dist/web/extension.js",
+  "homepage": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains/blob/main/README.md",
   "capabilities": {
     "untrustedWorkspaces": {
       "supported": true
@@ -67,9 +66,5 @@
     "cold",
     "dark",
     "material"
-  ],
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "sideEffects": false
+  ]
 }

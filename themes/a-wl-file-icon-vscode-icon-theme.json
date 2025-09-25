@@ -1,5 +1,23 @@
 {
+  "file": "default_file_dark",
+  "folder": "default_folder_dark",
+  "folderExpanded": "folder-folder-open",
+  "rootFolder": "folder-folder-root",
+  "rootFolderExpanded": "folder-folder-root-open",
   "iconDefinitions": {
+    "default_file_dark": {
+      "iconPath": "./files/default_file_dark.svg"
+    },
+    "default_file_light": {
+      "iconPath": "./files/default_file_light.svg"
+    },
+    "default_folder_dark": {
+      "iconPath": "./folders/default_folder_dark.svg"
+    },
+    "folder-folder-open": {
+      "iconPath": "./foldersOpen/folder.svg"
+    },
+
     "indexhtml": {
       "iconPath": "./files/indexhtml.svg"
     },
@@ -4506,9 +4524,6 @@
     "yaml": {
       "iconPath": "./files/yaml.svg"
     },
-    "file": {
-      "iconPath": "./files/file.svg"
-    },
     "folder-acf": {
       "iconPath": "./folders/acf.svg"
     },
@@ -6428,12 +6443,6 @@
     },
     "folder-zod-open": {
       "iconPath": "./foldersOpen/zod.svg"
-    },
-    "folder-folder": {
-      "iconPath": "./folders/folder.svg"
-    },
-    "folder-folder-open": {
-      "iconPath": "./foldersOpen/folder.svg"
     }
   },
   "folderNames": {
@@ -21725,6 +21734,7 @@
     "zs": "zenscript"
   },
   "light": {
+    "file": "default_file_light",
     "fileExtensions": {
       "spec.cjs": "testjsfiles",
       "spec.es6": "testjsfiles",
@@ -21873,21 +21883,5 @@
   "highContrast": {
     "fileExtensions": {},
     "fileNames": {}
-  },
-  "atomConfig": {
-    "activeIconPacks": [],
-    "arrowTheme": "material",
-    "folderColor": "#90a4ae",
-    "folderTheme": "specific",
-    "opacity": 1,
-    "saturation": 1,
-    "showReloadMessage": true,
-    "showUpdateMessage": true,
-    "showWelcomeMessage": true
-  },
-  "file": "file",
-  "folder": "folder-folder",
-  "folderExpanded": "folder-folder-open",
-  "rootFolder": "folder-folder-root",
-  "rootFolderExpanded": "folder-folder-root-open"
+  }
 }

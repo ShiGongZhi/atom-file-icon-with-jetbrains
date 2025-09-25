@@ -51,7 +51,7 @@
   </defs>
 
   <g mask="url(#Mask)">
-    <rect y="2" width="16" height="12" fill="#000" data-themed="true" data-iconColor="Tokeignore"/>
+    <rect y="2" width="16" height="12"  fill="#90a4ae" data-themed="true" data-iconColor="Tokeignore"/>
     <g transform="matrix(0.109779, 0, 0, 0.098813, 1.166782, 4.663317)" fill="white">
       <g transform="matrix(1.337753, 0, 0, 1.511083, 17.912626, 11.895905)">
         <path

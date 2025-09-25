@@ -15,8 +15,7 @@ This plugin is a port of the [Atom File Icons](https://github.com/file-icons/ato
 
 It replaces the icons and folder icons with better suited icons, related to the file type, framework or language.
 
-This plugin is inspired by the [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
-and [Atom Material Icons for JetBrains](https://github.com/mallowigi/a-file-icon-idea).
+This plugin also use some file icon from [jetbrains](https://intellij-icons.jetbrains.design/)
 
 ## Features
 
@@ -29,7 +28,6 @@ and [Atom Material Icons for JetBrains](https://github.com/mallowigi/a-file-icon
 - Replaces **folder icons**:
   - From common patterns: `src`, `main`, `app`, `img`, `docs`...
   - From specific use cases: `node_modules`, `.vscode`, `.git.`..
-
 
 ## File Icons
 
