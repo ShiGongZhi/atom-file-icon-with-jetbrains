@@ -67,14 +67,25 @@ function updateIconTheme(showNotification = false) {
     )
 
     // 新增图标包起始
+    const angularIconPackOld = config.get('angularIconPackOld', false)
     const angularIconPackNew = config.get('angularIconPackNew', false)
     const nestIconPack = config.get('nestIconPack', false)
 
-    const angularThemePath = path.join(extensionPath, 'themes', 'angular2.json')
+    const angularThemePathOld = path.join(
+      extensionPath,
+      'themes',
+      'angular.json'
+    )
+    const angularThemePathNew = path.join(
+      extensionPath,
+      'themes',
+      'angular2.json'
+    )
     const nestThemePath = path.join(extensionPath, 'themes', 'nest.json')
 
     const iconPackArray = [
-      [angularIconPackNew, angularThemePath],
+      [angularIconPackOld, angularThemePathOld],
+      [angularIconPackNew, angularThemePathNew],
       [nestIconPack, nestThemePath]
     ]
     // 新增图标包结束

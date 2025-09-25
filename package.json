@@ -2,7 +2,7 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.19",
+  "version": "0.1.21",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
@@ -21,8 +21,12 @@
       }
     ],
     "configuration": {
-      "title": "angularIconPackNew",
       "properties": {
+        "atom-file-icon-with-jetbrains.angularIconPackOld": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use Old Angular Icons"
+        },
         "atom-file-icon-with-jetbrains.angularIconPackNew": {
           "type": "boolean",
           "default": false,
