@@ -12,7 +12,7 @@ function activate(context) {
   const configWatcher = vscode.workspace.onDidChangeConfiguration((event) => {
     if (event.affectsConfiguration('atom-file-icon-with-jetbrains')) {
       console.log('配置发生变化，重新生成主题...')
-      updateIconTheme(true) // 配置变化时显示通知
+      updateIconTheme(false) // 配置变化时不显示通知
     }
   })
 
@@ -44,7 +44,9 @@ function updateIconTheme(showNotification = false) {
     // 确保基础主题文件存在
     if (!fs.existsSync(baseThemePath)) {
       console.error('基础主题文件不存在')
-      vscode.window.showErrorMessage('基础主题文件缺失，扩展可能无法正常工作')
+      vscode.window.showErrorMessage(
+        'Some files are missing and the extension may not work properly'
+      )
       return
     }
 
@@ -114,25 +116,15 @@ function updateIconTheme(showNotification = false) {
       fs.writeFileSync(outputThemePath, newThemeContent)
       console.log('📝 图标主题文件已更新:', outputThemePath)
 
-      // 只有在显式要求且内容确实发生变化时才显示通知
       if (showNotification) {
-        vscode.window
-          .showInformationMessage(
-            '图标主题配置已更新，建议重新加载窗口以应用更改。',
-            '重新加载'
-          )
-          .then((selection) => {
-            if (selection === '重新加载') {
-              vscode.commands.executeCommand('workbench.action.reloadWindow')
-            }
-          })
+        vscode.window.showInformationMessage('Icon updated')
       }
     } else {
       console.log('📋 主题内容未发生变化，跳过写入')
     }
   } catch (error) {
     console.error('更新图标主题时出错:', error)
-    vscode.window.showErrorMessage(`更新图标主题失败: ${error.message}`)
+    vscode.window.showErrorMessage(`Failed to update icon: ${error.message}`)
   }
 }
 

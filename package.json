@@ -2,7 +2,7 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.21",
+  "version": "0.1.24",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
@@ -15,6 +15,7 @@
   "contributes": {
     "iconThemes": [
       {
+        "_watch": true,
         "id": "atom-file-icon-with-jetbrains",
         "label": "Atom Material Icons With Jetbrains",
         "path": "./themes/a-wl-file-icon-vscode-icon-theme.json"
