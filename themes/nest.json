@@ -9,11 +9,11 @@
     "nestcommands": {
       "iconPath": "./files/nestcommands.svg"
     },
-    "nestconstants": {
-      "iconPath": "./files/nestconstants.svg"
+    "nestconstants_file_light": {
+      "iconPath": "./files/nestconstants_file_light.svg"
     },
-    "nestconstants_dark": {
-      "iconPath": "./files/nestconstants_dark.svg"
+    "nestconstants_file_dark": {
+      "iconPath": "./files/nestconstants_file_dark.svg"
     },
     "nestcontroller": {
       "iconPath": "./files/nestcontroller.svg"
@@ -122,10 +122,10 @@
     "command.js": "nestcommands",
     "commands.ts": "nestcommands",
     "commands.js": "nestcommands",
-    "constant.ts": "nestconstants_dark",
-    "constant.js": "nestconstants_dark",
-    "constants.ts": "nestconstants_dark",
-    "constants.js": "nestconstants_dark",
+    "constant.ts": "nestconstants_file_dark",
+    "constant.js": "nestconstants_file_dark",
+    "constants.ts": "nestconstants_file_dark",
+    "constants.js": "nestconstants_file_dark",
     "controller.ts": "nestcontroller",
     "controller.js": "nestcontroller",
     "controllers.ts": "nestcontroller",
@@ -255,10 +255,10 @@
   },
   "light": {
     "fileExtensions": {
-      "constant.ts": "nestconstants",
-      "constant.js": "nestconstants",
-      "constants.ts": "nestconstants",
-      "constants.js": "nestconstants"
+      "constant.ts": "nestconstants_file_light",
+      "constant.js": "nestconstants_file_light",
+      "constants.ts": "nestconstants_file_light",
+      "constants.js": "nestconstants_file_light"
     }
   }
 }

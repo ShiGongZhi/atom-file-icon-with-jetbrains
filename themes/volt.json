@@ -1,0 +1,21 @@
+{
+  "iconDefinitions": {
+    "volt_file_light": {
+      "iconPath": "./files/volt_file_light.svg"
+    },
+    "volt_file_dark": {
+      "iconPath": "./files/volt_file_dark.svg"
+    }
+  },
+  "fileExtensions": {
+    "volt": "volt_file_dark"
+  },
+  "languageIds": {
+    "volt": "volt_file_dark"
+  },
+  "light": {
+    "fileExtensions": {
+      "volt": "volt_file_light"
+    }
+  }
+}
