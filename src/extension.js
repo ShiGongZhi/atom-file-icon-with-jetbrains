@@ -8,6 +8,9 @@ const path = require('path')
 function activate(context) {
   console.log('Atom Material Icons With Jetbrains extension is now active!')
 
+  // 打印当前主题信息
+  console.log('当前主题类型:', getCurrentThemeType())
+
   // 监听配置变化
   const configWatcher = vscode.workspace.onDidChangeConfiguration((event) => {
     if (event.affectsConfiguration('atom-file-icon-with-jetbrains')) {
@@ -16,10 +19,48 @@ function activate(context) {
     }
   })
 
+  // 监听主题变化
+  const themeWatcher = vscode.window.onDidChangeActiveColorTheme((theme) => {
+    const themeType = getCurrentThemeType()
+    console.log('主题发生变化:', themeType)
+
+    // 可以在这里根据主题变化执行特定逻辑
+    // 例如：根据不同主题类型使用不同的图标变体
+    updateIconTheme(false)
+  })
+
   // 初始加载时静默更新图标主题（不显示通知）
   updateIconTheme(false)
 
-  context.subscriptions.push(configWatcher)
+  context.subscriptions.push(configWatcher, themeWatcher)
+}
+
+/**
+ * 判断当前VS Code主题是深色还是浅色
+ * @returns {'dark' | 'light' | 'highContrast'} 主题类型
+ */
+function getCurrentThemeType() {
+  // 获取当前的颜色主题
+  const currentTheme = vscode.window.activeColorTheme
+
+  if (currentTheme) {
+    // VS Code提供了kind属性来判断主题类型
+    switch (currentTheme.kind) {
+      case vscode.ColorThemeKind.Light:
+      case vscode.ColorThemeKind.HighContrastLight:
+        return 'light'
+      case vscode.ColorThemeKind.Dark:
+        return 'dark'
+      case vscode.ColorThemeKind.HighContrast:
+        return 'highContrast'
+      default:
+        // 如果无法确定，默认返回深色
+        return 'dark'
+    }
+  }
+
+  // 兜底方案：如果无法获取主题信息，默认返回深色
+  return 'dark'
 }
 
 function updateIconTheme(showNotification = false) {
@@ -62,6 +103,12 @@ function updateIconTheme(showNotification = false) {
 
     // 读取基础主题
     const baseTheme = JSON.parse(fs.readFileSync(baseThemePath, 'utf8'))
+    // 获取当前主题类型
+    const isLightTheme = getCurrentThemeType() === 'light'
+    if (isLightTheme) {
+      baseTheme.folder = 'default_folder_light'
+      baseTheme.folderExpanded = 'default_folder_open_light'
+    }
     let mergedTheme = JSON.parse(JSON.stringify(baseTheme))
 
     const config = vscode.workspace.getConfiguration(
@@ -114,7 +161,7 @@ function updateIconTheme(showNotification = false) {
     if (contentChanged) {
       // 写入合并后的主题
       fs.writeFileSync(outputThemePath, newThemeContent)
-      console.log('📝 图标主题文件已更新:', outputThemePath)
+      console.log('📝 图标主题文件已更新')
 
       if (showNotification) {
         vscode.window.showInformationMessage('Icon updated')
@@ -181,12 +228,12 @@ function mergeThemes(baseTheme, additionalTheme) {
 
   // 合并浅色主题
   if (additionalTheme.light) {
-    merged.light = mergeThemeVariant(merged.light || {}, additionalTheme.light)
+    merged.light = mergeThemes(merged.light || {}, additionalTheme.light)
   }
 
   // 合并高对比度主题
   if (additionalTheme.highContrast) {
-    merged.highContrast = mergeThemeVariant(
+    merged.highContrast = mergeThemes(
       merged.highContrast || {},
       additionalTheme.highContrast
     )
@@ -195,29 +242,30 @@ function mergeThemes(baseTheme, additionalTheme) {
   return merged
 }
 
-function mergeThemeVariant(baseVariant, additionalVariant) {
-  const merged = JSON.parse(JSON.stringify(baseVariant))
+// function mergeThemeVariant(baseVariant, additionalVariant) {
+//   const merged = JSON.parse(JSON.stringify(baseVariant))
 
-  if (additionalVariant.fileExtensions) {
-    merged.fileExtensions = {
-      ...merged.fileExtensions,
-      ...additionalVariant.fileExtensions
-    }
-  }
+//   if (additionalVariant.fileExtensions) {
+//     merged.fileExtensions = {
+//       ...merged.fileExtensions,
+//       ...additionalVariant.fileExtensions
+//     }
+//   }
 
-  if (additionalVariant.fileNames) {
-    merged.fileNames = {
-      ...merged.fileNames,
-      ...additionalVariant.fileNames
-    }
-  }
+//   if (additionalVariant.fileNames) {
+//     merged.fileNames = {
+//       ...merged.fileNames,
+//       ...additionalVariant.fileNames
+//     }
+//   }
 
-  return merged
-}
+//   return merged
+// }
 
 function deactivate() {}
 
 module.exports = {
   activate,
-  deactivate
+  deactivate,
+  getCurrentThemeType
 }

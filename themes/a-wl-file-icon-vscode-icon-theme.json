@@ -1,7 +1,7 @@
 {
   "file": "default_file_dark",
-  "folder": "default_folder_dark",
-  "folderExpanded": "folder-folder-open",
+  "folder": "default_folder_light",
+  "folderExpanded": "default_folder_open_light",
   "rootFolder": "folder-folder-root",
   "rootFolderExpanded": "folder-folder-root-open",
   "iconDefinitions": {
@@ -14,11 +14,23 @@
     "default_folder_dark": {
       "iconPath": "./folders/default_folder_dark.svg"
     },
-    "folder-folder-open": {
-      "iconPath": "./foldersOpen/folder.svg"
+    "default_folder_light": {
+      "iconPath": "./folders/default_folder_light.svg"
+    },
+    "default_folder_open_dark": {
+      "iconPath": "./foldersOpen/default_folder_open_dark.svg"
+    },
+    "default_folder_open_light": {
+      "iconPath": "./foldersOpen/default_folder_open_light.svg"
     },
     "indexhtml": {
       "iconPath": "./files/indexhtml.svg"
+    },
+    "index_tsx_file_dark": {
+      "iconPath": "./files/index_tsx_file_dark.svg"
+    },
+    "index_tsx_file_light": {
+      "iconPath": "./files/index_tsx_file_light.svg"
     },
     "index": {
       "iconPath": "./files/index.svg"
@@ -95,20 +107,26 @@
     "testktfiles": {
       "iconPath": "./files/testktfiles.svg"
     },
-    "testjsfiles": {
-      "iconPath": "./files/testjsfiles.svg"
+    "testjs_file_dark": {
+      "iconPath": "./files/testjs_file_dark.svg"
     },
-    "testjsfiles_dark": {
-      "iconPath": "./files/testjsfiles_dark.svg"
+    "testjs_file_light": {
+      "iconPath": "./files/testjs_file_light.svg"
     },
     "testperlfiles": {
       "iconPath": "./files/testperlfiles.svg"
     },
-    "testjsx": {
-      "iconPath": "./files/testjsx.svg"
+    "testjsx_file_dark": {
+      "iconPath": "./files/testjsx_file_dark.svg"
     },
-    "testtsx": {
-      "iconPath": "./files/testtsx.svg"
+    "testjsx_file_light": {
+      "iconPath": "./files/testjsx_file_light.svg"
+    },
+    "testtsx_file_dark": {
+      "iconPath": "./files/testtsx_file_dark.svg"
+    },
+    "testtsx_file_light": {
+      "iconPath": "./files/testtsx_file_light.svg"
     },
     "testpyfiles": {
       "iconPath": "./files/testpyfiles.svg"
@@ -122,17 +140,20 @@
     "testscalafiles": {
       "iconPath": "./files/testscalafiles.svg"
     },
-    "testtsfiles": {
-      "iconPath": "./files/testtsfiles.svg"
+    "testtsfiles_file_dark": {
+      "iconPath": "./files/testtsfiles_file_dark.svg"
+    },
+    "testtsfiles_file_light": {
+      "iconPath": "./files/testtsfiles_file_light.svg"
     },
     "testphpfiles": {
       "iconPath": "./files/testphpfiles.svg"
     },
-    "11ty": {
-      "iconPath": "./files/11ty.svg"
+    "11ty_file_light": {
+      "iconPath": "./files/11ty_file_light.svg"
     },
-    "11ty_dark": {
-      "iconPath": "./files/11ty_dark.svg"
+    "11ty_file_dark": {
+      "iconPath": "./files/11ty_file_dark.svg"
     },
     "1c": {
       "iconPath": "./files/1c.svg"
@@ -218,8 +239,11 @@
     "alex": {
       "iconPath": "./files/alex.svg"
     },
-    "alexignore": {
-      "iconPath": "./files/alexignore.svg"
+    "alexignore_file_light": {
+      "iconPath": "./files/alexignore_file_light.svg"
+    },
+    "alexignore_file_dark": {
+      "iconPath": "./files/alexignore_file_dark.svg"
     },
     "alfred": {
       "iconPath": "./files/alfred.svg"
@@ -395,17 +419,17 @@
     "asymptote": {
       "iconPath": "./files/asymptote.svg"
     },
-    "atom": {
-      "iconPath": "./files/atom.svg"
+    "atom_file_light": {
+      "iconPath": "./files/atom_file_light.svg"
     },
-    "atom_dark": {
-      "iconPath": "./files/atom_dark.svg"
+    "atom_file_dark": {
+      "iconPath": "./files/atom_file_dark.svg"
     },
-    "apm": {
-      "iconPath": "./files/apm.svg"
+    "apm_file_light": {
+      "iconPath": "./files/apm_file_light.svg"
     },
-    "apm_dark": {
-      "iconPath": "./files/apm_dark.svg"
+    "apm_file_dark": {
+      "iconPath": "./files/apm_file_dark.svg"
     },
     "atoum": {
       "iconPath": "./files/atoum.svg"
@@ -479,11 +503,11 @@
     "basic": {
       "iconPath": "./files/basic.svg"
     },
-    "bats": {
-      "iconPath": "./files/bats.svg"
+    "bats_file_light": {
+      "iconPath": "./files/bats_file_light.svg"
     },
-    "bats_dark": {
-      "iconPath": "./files/bats_dark.svg"
+    "bats_file_dark": {
+      "iconPath": "./files/bats_file_dark.svg"
     },
     "bazaar": {
       "iconPath": "./files/bazaar.svg"
@@ -491,8 +515,11 @@
     "bazel": {
       "iconPath": "./files/bazel.svg"
     },
-    "bazelignore": {
-      "iconPath": "./files/bazelignore.svg"
+    "bazelignore_file_dark": {
+      "iconPath": "./files/bazelignore_file_dark.svg"
+    },
+    "bazelignore_file_light": {
+      "iconPath": "./files/bazelignore_file_light.svg"
     },
     "bazelconfig": {
       "iconPath": "./files/bazelconfig.svg"
@@ -584,11 +611,11 @@
     "boot": {
       "iconPath": "./files/boot.svg"
     },
-    "bun": {
-      "iconPath": "./files/bun.svg"
+    "bun_file_light": {
+      "iconPath": "./files/bun_file_light.svg"
     },
-    "bun_dark": {
-      "iconPath": "./files/bun_dark.svg"
+    "bun_file_dark": {
+      "iconPath": "./files/bun_file_dark.svg"
     },
     "bunlock": {
       "iconPath": "./files/bunlock.svg"
@@ -719,8 +746,11 @@
     "chameleon": {
       "iconPath": "./files/chameleon.svg"
     },
-    "changelog": {
-      "iconPath": "./files/changelog.svg"
+    "changelog_file_dark": {
+      "iconPath": "./files/changelog_file_dark.svg"
+    },
+    "changelog_file_light": {
+      "iconPath": "./files/changelog_file_light.svg"
     },
     "chapel": {
       "iconPath": "./files/chapel.svg"
@@ -833,8 +863,11 @@
     "coffeelint": {
       "iconPath": "./files/coffeelint.svg"
     },
-    "coffeelintignore": {
-      "iconPath": "./files/coffeelintignore.svg"
+    "coffeelintignore_file_dark": {
+      "iconPath": "./files/coffeelintignore_file_dark.svg"
+    },
+    "coffeelintignore_file_light": {
+      "iconPath": "./files/coffeelintignore_file_light.svg"
     },
     "cf": {
       "iconPath": "./files/cf.svg"
@@ -896,8 +929,11 @@
     "containerfile": {
       "iconPath": "./files/containerfile.svg"
     },
-    "containerignore": {
-      "iconPath": "./files/containerignore.svg"
+    "containerignore_file_dark": {
+      "iconPath": "./files/containerignore_file_dark.svg"
+    },
+    "containerignore_file_light": {
+      "iconPath": "./files/containerignore_file_light.svg"
     },
     "cml": {
       "iconPath": "./files/cml.svg"
@@ -1016,14 +1052,20 @@
     "dal": {
       "iconPath": "./files/dal.svg"
     },
-    "dartignore": {
-      "iconPath": "./files/dartignore.svg"
+    "dartignore_file_dark": {
+      "iconPath": "./files/dartignore_file_dark.svg"
+    },
+    "dartignore_file_light": {
+      "iconPath": "./files/dartignore_file_light.svg"
     },
     "darcs": {
       "iconPath": "./files/darcs.svg"
     },
-    "boringignore": {
-      "iconPath": "./files/boringignore.svg"
+    "boringignore_file_light": {
+      "iconPath": "./files/boringignore_file_light.svg"
+    },
+    "boringignore_file_dark": {
+      "iconPath": "./files/boringignore_file_dark.svg"
     },
     "dashboard": {
       "iconPath": "./files/dashboard.svg"
@@ -1055,8 +1097,11 @@
     "denorc": {
       "iconPath": "./files/denorc.svg"
     },
-    "denoignore": {
-      "iconPath": "./files/denoignore.svg"
+    "denoignore_file_dark": {
+      "iconPath": "./files/denoignore_file_dark.svg"
+    },
+    "denoignore_file_light": {
+      "iconPath": "./files/denoignore_file_light.svg"
     },
     "deno": {
       "iconPath": "./files/deno.svg"
@@ -1133,8 +1178,11 @@
     "dockercomposefiles": {
       "iconPath": "./files/dockercomposefiles.svg"
     },
-    "dockerignore": {
-      "iconPath": "./files/dockerignore.svg"
+    "dockerignore_file_dark": {
+      "iconPath": "./files/dockerignore_file_dark.svg"
+    },
+    "dockerignore_file_light": {
+      "iconPath": "./files/dockerignore_file_light.svg"
     },
     "docpad": {
       "iconPath": "./files/docpad.svg"
@@ -1334,8 +1382,11 @@
     "eslintcache": {
       "iconPath": "./files/eslintcache.svg"
     },
-    "eslintignore": {
-      "iconPath": "./files/eslintignore.svg"
+    "eslintignore_file_dark": {
+      "iconPath": "./files/eslintignore_file_dark.svg"
+    },
+    "eslintignore_file_light": {
+      "iconPath": "./files/eslintignore_file_light.svg"
     },
     "erb": {
       "iconPath": "./files/erb.svg"
@@ -1388,8 +1439,11 @@
     "faust": {
       "iconPath": "./files/faust.svg"
     },
-    "favicon": {
-      "iconPath": "./files/favicon.svg"
+    "favicon_file_dark": {
+      "iconPath": "./files/favicon_file_dark.svg"
+    },
+    "favicon_file_light": {
+      "iconPath": "./files/favicon_file_light.svg"
     },
     "fbx": {
       "iconPath": "./files/fbx.svg"
@@ -1436,11 +1490,11 @@
     "floobits": {
       "iconPath": "./files/floobits.svg"
     },
-    "flow": {
-      "iconPath": "./files/flow.svg"
+    "flow_file_light": {
+      "iconPath": "./files/flow_file_light.svg"
     },
-    "flow_dark": {
-      "iconPath": "./files/flow_dark.svg"
+    "flow_file_dark": {
+      "iconPath": "./files/flow_file_dark.svg"
     },
     "flutter": {
       "iconPath": "./files/flutter.svg"
@@ -1544,11 +1598,11 @@
     "gatsby": {
       "iconPath": "./files/gatsby.svg"
     },
-    "gauge": {
-      "iconPath": "./files/gauge.svg"
+    "gauge_file_light": {
+      "iconPath": "./files/gauge_file_light.svg"
     },
-    "gauge_dark": {
-      "iconPath": "./files/gauge_dark.svg"
+    "gauge_file_dark": {
+      "iconPath": "./files/gauge_file_dark.svg"
     },
     "gcp": {
       "iconPath": "./files/gcp.svg"
@@ -1592,8 +1646,11 @@
     "gitlab": {
       "iconPath": "./files/gitlab.svg"
     },
-    "gitignore": {
-      "iconPath": "./files/gitignore.svg"
+    "gitignore_file_dark": {
+      "iconPath": "./files/gitignore_file_dark.svg"
+    },
+    "gitignore_file_light": {
+      "iconPath": "./files/gitignore_file_light.svg"
     },
     "gitpod": {
       "iconPath": "./files/gitpod.svg"
@@ -1763,14 +1820,20 @@
     "helix": {
       "iconPath": "./files/helix.svg"
     },
-    "helixignore": {
-      "iconPath": "./files/helixignore.svg"
+    "helixignore_file_dark": {
+      "iconPath": "./files/helixignore_file_dark.svg"
+    },
+    "helixignore_file_light": {
+      "iconPath": "./files/helixignore_file_light.svg"
     },
     "helm": {
       "iconPath": "./files/helm.svg"
     },
-    "helmignore": {
-      "iconPath": "./files/helmignore.svg"
+    "helmignore_file_dark": {
+      "iconPath": "./files/helmignore_file_dark.svg"
+    },
+    "helmignore_file_light": {
+      "iconPath": "./files/helmignore_file_light.svg"
     },
     "helmcharts": {
       "iconPath": "./files/helmcharts.svg"
@@ -1781,8 +1844,11 @@
     "heroku": {
       "iconPath": "./files/heroku.svg"
     },
-    "herokuignore": {
-      "iconPath": "./files/herokuignore.svg"
+    "herokuignore_file_dark": {
+      "iconPath": "./files/herokuignore_file_dark.svg"
+    },
+    "herokuignore_file_light": {
+      "iconPath": "./files/herokuignore_file_light.svg"
     },
     "hex": {
       "iconPath": "./files/hex.svg"
@@ -1991,8 +2057,11 @@
     "jasmine": {
       "iconPath": "./files/jasmine.svg"
     },
-    "js": {
-      "iconPath": "./files/js.svg"
+    "js_file_dark": {
+      "iconPath": "./files/js_file_dark.svg"
+    },
+    "js_file_light": {
+      "iconPath": "./files/js_file_light.svg"
     },
     "jbuilder": {
       "iconPath": "./files/jbuilder.svg"
@@ -2045,14 +2114,23 @@
     "jshint": {
       "iconPath": "./files/jshint.svg"
     },
-    "jshintignore": {
-      "iconPath": "./files/jshintignore.svg"
+    "jshintignore_file_dark": {
+      "iconPath": "./files/jshintignore_file_dark.svg"
     },
-    "jsmap": {
-      "iconPath": "./files/jsmap.svg"
+    "jshintignore_file_light": {
+      "iconPath": "./files/jshintignore_file_light.svg"
     },
-    "jsconfig": {
-      "iconPath": "./files/jsconfig.svg"
+    "jsmap_file_dark": {
+      "iconPath": "./files/jsmap_file_dark.svg"
+    },
+    "jsmap_file_light": {
+      "iconPath": "./files/jsmap_file_light.svg"
+    },
+    "jsconfig_file_dark": {
+      "iconPath": "./files/jsconfig_file_dark.svg"
+    },
+    "jsconfig_file_light": {
+      "iconPath": "./files/jsconfig_file_light.svg"
     },
     "jscpd": {
       "iconPath": "./files/jscpd.svg"
@@ -2090,11 +2168,11 @@
     "kaitai": {
       "iconPath": "./files/kaitai.svg"
     },
-    "karma": {
-      "iconPath": "./files/karma.svg"
+    "karma_file_light": {
+      "iconPath": "./files/karma_file_light.svg"
     },
-    "karma_dark": {
-      "iconPath": "./files/karma_dark.svg"
+    "karma_file_dark": {
+      "iconPath": "./files/karma_file_dark.svg"
     },
     "kx": {
       "iconPath": "./files/kx.svg"
@@ -2150,11 +2228,11 @@
     "knockout": {
       "iconPath": "./files/knockout.svg"
     },
-    "koka": {
-      "iconPath": "./files/koka.svg"
+    "koka_file_light": {
+      "iconPath": "./files/koka_file_light.svg"
     },
-    "koka_dark": {
-      "iconPath": "./files/koka_dark.svg"
+    "koka_file_dark": {
+      "iconPath": "./files/koka_file_dark.svg"
     },
     "kubernetes": {
       "iconPath": "./files/kubernetes.svg"
@@ -2225,8 +2303,11 @@
     "libuv": {
       "iconPath": "./files/libuv.svg"
     },
-    "license": {
-      "iconPath": "./files/license.svg"
+    "license_file_dark": {
+      "iconPath": "./files/license_file_dark.svg"
+    },
+    "license_file_light": {
+      "iconPath": "./files/license_file_light.svg"
     },
     "licensebat": {
       "iconPath": "./files/licensebat.svg"
@@ -2285,8 +2366,11 @@
     "liara": {
       "iconPath": "./files/liara.svg"
     },
-    "liaraignore": {
-      "iconPath": "./files/liaraignore.svg"
+    "liaraignore_file_dark": {
+      "iconPath": "./files/liaraignore_file_dark.svg"
+    },
+    "liaraignore_file_light": {
+      "iconPath": "./files/liaraignore_file_light.svg"
     },
     "lookml": {
       "iconPath": "./files/lookml.svg"
@@ -2342,8 +2426,11 @@
     "markdownlint": {
       "iconPath": "./files/markdownlint.svg"
     },
-    "markdownlintignore": {
-      "iconPath": "./files/markdownlintignore.svg"
+    "markdownlintignore_file_dark": {
+      "iconPath": "./files/markdownlintignore_file_dark.svg"
+    },
+    "markdownlintignore_file_light": {
+      "iconPath": "./files/markdownlintignore_file_light.svg"
     },
     "marko": {
       "iconPath": "./files/marko.svg"
@@ -2387,8 +2474,11 @@
     "mercurial": {
       "iconPath": "./files/mercurial.svg"
     },
-    "mercurialignore": {
-      "iconPath": "./files/mercurialignore.svg"
+    "mercurialignore_file_dark": {
+      "iconPath": "./files/mercurialignore_file_dark.svg"
+    },
+    "mercurialignore_file_light": {
+      "iconPath": "./files/mercurialignore_file_light.svg"
     },
     "mercury": {
       "iconPath": "./files/mercury.svg"
@@ -2567,11 +2657,11 @@
     "neo4j": {
       "iconPath": "./files/neo4j.svg"
     },
-    "neon": {
-      "iconPath": "./files/neon.svg"
+    "neon_file_light": {
+      "iconPath": "./files/neon_file_light.svg"
     },
-    "neon_dark": {
-      "iconPath": "./files/neon_dark.svg"
+    "neon_file_dark": {
+      "iconPath": "./files/neon_file_dark.svg"
     },
     "nessus": {
       "iconPath": "./files/nessus.svg"
@@ -2642,17 +2732,23 @@
     "noc": {
       "iconPath": "./files/noc.svg"
     },
-    "nodejs": {
-      "iconPath": "./files/nodejs.svg"
+    "nodejs_file_dark": {
+      "iconPath": "./files/nodejs_file_dark.svg"
     },
-    "nodeversion": {
-      "iconPath": "./files/nodeversion.svg"
+    "nodejs_file_light": {
+      "iconPath": "./files/nodejs_file_light.svg"
+    },
+    "nodeversion_file_dark": {
+      "iconPath": "./files/nodeversion_file_dark.svg"
     },
     "nodemon": {
       "iconPath": "./files/nodemon.svg"
     },
-    "nodemonignore": {
-      "iconPath": "./files/nodemonignore.svg"
+    "nodemonignore_file_dark": {
+      "iconPath": "./files/nodemonignore_file_dark.svg"
+    },
+    "nodemonignore_file_light": {
+      "iconPath": "./files/nodemonignore_file_light.svg"
     },
     "nokogiri": {
       "iconPath": "./files/nokogiri.svg"
@@ -2672,14 +2768,20 @@
     "now": {
       "iconPath": "./files/now.svg"
     },
-    "nowignore": {
-      "iconPath": "./files/nowignore.svg"
+    "nowignore_file_dark": {
+      "iconPath": "./files/nowignore_file_dark.svg"
+    },
+    "nowignore_file_light": {
+      "iconPath": "./files/nowignore_file_light.svg"
     },
     "npm": {
       "iconPath": "./files/npm.svg"
     },
-    "npmignore": {
-      "iconPath": "./files/npmignore.svg"
+    "npmignore_file_dark": {
+      "iconPath": "./files/npmignore_file_dark.svg"
+    },
+    "npmignore_file_light": {
+      "iconPath": "./files/npmignore_file_light.svg"
     },
     "npmlock": {
       "iconPath": "./files/npmlock.svg"
@@ -2720,17 +2822,20 @@
     "nuxt": {
       "iconPath": "./files/nuxt.svg"
     },
-    "nvm": {
-      "iconPath": "./files/nvm.svg"
+    "nvm_file_dark": {
+      "iconPath": "./files/nvm_file_dark.svg"
+    },
+    "nvm_file_light": {
+      "iconPath": "./files/nvm_file_light.svg"
     },
     "nwscript": {
       "iconPath": "./files/nwscript.svg"
     },
-    "nx": {
-      "iconPath": "./files/nx.svg"
+    "nx_file_light": {
+      "iconPath": "./files/nx_file_light.svg"
     },
-    "nx_dark": {
-      "iconPath": "./files/nx_dark.svg"
+    "nx_file_dark": {
+      "iconPath": "./files/nx_file_dark.svg"
     },
     "nxc": {
       "iconPath": "./files/nxc.svg"
@@ -3041,8 +3146,11 @@
     "powershell": {
       "iconPath": "./files/powershell.svg"
     },
-    "precommit": {
-      "iconPath": "./files/precommit.svg"
+    "precommit_file_dark": {
+      "iconPath": "./files/precommit_file_dark.svg"
+    },
+    "precommit_file_light": {
+      "iconPath": "./files/precommit_file_light.svg"
     },
     "preact": {
       "iconPath": "./files/preact.svg"
@@ -3053,8 +3161,11 @@
     "prettierconfig": {
       "iconPath": "./files/prettierconfig.svg"
     },
-    "prettierignore": {
-      "iconPath": "./files/prettierignore.svg"
+    "prettierignore_file_dark": {
+      "iconPath": "./files/prettierignore_file_dark.svg"
+    },
+    "prettierignore_file_light": {
+      "iconPath": "./files/prettierignore_file_light.svg"
     },
     "prismaconfig": {
       "iconPath": "./files/prismaconfig.svg"
@@ -3266,8 +3377,11 @@
     "rehype": {
       "iconPath": "./files/rehype.svg"
     },
-    "rehypeignore": {
-      "iconPath": "./files/rehypeignore.svg"
+    "rehypeignore_file_dark": {
+      "iconPath": "./files/rehypeignore_file_dark.svg"
+    },
+    "rehypeignore_file_light": {
+      "iconPath": "./files/rehypeignore_file_light.svg"
     },
     "remark": {
       "iconPath": "./files/remark.svg"
@@ -3275,14 +3389,23 @@
     "retext": {
       "iconPath": "./files/retext.svg"
     },
-    "retextignore": {
-      "iconPath": "./files/retextignore.svg"
+    "retextignore_file_dark": {
+      "iconPath": "./files/retextignore_file_dark.svg"
     },
-    "remarkignore": {
-      "iconPath": "./files/remarkignore.svg"
+    "retextignore_file_light": {
+      "iconPath": "./files/retextignore_file_light.svg"
     },
-    "renovate": {
-      "iconPath": "./files/renovate.svg"
+    "remarkignore_file_dark": {
+      "iconPath": "./files/remarkignore_file_dark.svg"
+    },
+    "remarkignore_file_light": {
+      "iconPath": "./files/remarkignore_file_light.svg"
+    },
+    "renovate_file_dark": {
+      "iconPath": "./files/renovate_file_dark.svg"
+    },
+    "renovate_file_light": {
+      "iconPath": "./files/renovate_file_light.svg"
     },
     "requirejs": {
       "iconPath": "./files/requirejs.svg"
@@ -3611,8 +3734,11 @@
     "sqf": {
       "iconPath": "./files/sqf.svg"
     },
-    "sql": {
-      "iconPath": "./files/sql.svg"
+    "sql_file_dark": {
+      "iconPath": "./files/sql_file_dark.svg"
+    },
+    "sql_file_light": {
+      "iconPath": "./files/sql_file_light.svg"
     },
     "sqlite": {
       "iconPath": "./files/sqlite.svg"
@@ -3662,8 +3788,11 @@
     "stylelint": {
       "iconPath": "./files/stylelint.svg"
     },
-    "stylelintignore": {
-      "iconPath": "./files/stylelintignore.svg"
+    "stylelintignore_file_dark": {
+      "iconPath": "./files/stylelintignore_file_dark.svg"
+    },
+    "stylelintignore_file_light": {
+      "iconPath": "./files/stylelintignore_file_light.svg"
     },
     "styleguidist": {
       "iconPath": "./files/styleguidist.svg"
@@ -3758,8 +3887,11 @@
     "tauri": {
       "iconPath": "./files/tauri.svg"
     },
-    "taurignore": {
-      "iconPath": "./files/taurignore.svg"
+    "taurignore_file_dark": {
+      "iconPath": "./files/taurignore_file_dark.svg"
+    },
+    "taurignore_file_light": {
+      "iconPath": "./files/taurignore_file_light.svg"
     },
     "tcl": {
       "iconPath": "./files/tcl.svg"
@@ -3983,8 +4115,11 @@
     "vercel_dark": {
       "iconPath": "./files/vercel_dark.svg"
     },
-    "vercelignore": {
-      "iconPath": "./files/vercelignore.svg"
+    "vercelignore_file_dark": {
+      "iconPath": "./files/vercelignore_file_dark.svg"
+    },
+    "vercelignore_file_light": {
+      "iconPath": "./files/vercelignore_file_light.svg"
     },
     "verdaccio": {
       "iconPath": "./files/verdaccio.svg"
@@ -4031,11 +4166,11 @@
     "vray": {
       "iconPath": "./files/vray.svg"
     },
-    "vsix": {
-      "iconPath": "./files/vsix.svg"
+    "vsix_file_light": {
+      "iconPath": "./files/vsix_file_light.svg"
     },
-    "vsix_dark": {
-      "iconPath": "./files/vsix_dark.svg"
+    "vsix_file_dark": {
+      "iconPath": "./files/vsix_file_dark.svg"
     },
     "vscode": {
       "iconPath": "./files/vscode.svg"
@@ -4043,14 +4178,20 @@
     "vscodesettings": {
       "iconPath": "./files/vscodesettings.svg"
     },
-    "vscodeignore": {
-      "iconPath": "./files/vscodeignore.svg"
+    "vscodeignore_file_dark": {
+      "iconPath": "./files/vscodeignore_file_dark.svg"
+    },
+    "vscodeignore_file_light": {
+      "iconPath": "./files/vscodeignore_file_light.svg"
     },
     "tfs": {
       "iconPath": "./files/tfs.svg"
     },
-    "tfsignore": {
-      "iconPath": "./files/tfsignore.svg"
+    "tfsignore_file_dark": {
+      "iconPath": "./files/tfsignore_file_dark.svg"
+    },
+    "tfsignore_file_light": {
+      "iconPath": "./files/tfsignore_file_light.svg"
     },
     "vueconfig": {
       "iconPath": "./files/vueconfig.svg"
@@ -4163,8 +4304,11 @@
     "wordpress": {
       "iconPath": "./files/wordpress.svg"
     },
-    "wordpressignore": {
-      "iconPath": "./files/wordpressignore.svg"
+    "wordpressignore_file_dark": {
+      "iconPath": "./files/wordpressignore_file_dark.svg"
+    },
+    "wordpressignore_file_light": {
+      "iconPath": "./files/wordpressignore_file_light.svg"
     },
     "workbox": {
       "iconPath": "./files/workbox.svg"
@@ -4178,8 +4322,11 @@
     "wxss": {
       "iconPath": "./files/wxss.svg"
     },
-    "wxml": {
-      "iconPath": "./files/wxml.svg"
+    "wxml_file_dark": {
+      "iconPath": "./files/wxml_file_dark.svg"
+    },
+    "wxml_file_light": {
+      "iconPath": "./files/wxml_file_light.svg"
     },
     "wxs": {
       "iconPath": "./files/wxs.svg"
@@ -4277,11 +4424,11 @@
     "zbrush": {
       "iconPath": "./files/zbrush.svg"
     },
-    "zeit": {
-      "iconPath": "./files/zeit.svg"
+    "zeit_file_light": {
+      "iconPath": "./files/zeit_file_light.svg"
     },
-    "zeit_dark": {
-      "iconPath": "./files/zeit_dark.svg"
+    "zeit_file_dark": {
+      "iconPath": "./files/zeit_file_dark.svg"
     },
     "zeitignore": {
       "iconPath": "./files/zeitignore.svg"
@@ -4313,8 +4460,11 @@
     "jpg": {
       "iconPath": "./files/jpg.svg"
     },
-    "gif": {
-      "iconPath": "./files/gif.svg"
+    "gif_file_dark": {
+      "iconPath": "./files/gif_file_dark.svg"
+    },
+    "gif_file_light": {
+      "iconPath": "./files/gif_file_light.svg"
     },
     "png": {
       "iconPath": "./files/png.svg"
@@ -4334,11 +4484,8 @@
     "image3": {
       "iconPath": "./files/image3.svg"
     },
-    "svg": {
-      "iconPath": "./files/svg.svg"
-    },
-    "svg_dark": {
-      "iconPath": "./files/svg_dark.svg"
+    "svg_file": {
+      "iconPath": "./files/svg_file.svg"
     },
     "webp": {
       "iconPath": "./files/webp.svg"
@@ -4358,11 +4505,11 @@
     "configs": {
       "iconPath": "./files/configs.svg"
     },
-    "pref": {
-      "iconPath": "./files/pref.svg"
+    "pref_file_light": {
+      "iconPath": "./files/pref_file_light.svg"
     },
-    "pref_dark": {
-      "iconPath": "./files/pref_dark.svg"
+    "pref_file_dark": {
+      "iconPath": "./files/pref_file_dark.svg"
     },
     "git": {
       "iconPath": "./files/git.svg"
@@ -4400,11 +4547,11 @@
     "coffeescript": {
       "iconPath": "./files/coffeescript.svg"
     },
-    "css": {
-      "iconPath": "./files/css.svg"
+    "css_file_light": {
+      "iconPath": "./files/css_file_light.svg"
     },
-    "css_dark": {
-      "iconPath": "./files/css_dark.svg"
+    "css_file_dark": {
+      "iconPath": "./files/css_file_dark.svg"
     },
     "dart": {
       "iconPath": "./files/dart.svg"
@@ -4415,8 +4562,11 @@
     "go": {
       "iconPath": "./files/go.svg"
     },
-    "html": {
-      "iconPath": "./files/html.svg"
+    "html_file_dark": {
+      "iconPath": "./files/html_file_dark.svg"
+    },
+    "html_file_light": {
+      "iconPath": "./files/html_file_light.svg"
     },
     "java": {
       "iconPath": "./files/java.svg"
@@ -4424,11 +4574,17 @@
     "jsmin": {
       "iconPath": "./files/jsmin.svg"
     },
-    "jsx": {
-      "iconPath": "./files/jsx.svg"
+    "jsx_file_dark": {
+      "iconPath": "./files/jsx_file_dark.svg"
     },
-    "tsx": {
-      "iconPath": "./files/tsx.svg"
+    "jsx_file_light": {
+      "iconPath": "./files/jsx_file_light.svg"
+    },
+    "tsx_file_dark": {
+      "iconPath": "./files/tsx_file_dark.svg"
+    },
+    "tsx_file_light": {
+      "iconPath": "./files/tsx_file_light.svg"
     },
     "json": {
       "iconPath": "./files/json.svg"
@@ -4439,8 +4595,11 @@
     "kotlinscript": {
       "iconPath": "./files/kotlinscript.svg"
     },
-    "less": {
-      "iconPath": "./files/less.svg"
+    "less_file_dark": {
+      "iconPath": "./files/less_file_dark.svg"
+    },
+    "less_file_light": {
+      "iconPath": "./files/less_file_light.svg"
     },
     "lua": {
       "iconPath": "./files/lua.svg"
@@ -4481,8 +4640,11 @@
     "text": {
       "iconPath": "./files/text.svg"
     },
-    "typeScript": {
-      "iconPath": "./files/typeScript.svg"
+    "typeScript_file_dark": {
+      "iconPath": "./files/typeScript_file_dark.svg"
+    },
+    "typeScript_file_light": {
+      "iconPath": "./files/typeScript_file_light.svg"
     },
     "class": {
       "iconPath": "./files/class.svg"
@@ -4517,8 +4679,11 @@
     "xsd": {
       "iconPath": "./files/xsd.svg"
     },
-    "yaml": {
-      "iconPath": "./files/yaml.svg"
+    "yaml_file_dark": {
+      "iconPath": "./files/yaml_file_dark.svg"
+    },
+    "yaml_file_light": {
+      "iconPath": "./files/yaml_file_light.svg"
     },
     "folder-acf": {
       "iconPath": "./folders/acf.svg"
@@ -5096,11 +5261,17 @@
     "folder-emacs-open": {
       "iconPath": "./foldersOpen/emacs.svg"
     },
-    "folder-empties": {
-      "iconPath": "./folders/empties.svg"
+    "empties_folder_dark": {
+      "iconPath": "./folders/empties_folder_dark.svg"
     },
-    "folder-empties-open": {
-      "iconPath": "./foldersOpen/empties.svg"
+    "empties_folder_light": {
+      "iconPath": "./folders/empties_folder_light.svg"
+    },
+    "empties_folder_open_dark": {
+      "iconPath": "./foldersOpen/empties_folder_open_dark.svg"
+    },
+    "empties_folder_open_light": {
+      "iconPath": "./foldersOpen/empties_folder_open_light.svg"
     },
     "folder-env": {
       "iconPath": "./folders/env.svg"
@@ -7516,18 +7687,18 @@
     "emacs.d": "folder-emacs",
     ".emacs.d": "folder-emacs",
     "_emacs.d": "folder-emacs",
-    "empty": "folder-empties",
-    ".empty": "folder-empties",
-    "_empty": "folder-empties",
-    "empties": "folder-empties",
-    ".empties": "folder-empties",
-    "_empties": "folder-empties",
-    "stock": "folder-empties",
-    ".stock": "folder-empties",
-    "_stock": "folder-empties",
-    "stocks": "folder-empties",
-    ".stocks": "folder-empties",
-    "_stocks": "folder-empties",
+    "empty": "empties_folder_dark",
+    ".empty": "empties_folder_dark",
+    "_empty": "empties_folder_dark",
+    "empties": "empties_folder_dark",
+    ".empties": "empties_folder_dark",
+    "_empties": "empties_folder_dark",
+    "stock": "empties_folder_dark",
+    ".stock": "empties_folder_dark",
+    "_stock": "empties_folder_dark",
+    "stocks": "empties_folder_dark",
+    ".stocks": "empties_folder_dark",
+    "_stocks": "empties_folder_dark",
     "env": "folder-env",
     ".env": "folder-env",
     "_env": "folder-env",
@@ -11514,18 +11685,18 @@
     "emacs.d": "folder-emacs-open",
     ".emacs.d": "folder-emacs-open",
     "_emacs.d": "folder-emacs-open",
-    "empty": "folder-empties-open",
-    ".empty": "folder-empties-open",
-    "_empty": "folder-empties-open",
-    "empties": "folder-empties-open",
-    ".empties": "folder-empties-open",
-    "_empties": "folder-empties-open",
-    "stock": "folder-empties-open",
-    ".stock": "folder-empties-open",
-    "_stock": "folder-empties-open",
-    "stocks": "folder-empties-open",
-    ".stocks": "folder-empties-open",
-    "_stocks": "folder-empties-open",
+    "empty": "empties_folder_open_dark",
+    ".empty": "empties_folder_open_dark",
+    "_empty": "empties_folder_open_dark",
+    "empties": "empties_folder_open_dark",
+    ".empties": "empties_folder_open_dark",
+    "_empties": "empties_folder_open_dark",
+    "stock": "empties_folder_open_dark",
+    ".stock": "empties_folder_open_dark",
+    "_stock": "empties_folder_open_dark",
+    "stocks": "empties_folder_open_dark",
+    ".stocks": "empties_folder_open_dark",
+    "_stocks": "empties_folder_open_dark",
     "env": "folder-env-open",
     ".env": "folder-env-open",
     "_env": "folder-env-open",
@@ -14493,30 +14664,30 @@
     "test/kt": "testktfiles",
     "tests/kt": "testktfiles",
     "unit/kt": "testktfiles",
-    "spec.cjs": "testjsfiles_dark",
-    "spec.es6": "testjsfiles_dark",
-    "spec.js": "testjsfiles_dark",
-    "spec.mjs": "testjsfiles_dark",
-    "spec/cjs": "testjsfiles_dark",
-    "spec/es6": "testjsfiles_dark",
-    "spec/js": "testjsfiles_dark",
-    "spec/mjs": "testjsfiles_dark",
-    "specs/cjs": "testjsfiles_dark",
-    "specs/es6": "testjsfiles_dark",
-    "specs/js": "testjsfiles_dark",
-    "specs/mjs": "testjsfiles_dark",
-    "test.cjs": "testjsfiles_dark",
-    "test.es6": "testjsfiles_dark",
-    "test.js": "testjsfiles_dark",
-    "test.mjs": "testjsfiles_dark",
-    "test/cjs": "testjsfiles_dark",
-    "test/es6": "testjsfiles_dark",
-    "test/js": "testjsfiles_dark",
-    "test/mjs": "testjsfiles_dark",
-    "tests/cjs": "testjsfiles_dark",
-    "tests/es6": "testjsfiles_dark",
-    "tests/js": "testjsfiles_dark",
-    "tests/mjs": "testjsfiles_dark",
+    "spec.cjs": "testjs_file_dark",
+    "spec.es6": "testjs_file_dark",
+    "spec.js": "testjs_file_dark",
+    "spec.mjs": "testjs_file_dark",
+    "spec/cjs": "testjs_file_dark",
+    "spec/es6": "testjs_file_dark",
+    "spec/js": "testjs_file_dark",
+    "spec/mjs": "testjs_file_dark",
+    "specs/cjs": "testjs_file_dark",
+    "specs/es6": "testjs_file_dark",
+    "specs/js": "testjs_file_dark",
+    "specs/mjs": "testjs_file_dark",
+    "test.cjs": "testjs_file_dark",
+    "test.es6": "testjs_file_dark",
+    "test.js": "testjs_file_dark",
+    "test.mjs": "testjs_file_dark",
+    "test/cjs": "testjs_file_dark",
+    "test/es6": "testjs_file_dark",
+    "test/js": "testjs_file_dark",
+    "test/mjs": "testjs_file_dark",
+    "tests/cjs": "testjs_file_dark",
+    "tests/es6": "testjs_file_dark",
+    "tests/js": "testjs_file_dark",
+    "tests/mjs": "testjs_file_dark",
     "spec.perl": "testperlfiles",
     "spec.ph": "testperlfiles",
     "spec.pl": "testperlfiles",
@@ -14547,18 +14718,18 @@
     "tests/pl": "testperlfiles",
     "tests/pl6": "testperlfiles",
     "tests/pm6": "testperlfiles",
-    "spec.jsx": "testjsx",
-    "spec/jsx": "testjsx",
-    "specs/jsx": "testjsx",
-    "test.jsx": "testjsx",
-    "test/jsx": "testjsx",
-    "tests/jsx": "testjsx",
-    "spec.tsx": "testtsx",
-    "spec/tsx": "testtsx",
-    "specs/tsx": "testtsx",
-    "test.tsx": "testtsx",
-    "test/tsx": "testtsx",
-    "tests/tsx": "testtsx",
+    "spec.jsx": "testjsx_file_dark",
+    "spec/jsx": "testjsx_file_dark",
+    "specs/jsx": "testjsx_file_dark",
+    "test.jsx": "testjsx_file_dark",
+    "test/jsx": "testjsx_file_dark",
+    "tests/jsx": "testjsx_file_dark",
+    "spec.tsx": "testtsx_file_dark",
+    "spec/tsx": "testtsx_file_dark",
+    "specs/tsx": "testtsx_file_dark",
+    "test.tsx": "testtsx_file_dark",
+    "test/tsx": "testtsx_file_dark",
+    "tests/tsx": "testtsx_file_dark",
     "spec.ipy": "testpyfiles",
     "spec.pep": "testpyfiles",
     "spec.py": "testpyfiles",
@@ -14625,12 +14796,12 @@
     "test.scala": "testscalafiles",
     "test/scala": "testscalafiles",
     "tests/scala": "testscalafiles",
-    "spec.ts": "testtsfiles",
-    "spec/ts": "testtsfiles",
-    "specs/ts": "testtsfiles",
-    "test.ts": "testtsfiles",
-    "test/ts": "testtsfiles",
-    "tests/ts": "testtsfiles",
+    "spec.ts": "testtsfiles_file_dark",
+    "spec/ts": "testtsfiles_file_dark",
+    "specs/ts": "testtsfiles_file_dark",
+    "test.ts": "testtsfiles_file_dark",
+    "test/ts": "testtsfiles_file_dark",
+    "tests/ts": "testtsfiles_file_dark",
     "spec.php": "testphpfiles",
     "spec/php": "testphpfiles",
     "specs/php": "testphpfiles",
@@ -14641,16 +14812,16 @@
     "unit/php": "testphpfiles",
     "units/php": "testphpfiles",
     "phpunit/php": "testphpfiles",
-    "11ty.cjs": "11ty_dark",
-    "11ty.js": "11ty_dark",
-    "11ty.mjs": "11ty_dark",
-    "11ty.ts": "11ty_dark",
-    "11tyignore": "11ty_dark",
-    "eleventy.cjs": "11ty_dark",
-    "eleventy.js": "11ty_dark",
-    "eleventy.mjs": "11ty_dark",
-    "eleventy.ts": "11ty_dark",
-    "eleventyignore": "11ty_dark",
+    "11ty.cjs": "11ty_file_dark",
+    "11ty.js": "11ty_file_dark",
+    "11ty.mjs": "11ty_file_dark",
+    "11ty.ts": "11ty_file_dark",
+    "11tyignore": "11ty_file_dark",
+    "eleventy.cjs": "11ty_file_dark",
+    "eleventy.js": "11ty_file_dark",
+    "eleventy.mjs": "11ty_file_dark",
+    "eleventy.ts": "11ty_file_dark",
+    "eleventyignore": "11ty_file_dark",
     "bsl": "1c",
     "mdo": "1c",
     "os": "1c",
@@ -14732,7 +14903,7 @@
     "alacritty.yml": "alacritty",
     "alex": "alex",
     "alexrc": "alex",
-    "alexignore": "alexignore",
+    "alexignore": "alexignore_file_dark",
     "alfred": "alfred",
     "alfredworkflow": "alfred",
     "alfredpreferences": "alfred",
@@ -14837,8 +15008,8 @@
     "axd": "asp",
     "astro": "astro",
     "asy": "asymptote",
-    "atomproject.cson": "atom_dark",
-    "atomproject.json": "atom_dark",
+    "atomproject.cson": "atom_file_dark",
+    "atomproject.json": "atom_file_dark",
     "atoum.php": "atoum",
     "ats": "ats",
     "dats": "ats",
@@ -14910,14 +15081,14 @@
     "bml": "basic",
     "bms": "basic",
     "bmx": "basic",
-    "bats": "bats_dark",
+    "bats": "bats_file_dark",
     "bzrignore": "bazaar",
     "bazel": "bazel",
     "bzl": "bazel",
     "sky": "bazel",
     "star": "bazel",
-    "bazelignore": "bazelignore",
-    "bzlignore": "bazelignore",
+    "bazelignore": "bazelignore_file_dark",
+    "bzlignore": "bazelignore_file_dark",
     "bazelrc": "bazelconfig",
     "bc": "bc",
     "dc": "bc",
@@ -14974,7 +15145,7 @@
     "boo": "boo",
     "boo.unity": "boo",
     "boot": "boot",
-    "bunfig.toml": "bun_dark",
+    "bunfig.toml": "bun_file_dark",
     "bootstraprc": "bootstraprc",
     "bsq": "bosque",
     "bowerrc": "bowerfile",
@@ -15048,8 +15219,8 @@
     "cfml": "cfc",
     "lucee": "cfc",
     "pt": "chameleon",
-    "changelog": "changelog",
-    "changes": "changelog",
+    "changelog": "changelog_file_dark",
+    "changes": "changelog_file_dark",
     "chapel": "chapel",
     "chpl": "chapel",
     "jas": "cheetah",
@@ -15127,7 +15298,7 @@
     "codekit2": "codekit",
     "codekit3": "codekit",
     "ql": "codeql",
-    "coffeelintignore": "coffeelintignore",
+    "coffeelintignore": "coffeelintignore_file_dark",
     "cf": "cf",
     "collada": "khronos",
     "dae": "khronos",
@@ -15160,7 +15331,7 @@
     "gym": "chiptune",
     "sfx": "chiptune",
     "containerfile": "containerfile",
-    "containerignore": "containerignore",
+    "containerignore": "containerignore_file_dark",
     "cml": "cml",
     "contributors": "contributors",
     "coq": "coq",
@@ -15228,11 +15399,11 @@
     "dfyi": "dafny",
     "dnh": "danmakufu",
     "dal": "dal",
-    "dartignore": "dartignore",
-    "pubignore": "dartignore",
+    "dartignore": "dartignore_file_dark",
+    "pubignore": "dartignore_file_dark",
     "darcspatch": "darcs",
     "dpatch": "darcs",
-    "boringignore": "boringignore",
+    "boringignore": "boringignore_file_dark",
     "cloc": "dashboard",
     "cpuprofile": "dashboard",
     "heapprofile": "dashboard",
@@ -15256,7 +15427,7 @@
     "nfm": "delphi",
     "dsc": "denizen",
     "denorc": "denorc",
-    "denoignore": "denoignore",
+    "denoignore": "denoignore_file_dark",
     "dependencies": "deps",
     "deps": "deps",
     "pydeps": "deps",
@@ -15295,7 +15466,7 @@
     "docker/yml": "dockercomposefiles",
     "dockerfiles/yaml": "dockercomposefiles",
     "dockerfiles/yml": "dockercomposefiles",
-    "dockerignore": "dockerignore",
+    "dockerignore": "dockerignore_file_dark",
     "eco": "docpad",
     "doczrc": "doczconfig",
     "doczrc.cjs": "doczconfig",
@@ -15454,7 +15625,7 @@
     "rules/cjs": "eslintrules",
     "rules/ms": "eslintrules",
     "eslintcache": "eslintcache",
-    "eslintignore": "eslintignore",
+    "eslintignore": "eslintignore_file_dark",
     "erb": "erb",
     "erb.deface": "erb",
     "erb.deface.orig": "erb",
@@ -15532,8 +15703,8 @@
     "swf": "flash",
     "flooignore": "floobits",
     "floorc.json": "floobits",
-    "flowconfig": "flow_dark",
-    "flow": "flow_dark",
+    "flowconfig": "flow_file_dark",
+    "flow": "flow_file_dark",
     "flutter-plugins": "flutter",
     "flutter-plugins-dependencies": "flutter",
     "packages": "flutter",
@@ -15620,7 +15791,7 @@
     "gi": "gap",
     "gap": "gap",
     "gss": "gss",
-    "spec": "gauge_dark",
+    "spec": "gauge_file_dark",
     "gcloud": "gcp",
     "gcloudignore": "gcp",
     "apt": "gcode",
@@ -15659,7 +15830,7 @@
     "vbr": "gimp",
     "gitbook.yml": "gitbook_dark",
     "gitbook.yaml": "gitbook_dark",
-    "gitignore": "gitignore",
+    "gitignore": "gitignore_file_dark",
     "gitpod.yml": "gitpod",
     "gitpod.yaml": "gitpod",
     "glade": "glade",
@@ -15781,18 +15952,18 @@
     "p4config": "helix",
     "p4include": "helix",
     "p4info": "helix",
-    "p4ignore": "helixignore",
+    "p4ignore": "helixignore_file_dark",
     "helm": "helm",
     "helmfile": "helm",
     "helmrc": "helm",
-    "helmignore": "helmignore",
+    "helmignore": "helmignore_file_dark",
     "chm": "question",
     "help": "question",
     "hlp": "question",
     "buildpacks": "heroku",
     "heroku": "heroku",
-    "herokuignore": "herokuignore",
-    "slugignore": "herokuignore",
+    "herokuignore": "herokuignore_file_dark",
+    "slugignore": "herokuignore_file_dark",
     "hex": "hex",
     "hexfile": "hex",
     "hxh": "hex",
@@ -16016,14 +16187,14 @@
     "jakt": "jakt",
     "janet": "janet",
     "jpm": "janet",
-    "htc": "js",
-    "jsb": "js",
-    "jscript": "js",
-    "jslib": "js",
-    "jsm": "js",
-    "jspre": "js",
-    "pjs": "js",
-    "ssjs": "js",
+    "htc": "js_file_dark",
+    "jsb": "js_file_dark",
+    "jscript": "js_file_dark",
+    "jslib": "js_file_dark",
+    "jsm": "js_file_dark",
+    "jspre": "js_file_dark",
+    "pjs": "js_file_dark",
+    "ssjs": "js_file_dark",
     "jbuilder": "jbuilder",
     "jekyll": "jekyll",
     "jellycut": "jellycut",
@@ -16065,15 +16236,15 @@
     "jscs.mjs": "jscs",
     "jscsrc": "jscs",
     "jshintrc": "jshint",
-    "jshintignore": "jshintignore",
-    "cjs.map": "jsmap",
-    "js.map": "jsmap",
-    "mjs.map": "jsmap",
-    "jsconfig.cjs": "jsconfig",
-    "jsconfig.js": "jsconfig",
-    "jsconfig.json": "jsconfig",
-    "jsconfig.mjs": "jsconfig",
-    "jsconfig.ts": "jsconfig",
+    "jshintignore": "jshintignore_file_dark",
+    "cjs.map": "jsmap_file_dark",
+    "js.map": "jsmap_file_dark",
+    "mjs.map": "jsmap_file_dark",
+    "jsconfig.cjs": "jsconfig_file_dark",
+    "jsconfig.js": "jsconfig_file_dark",
+    "jsconfig.json": "jsconfig_file_dark",
+    "jsconfig.mjs": "jsconfig_file_dark",
+    "jsconfig.ts": "jsconfig_file_dark",
     "jscpd": "jscpd",
     "jscpd.html": "jscpd",
     "jscpd.json": "jscpd",
@@ -16133,8 +16304,8 @@
     "knime": "knime",
     "knwf": "knime",
     "knockout": "knockout",
-    "kk": "koka_dark",
-    "koka": "koka_dark",
+    "kk": "koka_file_dark",
+    "koka": "koka_file_dark",
     "k8s": "kubernetes",
     "k8s.yaml": "kubernetes",
     "k8s.yml": "kubernetes",
@@ -16184,9 +16355,9 @@
     "luv": "libuv",
     "luvit": "libuv",
     "uv": "libuv",
-    "license": "license",
-    "licence": "license",
-    "lic": "license",
+    "license": "license_file_dark",
+    "licence": "license_file_dark",
+    "lic": "license_file_dark",
     "licrc": "licensebat",
     "lighthouserc": "lighthouse",
     "lighthouserc.cjs": "lighthouse",
@@ -16242,7 +16413,7 @@
     "lgt": "logtalk",
     "logtalk": "logtalk",
     "lol": "lolcode",
-    "liaraignore": "liaraignore",
+    "liaraignore": "liaraignore_file_dark",
     "lkml": "lookml",
     "lookml": "lookml",
     "lottie": "lottie",
@@ -16292,8 +16463,8 @@
     "markdownlint.yml": "markdownlint",
     "markdownlintrc": "markdownlint",
     "mdlrc": "markdownlint",
-    "markdownlintignore": "markdownlintignore",
-    "mdlignore": "markdownlintignore",
+    "markdownlintignore": "markdownlintignore_file_dark",
+    "mdlignore": "markdownlintignore_file_dark",
     "marko": "marko",
     "marko.js": "marko",
     "marko.cjs": "marko",
@@ -16359,7 +16530,7 @@
     "hgrc": "mercurial",
     "hgsub": "mercurial",
     "hgsubstate": "mercurial",
-    "hgignore": "mercurialignore",
+    "hgignore": "mercurialignore_file_dark",
     "moo": "mercury",
     "merlin": "merlin",
     "mermaid": "mermaid",
@@ -16570,7 +16741,7 @@
     "neko": "neko",
     "cyp": "neo4j",
     "cypher": "neo4j",
-    "neon": "neon_dark",
+    "neon": "neon_file_dark",
     "nasl": "nessus",
     "nest-cli.json": "nest",
     "nestconfig.json": "nestconfig",
@@ -16593,11 +16764,11 @@
     "nmap": "nmap",
     "nse": "nmap",
     "noc": "noc",
-    "njs": "nodeversion",
-    "node": "nodeversion",
-    "node-version": "nodeversion",
+    "njs": "nodeversion_file_dark",
+    "node": "nodeversion_file_dark",
+    "node-version": "nodeversion_file_dark",
     "nodemon.json": "nodemon",
-    "nodemonignore": "nodemonignore",
+    "nodemonignore": "nodemonignore_file_dark",
     "nokogiri": "nokogiri",
     "nokogirirc": "nokogiri",
     "nomad": "nomad",
@@ -16605,9 +16776,9 @@
     "note": "note",
     "notes": "note",
     "scratch": "note",
-    "nowignore": "nowignore",
+    "nowignore": "nowignore_file_dark",
     "npmrc": "npm",
-    "npmignore": "npmignore",
+    "npmignore": "npmignore_file_dark",
     "nsh": "nsis",
     "nsi": "nsis",
     "nsis": "nsis",
@@ -16643,8 +16814,8 @@
     "nunj": "nunjucks",
     "nunjucks": "nunjucks",
     "nuxtrc": "nuxt",
-    "esmrc": "nvm",
-    "nvmrc": "nvm",
+    "esmrc": "nvm_file_dark",
+    "nvmrc": "nvm_file_dark",
     "ncs": "nwscript",
     "ndb": "nwscript",
     "nss": "nwscript",
@@ -16900,19 +17071,19 @@
     "psm1": "powershell",
     "psrc": "powershell",
     "pssc": "powershell",
-    "pre-commit-config.yaml": "precommit",
-    "pre-commit-config.yml": "precommit",
-    "pre-commit-hooks.yaml": "precommit",
-    "pre-commit-hooks.yml": "precommit",
-    "pre-commit.yaml": "precommit",
-    "pre-commit.yml": "precommit",
+    "pre-commit-config.yaml": "precommit_file_dark",
+    "pre-commit-config.yml": "precommit_file_dark",
+    "pre-commit-hooks.yaml": "precommit_file_dark",
+    "pre-commit-hooks.yml": "precommit_file_dark",
+    "pre-commit.yaml": "precommit_file_dark",
+    "pre-commit.yml": "precommit_file_dark",
     "prettierrc": "prettier",
     "prettierrc.js": "prettier",
     "prettierrc.json": "prettier",
     "prettierrc.toml": "prettier",
     "prettierrc.yaml": "prettier",
     "prettierrc.yml": "prettier",
-    "prettierignore": "prettierignore",
+    "prettierignore": "prettierignore_file_dark",
     "prisma": "prisma",
     "pde": "processing",
     "mpp": "project",
@@ -17051,7 +17222,7 @@
     "rehyperc.ts": "rehype",
     "rehyperc.yaml": "rehype",
     "rehyperc.yml": "rehype",
-    "rehypeignore": "rehypeignore",
+    "rehypeignore": "rehypeignore_file_dark",
     "remark": "remark",
     "remarkrc": "remark",
     "remarkrc.cjs": "remark",
@@ -17070,9 +17241,9 @@
     "retextrc.ts": "retext",
     "retextrc.yaml": "retext",
     "retextrc.yml": "retext",
-    "retextignore": "retextignore",
-    "remarkignore": "remarkignore",
-    "renovaterc": "renovate",
+    "retextignore": "retextignore_file_dark",
+    "remarkignore": "remarkignore_file_dark",
+    "renovaterc": "renovate_file_dark",
     "res": "rescript",
     "resi": "rescript",
     "rst": "rst",
@@ -17303,16 +17474,16 @@
     "spwn": "spwn",
     "hqf": "sqf",
     "sqf": "sqf",
-    "cql": "sql",
-    "hql": "sql",
-    "mysql": "sql",
-    "pdb": "sql",
-    "prc": "sql",
-    "viw": "sql",
-    "xq": "sql",
-    "xql": "sql",
-    "xqm": "sql",
-    "xqy": "sql",
+    "cql": "sql_file_dark",
+    "hql": "sql_file_dark",
+    "mysql": "sql_file_dark",
+    "pdb": "sql_file_dark",
+    "prc": "sql_file_dark",
+    "viw": "sql_file_dark",
+    "xq": "sql_file_dark",
+    "xql": "sql_file_dark",
+    "xqm": "sql_file_dark",
+    "xqy": "sql_file_dark",
     "sqlite": "sqlite",
     "sqlite3": "sqlite",
     "sqlite3-journal": "sqlite",
@@ -17371,8 +17542,8 @@
     "stylelintrc.mjs": "stylelint",
     "stylelintrc.yaml": "stylelint",
     "stylelintrc.yml": "stylelint",
-    "stylelintignore": "stylelintignore",
-    "stylelintignore.json": "stylelintignore",
+    "stylelintignore": "stylelintignore_file_dark",
+    "stylelintignore.json": "stylelintignore_file_dark",
     "styleguiderc": "styleguidist",
     "styleguiderc.cjs": "styleguidist",
     "styleguiderc.js": "styleguidist",
@@ -17461,7 +17632,7 @@
     "tailwind.js": "tailwindcss",
     "tailwind.mjs": "tailwindcss",
     "tailwind.ts": "tailwindcss",
-    "taurignore": "taurignore",
+    "taurignore": "taurignore_file_dark",
     "adp": "tcl",
     "exp": "tcl",
     "itcl": "tcl",
@@ -17490,7 +17661,7 @@
     "tfvars.json": "terraform",
     "tfbackend": "terraform",
     "tfbackend.json": "terraform",
-    "tfignore": "tfsignore",
+    "tfignore": "tfsignore_file_dark",
     "tfignore.json": "terraform",
     "terserignore": "terser",
     "terserrc": "terser",
@@ -17647,7 +17818,7 @@
     "fhtml": "velocity",
     "vm": "velocity",
     "vtl": "velocity",
-    "vercelignore": "vercelignore",
+    "vercelignore": "vercelignore_file_dark",
     "sv": "verilog",
     "svh": "verilog",
     "veo": "verilog",
@@ -17727,15 +17898,15 @@
     "vrmatlib2": "vray",
     "vrmesh": "vray",
     "vrscene": "vray",
-    "vsix": "vsix_dark",
-    "vsixmanifest": "vsix_dark",
+    "vsix": "vsix_file_dark",
+    "vsixmanifest": "vsix_file_dark",
     "code-workspace": "vscode",
     "vscode": "vscode",
-    "vscodeignore": "vscodeignore",
-    "vscodeignore.json": "vscodeignore",
+    "vscodeignore": "vscodeignore_file_dark",
+    "vscodeignore.json": "vscodeignore_file_dark",
     "vsts-ci.yml": "tfs",
     "vsts-ci.yaml": "tfs",
-    "tfsignore": "tfsignore",
+    "tfsignore": "tfsignore_file_dark",
     "vuerc": "vuerc",
     "vuex": "vuex",
     "vy": "vyper",
@@ -17798,10 +17969,10 @@
     "wdx": "wolfram_bin",
     "woodpecker.yml": "woodpecker",
     "woodpecker.yaml": "woodpecker",
-    "distignore": "wordpressignore",
+    "distignore": "wordpressignore_file_dark",
     "wurst": "wurst",
     "wxss": "wxss",
-    "wxml": "wxml",
+    "wxml": "wxml_file_dark",
     "wxs": "wxs",
     "x10": "x10",
     "Xauthority": "x11",
@@ -17909,8 +18080,8 @@
     "zsrc.json": "zsrc",
     "jpg": "jpg",
     "jpeg": "jpg",
-    "gif": "gif",
-    "gifv": "gif",
+    "gif": "gif_file_dark",
+    "gifv": "gif_file_dark",
     "png": "png",
     "apng": "png",
     "cur": "icon",
@@ -17947,8 +18118,8 @@
     "tiff": "image3",
     "vsdm": "image3",
     "wbm": "image3",
-    "svg": "svg_dark",
-    "svgz": "svg_dark",
+    "svg": "svg_file",
+    "svgz": "svg_file",
     "webp": "webp",
     "env": "envs",
     "env.dev": "envs",
@@ -17963,12 +18134,12 @@
     "env/env": "envfiles",
     "env/ini": "envfiles",
     "env/conf": "envfiles",
-    "cfg": "pref_dark",
-    "cnf": "pref_dark",
-    "conf": "pref_dark",
-    "config": "pref_dark",
-    "pref": "pref_dark",
-    "prefs": "pref_dark",
+    "cfg": "pref_file_dark",
+    "cnf": "pref_file_dark",
+    "conf": "pref_file_dark",
+    "config": "pref_file_dark",
+    "pref": "pref_file_dark",
+    "prefs": "pref_file_dark",
     "git": "git",
     "git-submodules": "git",
     "gitattributes": "git",
@@ -18089,21 +18260,21 @@
     "coffee": "coffeescript",
     "iced": "coffeescript",
     "litcoffee": "coffeescript",
-    "css": "css_dark",
-    "tss": "css_dark",
+    "css": "css_file_dark",
+    "tss": "css_file_dark",
     "dart": "dart",
     "d": "dlang",
     "di": "dlang",
     "go": "go",
     "golang": "go",
-    "dtml": "html",
-    "htm": "html",
-    "html": "html",
-    "isml": "html",
-    "kit": "html",
-    "mhtml": "html",
-    "scaml": "html",
-    "xhtml": "html",
+    "dtml": "html_file_dark",
+    "htm": "html_file_dark",
+    "html": "html_file_dark",
+    "isml": "html_file_dark",
+    "kit": "html_file_dark",
+    "mhtml": "html_file_dark",
+    "scaml": "html_file_dark",
+    "xhtml": "html_file_dark",
     "java": "java",
     "jar": "java",
     "war": "java",
@@ -18114,12 +18285,12 @@
     "min.mjs": "jsmin",
     "min.ts": "jsmin",
     "min.tsx": "jsmin",
-    "jsx": "jsx",
-    "tsx": "tsx",
-    "cjs": "js",
-    "es6": "js",
-    "js": "js",
-    "mjs": "js",
+    "jsx": "jsx_file_dark",
+    "tsx": "tsx_file_dark",
+    "cjs": "js_file_dark",
+    "es6": "js_file_dark",
+    "js": "js_file_dark",
+    "mjs": "js_file_dark",
     "cson": "json",
     "ejson": "json",
     "json": "json",
@@ -18132,7 +18303,7 @@
     "kt": "kotlin",
     "ktm": "kotlin",
     "kts": "kotlinscript",
-    "less": "less",
+    "less": "less_file_dark",
     "lua": "lua",
     "luacheckrc": "lua",
     "pd_lua": "lua",
@@ -18179,7 +18350,7 @@
     "scssrc.mjs": "scss",
     "scala": "scala",
     "sh": "shell",
-    "sql": "sql",
+    "sql": "sql_file_dark",
     "swift": "swift",
     "template": "template",
     "toml": "toml",
@@ -18191,8 +18362,8 @@
     "no": "text",
     "rtf": "text",
     "txt": "text",
-    "ts": "typeScript",
-    "tslint": "typeScript",
+    "ts": "typeScript_file_dark",
+    "tslint": "typeScript_file_dark",
     "class": "class",
     "ko": "class",
     "o": "class",
@@ -18250,9 +18421,9 @@
     "xul": "xml",
     "wsdl": "wsdl",
     "xsd": "xsd",
-    "info": "yaml",
-    "yaml": "yaml",
-    "yml": "yaml"
+    "info": "yaml_file_dark",
+    "yaml": "yaml_file_dark",
+    "yml": "yaml_file_dark"
   },
   "fileNames": {
     "index.html": "indexhtml",
@@ -18266,19 +18437,8 @@
     "index.php": "indexhtml",
     "index.jsp": "indexhtml",
     "index.ejs": "indexhtml",
-    "index.cjs": "index",
-    "index.coffee": "index",
     "index.css": "index",
-    "index.dart": "index",
-    "index.es6": "index",
-    "index.js": "index",
-    "index.jsx": "index",
-    "index.mjs": "index",
-    "index.scss": "index",
-    "index.svelte": "index",
-    "index.ts": "index",
-    "index.tsx": "index",
-    "index.vue": "index",
+    "index.tsx": "index_tsx_file_dark",
     "architecture": "architecture",
     "architecture.md": "architecture",
     "architecture.rst": "architecture",
@@ -18417,7 +18577,7 @@
     "artisan": "artisan",
     "artisan.php": "artisan",
     ".astylerc": "astyle",
-    ".apmrc": "apm_dark",
+    ".apmrc": "apm_file_dark",
     "atoum.config.php": "atoum",
     "aurelia.cjs": "aurelia",
     "aurelia.js": "aurelia",
@@ -18511,7 +18671,7 @@
     "state/dart": "blocfiles",
     "states/dart": "blocfiles",
     "bors.toml": "bors",
-    "bunfig.toml": "bun_dark",
+    "bunfig.toml": "bun_file_dark",
     "bun.lockb": "bunlock",
     "bootstrap.cjs": "bootstrap",
     "bootstrap.css": "bootstrap",
@@ -18565,14 +18725,14 @@
     "chai.min.js": "chai",
     "chai.mjs": "chai",
     "chai.ts": "chai",
-    "changelog": "changelog",
-    "changelog.md": "changelog",
-    "changelog.rst": "changelog",
-    "changelog.txt": "changelog",
-    "changes": "changelog",
-    "changes.md": "changelog",
-    "changes.rst": "changelog",
-    "changes.txt": "changelog",
+    "changelog": "changelog_file_dark",
+    "changelog.md": "changelog_file_dark",
+    "changelog.rst": "changelog_file_dark",
+    "changelog.txt": "changelog_file_dark",
+    "changes": "changelog_file_dark",
+    "changes.md": "changelog_file_dark",
+    "changes.rst": "changelog_file_dark",
+    "changes.txt": "changelog_file_dark",
     "chart.bundle.cjs": "chartjs",
     "chart.bundle.js": "chartjs",
     "chart.bundle.min.js": "chartjs",
@@ -18826,12 +18986,12 @@
     "matchfile": "fastlane",
     "pluginfile": "fastlane",
     "snapshotfile": "fastlane",
-    "favicon.gif": "favicon",
-    "favicon.ico": "favicon",
-    "favicon.jpeg": "favicon",
-    "favicon.jpg": "favicon",
-    "favicon.png": "favicon",
-    "favicon.svg": "favicon",
+    "favicon.gif": "favicon_file_dark",
+    "favicon.ico": "favicon_file_dark",
+    "favicon.jpeg": "favicon_file_dark",
+    "favicon.jpg": "favicon_file_dark",
+    "favicon.png": "favicon_file_dark",
+    "favicon.svg": "favicon_file_dark",
     "firestore.rules": "firestore",
     "firestore.indexes.json": "firestore",
     "firebase.json": "firebase",
@@ -19107,24 +19267,24 @@
     "jquery.slim.es6": "jquery",
     "jquery.slim.js": "jquery",
     "jquery.slim.min.js": "jquery",
-    "jsconfig.cjs": "jsconfig",
-    "jsconfig.js": "jsconfig",
-    "jsconfig.json": "jsconfig",
-    "jsconfig.mjs": "jsconfig",
-    "jsconfig.ts": "jsconfig",
+    "jsconfig.cjs": "jsconfig_file_dark",
+    "jsconfig.js": "jsconfig_file_dark",
+    "jsconfig.json": "jsconfig_file_dark",
+    "jsconfig.mjs": "jsconfig_file_dark",
+    "jsconfig.ts": "jsconfig_file_dark",
     "jsr.json": "jsr",
     "jsr.jsonc": "jsr",
     "Notebook": "jupyternotebook",
-    "karma.conf.cjs": "karma_dark",
-    "karma.conf.coffee": "karma_dark",
-    "karma.conf.js": "karma_dark",
-    "karma.conf.mjs": "karma_dark",
-    "karma.conf.ts": "karma_dark",
-    "karma.config.cjs": "karma_dark",
-    "karma.config.coffee": "karma_dark",
-    "karma.config.js": "karma_dark",
-    "karma.config.mjs": "karma_dark",
-    "karma.config.ts": "karma_dark",
+    "karma.conf.cjs": "karma_file_dark",
+    "karma.conf.coffee": "karma_file_dark",
+    "karma.conf.js": "karma_file_dark",
+    "karma.conf.mjs": "karma_file_dark",
+    "karma.conf.ts": "karma_file_dark",
+    "karma.config.cjs": "karma_file_dark",
+    "karma.config.coffee": "karma_file_dark",
+    "karma.config.js": "karma_file_dark",
+    "karma.config.mjs": "karma_file_dark",
+    "karma.config.ts": "karma_file_dark",
     "kdu.config.js": "kdu",
     "kdu.config.cjs": "kdu",
     "kdu.config.mjs": "kdu",
@@ -19224,12 +19384,12 @@
     "lerna.json": "lerna",
     "lgtm.yml": "lgtm",
     "lgtm.yaml": "lgtm",
-    "licence": "license",
-    "licence.md": "license",
-    "licence.txt": "license",
-    "license": "license",
-    "license.md": "license",
-    "license.txt": "license",
+    "licence": "license_file_dark",
+    "licence.md": "license_file_dark",
+    "licence.txt": "license_file_dark",
+    "license": "license_file_dark",
+    "license.md": "license_file_dark",
+    "license.txt": "license_file_dark",
     "lighthouserc.cjs": "lighthouse",
     "lighthouserc.js": "lighthouse",
     "lighthouserc.json": "lighthouse",
@@ -19399,18 +19559,18 @@
     "nightwatch.config.js": "nightwatch",
     "nightwatch.config.mjs": "nightwatch",
     "nightwatch.json": "nightwatch",
-    "app.cjs": "nodejs",
-    "app.js": "nodejs",
-    "app.mjs": "nodejs",
-    "app.ts": "nodejs",
-    "main.cjs": "nodejs",
-    "main.js": "nodejs",
-    "main.mjs": "nodejs",
-    "main.ts": "nodejs",
-    "server.cjs": "nodejs",
-    "server.js": "nodejs",
-    "server.mjs": "nodejs",
-    "server.ts": "nodejs",
+    "app.cjs": "nodejs_file_dark",
+    "app.js": "nodejs_file_dark",
+    "app.mjs": "nodejs_file_dark",
+    "app.ts": "nodejs_file_dark",
+    "main.cjs": "nodejs_file_dark",
+    "main.js": "nodejs_file_dark",
+    "main.mjs": "nodejs_file_dark",
+    "main.ts": "nodejs_file_dark",
+    "server.cjs": "nodejs_file_dark",
+    "server.js": "nodejs_file_dark",
+    "server.mjs": "nodejs_file_dark",
+    "server.ts": "nodejs_file_dark",
     "nodemon.json": "nodemon",
     "normalize-min.css": "normalize",
     "normalize-min.less": "normalize",
@@ -19437,11 +19597,11 @@
     "nuxt.config.js": "nuxt",
     "nuxt.config.mjs": "nuxt",
     "nuxt.config.ts": "nuxt",
-    "esmrc": "nvm",
-    "nvmrc": "nvm",
-    "nx.json": "nx_dark",
-    "project.json": "nx_dark",
-    "workspace.json": "nx_dark",
+    "esmrc": "nvm_file_dark",
+    "nvmrc": "nvm_file_dark",
+    "nx.json": "nx_file_dark",
+    "project.json": "nx_file_dark",
+    "workspace.json": "nx_file_dark",
     "openapi.json": "openapi",
     "openapi.yml": "openapi",
     "openapi.yaml": "openapi",
@@ -19654,9 +19814,9 @@
     "redis.conf": "redis",
     "redis-config.yml": "redis",
     "redis-config.yaml": "redis",
-    "renovate.json": "renovate",
-    "renovate.json5": "renovate",
-    "renovate.jsonc": "renovate",
+    "renovate.json": "renovate_file_dark",
+    "renovate.json5": "renovate_file_dark",
+    "renovate.jsonc": "renovate_file_dark",
     "require-dev.js": "requirejs",
     "require.cjs": "requirejs",
     "require.js": "requirejs",
@@ -20206,7 +20366,7 @@
     "yui.min.js": "yui",
     "yui.mjs": "yui",
     "yui.ts": "yui",
-    "zeit.json": "zeit_dark",
+    "zeit.json": "zeit_file_dark",
     "zorinos.iso": "zorinos",
     "zorinos.deb": "zorinos",
     "config.json": "configs",
@@ -20265,11 +20425,11 @@
     "settings/json": "preferencesfiles",
     "settings/yaml": "preferencesfiles",
     "settings/yml": "preferencesfiles",
-    "cnf": "pref_dark",
-    "conf": "pref_dark",
-    "config": "pref_dark",
-    "pref": "pref_dark",
-    "prefs": "pref_dark",
+    "cnf": "pref_file_dark",
+    "conf": "pref_file_dark",
+    "config": "pref_file_dark",
+    "pref": "pref_file_dark",
+    "prefs": "pref_file_dark",
     "nginx.conf": "nginx"
   },
   "languageIds": {
@@ -20377,7 +20537,7 @@
     "bml": "basic",
     "bms": "basic",
     "bmx": "basic",
-    "bats": "bats",
+    "bats": "bats_file_dark",
     "bazel": "bazel",
     "starlark": "bazel",
     "bazelconfig": "bazelconfig",
@@ -20538,8 +20698,8 @@
     "csound-orc": "csound_dark",
     "csound-sco": "csound_dark",
     "csound-csd": "csound_dark",
-    "css": "css",
-    "tss": "css",
+    "css": "css_file_dark",
+    "tss": "css_file_dark",
     "csv": "csv",
     "tsv": "csv",
     "csv (pipe)": "csv",
@@ -20646,7 +20806,7 @@
     "logstash": "elastic",
     "elixir": "ex",
     "eex": "ex",
-    "html-eex": "html",
+    "html-eex": "html_file_dark",
     "elm": "elm",
     "emacslisp": "emacslisp",
     "el": "emacslisp",
@@ -20684,7 +20844,7 @@
     "firebasebolt": "firebasebolt",
     "bolt": "firebasebolt",
     "flash": "flash",
-    "flow": "flow",
+    "flow": "flow_file_dark",
     "fontforge": "fontforge",
     "sfd": "fontforge",
     "dfont": "font",
@@ -20742,7 +20902,7 @@
     "yyp": "gamemaker",
     "gams": "gams",
     "gap": "gap",
-    "gauge": "gauge_dark",
+    "gauge": "gauge_file_dark",
     "gcode": "gcode",
     "gemini": "gemini",
     "genshi": "genshi",
@@ -20755,8 +20915,8 @@
     "gitattributes": "git",
     "git-commit": "git",
     "git-rebase": "git",
-    "gitignore": "gitignore",
-    "ignore": "gitignore",
+    "gitignore": "gitignore_file_dark",
+    "ignore": "gitignore_file_dark",
     "gleam": "gleam",
     "glyphs": "glyphs",
     "gn": "gn",
@@ -20837,8 +20997,8 @@
     "rest": "http",
     "httprequest": "http",
     "httpie": "http",
-    "html": "html",
-    "cshtml": "html",
+    "html": "html_file_dark",
+    "cshtml": "html_file_dark",
     "hugo": "hugo",
     "hunspell": "hunspell",
     "hunspell.aff": "hunspell",
@@ -20964,18 +21124,18 @@
     "tpl": "joomla",
     "jquery": "jquery",
     "jq": "jquery",
-    "js": "js",
-    "cjs": "js",
-    "javascript": "js",
-    "mjs": "js",
-    "ecmascript": "js",
-    "es6": "js",
-    "jspp": "js",
-    "jsconfig": "jsconfig",
+    "js": "js_file_dark",
+    "cjs": "js_file_dark",
+    "javascript": "js_file_dark",
+    "mjs": "js_file_dark",
+    "ecmascript": "js_file_dark",
+    "es6": "js_file_dark",
+    "jspp": "js_file_dark",
+    "jsconfig": "jsconfig_file_dark",
     "jscpd": "jscpd",
-    "jsx": "jsx",
-    "javascriptreact": "jsx",
-    "typescriptreact": "tsx",
+    "jsx": "jsx_file_dark",
+    "javascriptreact": "jsx_file_dark",
+    "typescriptreact": "tsx_file_dark",
     "cson": "json",
     "json": "json",
     "jsonc": "json",
@@ -21004,8 +21164,8 @@
     "gpx": "kml",
     "kl": "kl",
     "knime": "knime",
-    "koka": "koka_dark",
-    "kokadoc": "koka_dark",
+    "koka": "koka_file_dark",
+    "kokadoc": "koka_file_dark",
     "kotlin": "kotlin",
     "kotlinscript": "kotlinscript",
     "kubernetes": "kubernetes",
@@ -21025,7 +21185,7 @@
     "leoInput": "leo",
     "leoHover": "leo",
     "lektor": "lektor",
-    "less": "less",
+    "less": "less_file_dark",
     "flex": "lex",
     "lfe": "lfe",
     "lib": "lib",
@@ -21084,8 +21244,8 @@
     "mediawiki": "mediawiki",
     "mercurial": "mercurial",
     "hg": "mercurial",
-    "mercurialignore": "mercurialignore",
-    "ignore-hgignore": "mercurialignore",
+    "mercurialignore": "mercurialignore_file_dark",
+    "ignore-hgignore": "mercurialignore_file_dark",
     "mercury": "mercury",
     "merlin": "merlin",
     "ocaml.merlin": "merlin",
@@ -21142,7 +21302,7 @@
     "nekoscript": "neko",
     "neo4j": "neo4j",
     "cypher": "neo4j",
-    "neon": "neon_dark",
+    "neon": "neon_file_dark",
     "netlify": "netlify",
     "netlify_headers": "netlify_headers",
     "netlifyheaders": "netlify_headers",
@@ -21229,7 +21389,7 @@
     "openvpn": "openvpn",
     "ovpn": "openvpn",
     "oracle": "oracle",
-    "oraclesql": "sql",
+    "oraclesql": "sql_file_dark",
     "orgmode": "orgmode",
     "org": "orgmode",
     "oxygene": "oxygene",
@@ -21475,9 +21635,9 @@
     "spring-boot-properties-yaml": "spring",
     "spring-factories": "spring",
     "sqf": "sqf",
-    "mysql": "sql",
-    "sql": "sql",
-    "plsql": "sql",
+    "mysql": "sql_file_dark",
+    "sql": "sql_file_dark",
+    "plsql": "sql_file_dark",
     "sqlite": "sqlite",
     "squarespace": "squarespace",
     "jsont": "squarespace",
@@ -21517,7 +21677,7 @@
     "swag": "swagger",
     "swig": "swig",
     "swift": "swift",
-    "svg": "svg",
+    "svg": "svg_file",
     "toc": "toc",
     "tailwindcss": "tailwindcss",
     "todo": "todo",
@@ -21582,8 +21742,8 @@
     "twee3-harlowe-3": "twine",
     "twee3-sugarcube-2": "twine",
     "txl": "txl",
-    "tslint": "typeScript",
-    "typescript": "typeScript",
+    "tslint": "typeScript_file_dark",
+    "typescript": "typeScript_file_dark",
     "typoscript": "typo3",
     "uml": "uml",
     "plantuml": "uml",
@@ -21623,9 +21783,9 @@
     "vb.net": "vb",
     "Visual Basic": "vb",
     "vray": "vray",
-    "vscodeignore": "vscodeignore",
-    "tfignore": "tfsignore",
-    "tfsignore": "tfsignore",
+    "vscodeignore": "vscodeignore_file_dark",
+    "tfignore": "tfsignore_file_dark",
+    "tfsignore": "tfsignore_file_dark",
     "vue": "vue",
     "vue-html": "vue",
     "vue-postcss": "vue",
@@ -21664,8 +21824,8 @@
     "reg": "windows",
     "wolfram": "wolfram",
     "wurst": "wurst",
-    "wxml": "wxml",
-    "wxml-pug": "wxml",
+    "wxml": "wxml_file_dark",
+    "wxml-pug": "wxml_file_dark",
     "wpml": "wpml",
     "wxss": "wxss",
     "wxs": "wxs",
@@ -21694,8 +21854,8 @@
     "yandex": "yandex",
     "ydl": "yandex",
     "wiki": "yandex",
-    "info": "yaml",
-    "yaml": "yaml",
+    "info": "yaml_file_dark",
+    "yaml": "yaml_file_dark",
     "yang": "yang",
     "yara": "yara",
     "yarn": "yarn",
@@ -21708,8 +21868,8 @@
     "yuiscript": "yui",
     "zbrush": "zbrush",
     "zscript": "zbrush",
-    "zeit": "zeit_dark",
-    "zeitignore": "zeit_dark",
+    "zeit": "zeit_file_dark",
+    "zeitignore": "zeit_file_dark",
     "zephir": "zephir",
     "zig": "zig",
     "zilog": "zilog",
@@ -21727,44 +21887,166 @@
   "light": {
     "file": "default_file_light",
     "fileExtensions": {
-      "spec.cjs": "testjsfiles",
-      "spec.es6": "testjsfiles",
-      "spec.js": "testjsfiles",
-      "spec.mjs": "testjsfiles",
-      "spec/cjs": "testjsfiles",
-      "spec/es6": "testjsfiles",
-      "spec/js": "testjsfiles",
-      "spec/mjs": "testjsfiles",
-      "specs/cjs": "testjsfiles",
-      "specs/es6": "testjsfiles",
-      "specs/js": "testjsfiles",
-      "specs/mjs": "testjsfiles",
-      "test.cjs": "testjsfiles",
-      "test.es6": "testjsfiles",
-      "test.js": "testjsfiles",
-      "test.mjs": "testjsfiles",
-      "test/cjs": "testjsfiles",
-      "test/es6": "testjsfiles",
-      "test/js": "testjsfiles",
-      "test/mjs": "testjsfiles",
-      "tests/cjs": "testjsfiles",
-      "tests/es6": "testjsfiles",
-      "tests/js": "testjsfiles",
-      "tests/mjs": "testjsfiles",
-      "11ty.cjs": "11ty",
-      "11ty.js": "11ty",
-      "11ty.mjs": "11ty",
-      "11ty.ts": "11ty",
-      "11tyignore": "11ty",
-      "eleventy.cjs": "11ty",
-      "eleventy.js": "11ty",
-      "eleventy.mjs": "11ty",
-      "eleventy.ts": "11ty",
-      "eleventyignore": "11ty",
-      "atomproject.cson": "atom",
-      "atomproject.json": "atom",
-      "bats": "bats",
-      "bunfig.toml": "bun",
+      "less": "less_file_light",
+      "njs": "nodeversion_file_light",
+      "node": "nodeversion_file_light",
+      "node-version": "nodeversion_file_light",
+      "jsconfig.cjs": "jsconfig_file_light",
+      "jsconfig.js": "jsconfig_file_light",
+      "jsconfig.json": "jsconfig_file_light",
+      "jsconfig.mjs": "jsconfig_file_light",
+      "jsconfig.ts": "jsconfig_file_light",
+      "info": "yaml_file_light",
+      "yaml": "yaml_file_light",
+      "yml": "yaml_file_light",
+      "wxml": "wxml_file_light",
+      "distignore": "wordpressignore_file_light",
+      "vscodeignore": "vscodeignore_file_light",
+      "vscodeignore.json": "vscodeignore_file_light",
+      "vercelignore": "vercelignore_file_light",
+      "ts": "typeScript_file_light",
+      "tslint": "typeScript_file_light",
+      "tsx": "tsx_file_light",
+      "tfsignore": "tfsignore_file_light",
+      "tfignore": "tfsignore_file_light",
+      "spec.tsx": "testtsx_file_light",
+      "spec/tsx": "testtsx_file_light",
+      "specs/tsx": "testtsx_file_light",
+      "test.tsx": "testtsx_file_light",
+      "test/tsx": "testtsx_file_light",
+      "tests/tsx": "testtsx_file_light",
+      "spec.ts": "testtsfiles_file_light",
+      "spec/ts": "testtsfiles_file_light",
+      "specs/ts": "testtsfiles_file_light",
+      "test.ts": "testtsfiles_file_light",
+      "test/ts": "testtsfiles_file_light",
+      "tests/ts": "testtsfiles_file_light",
+      "spec.jsx": "testjsx_file_light",
+      "spec/jsx": "testjsx_file_light",
+      "specs/jsx": "testjsx_file_light",
+      "test.jsx": "testjsx_file_light",
+      "test/jsx": "testjsx_file_light",
+      "tests/jsx": "testjsx_file_light",
+      "taurignore": "taurignore_file_light",
+      "stylelintignore": "stylelintignore_file_light",
+      "stylelintignore.json": "stylelintignore_file_light",
+      "oraclesql": "sql_file_light",
+      "sql": "sql_file_light",
+      "cql": "sql_file_light",
+      "hql": "sql_file_light",
+      "mysql": "sql_file_light",
+      "pdb": "sql_file_light",
+      "prc": "sql_file_light",
+      "viw": "sql_file_light",
+      "xq": "sql_file_light",
+      "xql": "sql_file_light",
+      "xqm": "sql_file_light",
+      "xqy": "sql_file_light",
+      "retextignore": "retextignore_file_light",
+      "renovaterc": "renovate_file_light",
+      "remarkignore": "remarkignore_file_light",
+      "rehypeignore": "rehypeignore_file_light",
+      "prettierignore": "prettierignore_file_light",
+      "pre-commit-config.yaml": "precommit_file_light",
+      "pre-commit-config.yml": "precommit_file_light",
+      "pre-commit-hooks.yaml": "precommit_file_light",
+      "pre-commit-hooks.yml": "precommit_file_light",
+      "pre-commit.yaml": "precommit_file_light",
+      "pre-commit.yml": "precommit_file_light",
+      "esmrc": "nvm_file_light",
+      "nvmrc": "nvm_file_light",
+      "npmignore": "npmignore_file_light",
+      "nowignore": "nowignore_file_light",
+      "nodemonignore": "nodemonignore_file_light",
+      "hgignore": "mercurialignore_file_light",
+      "markdownlintignore": "markdownlintignore_file_light",
+      "mdlignore": "markdownlintignore_file_light",
+      "license": "license_file_light",
+      "licence": "license_file_light",
+      "lic": "license_file_light",
+      "liaraignore": "liaraignore_file_light",
+      "jsx": "jsx_file_light",
+      "cjs.map": "jsmap_file_light",
+      "js.map": "jsmap_file_light",
+      "mjs.map": "jsmap_file_light",
+      "jshintignore": "jshintignore_file_light",
+      "cjs": "js_file_light",
+      "es6": "js_file_light",
+      "js": "js_file_light",
+      "mjs": "js_file_light",
+      "htc": "js_file_light",
+      "jsb": "js_file_light",
+      "jscript": "js_file_light",
+      "jslib": "js_file_light",
+      "jsm": "js_file_light",
+      "jspre": "js_file_light",
+      "pjs": "js_file_light",
+      "ssjs": "js_file_light",
+      "dtml": "html_file_light",
+      "htm": "html_file_light",
+      "html": "html_file_light",
+      "isml": "html_file_light",
+      "kit": "html_file_light",
+      "mhtml": "html_file_light",
+      "scaml": "html_file_light",
+      "xhtml": "html_file_light",
+      "herokuignore": "herokuignore_file_light",
+      "slugignore": "herokuignore_file_light",
+      "helmignore": "helmignore_file_light",
+      "p4ignore": "helixignore_file_light",
+      "gitignore": "gitignore_file_light",
+      "gif": "gif_file_light",
+      "gifv": "gif_file_light",
+      "eslintignore": "eslintignore_file_light",
+      "dockerignore": "dockerignore_file_light",
+      "denoignore": "denoignore_file_light",
+      "dartignore": "dartignore_file_light",
+      "pubignore": "dartignore_file_light",
+      "containerignore": "containerignore_file_light",
+      "coffeelintignore": "coffeelintignore_file_light",
+      "changelog": "changelog_file_light",
+      "changes": "changelog_file_light",
+      "boringignore": "boringignore_file_light",
+      "bazelignore": "bazelignore_file_light",
+      "alexignore": "alexignore_file_light",
+      "spec.cjs": "testjs_file_light",
+      "spec.es6": "testjs_file_light",
+      "spec.js": "testjs_file_light",
+      "spec.mjs": "testjs_file_light",
+      "spec/cjs": "testjs_file_light",
+      "spec/es6": "testjs_file_light",
+      "spec/js": "testjs_file_light",
+      "spec/mjs": "testjs_file_light",
+      "specs/cjs": "testjs_file_light",
+      "specs/es6": "testjs_file_light",
+      "specs/js": "testjs_file_light",
+      "specs/mjs": "testjs_file_light",
+      "test.cjs": "testjs_file_light",
+      "test.es6": "testjs_file_light",
+      "test.js": "testjs_file_light",
+      "test.mjs": "testjs_file_light",
+      "test/cjs": "testjs_file_light",
+      "test/es6": "testjs_file_light",
+      "test/js": "testjs_file_light",
+      "test/mjs": "testjs_file_light",
+      "tests/cjs": "testjs_file_light",
+      "tests/es6": "testjs_file_light",
+      "tests/js": "testjs_file_light",
+      "tests/mjs": "testjs_file_light",
+      "11ty.cjs": "11ty_file_light",
+      "11ty.js": "11ty_file_light",
+      "11ty.mjs": "11ty_file_light",
+      "11ty.ts": "11ty_file_light",
+      "11tyignore": "11ty_file_light",
+      "eleventy.cjs": "11ty_file_light",
+      "eleventy.js": "11ty_file_light",
+      "eleventy.mjs": "11ty_file_light",
+      "eleventy.ts": "11ty_file_light",
+      "eleventyignore": "11ty_file_light",
+      "atomproject.cson": "atom_file_light",
+      "atomproject.json": "atom_file_light",
+      "bats": "bats_file_light",
+      "bunfig.toml": "bun_file_light",
       "csc": "csound",
       "ins": "csound",
       "orc": "csound",
@@ -21772,37 +22054,80 @@
       "udo": "csound",
       "deepsource.toml": "deepsource",
       "dhall": "dhall",
-      "flowconfig": "flow",
-      "flow": "flow",
-      "spec": "gauge",
+      "flowconfig": "flow_file_light",
+      "flow": "flow_file_light",
+      "spec": "gauge_file_light",
       "gitbook.yml": "gitbook",
       "gitbook.yaml": "gitbook",
       "inx": "inkscape",
       "thy": "isabelle",
-      "kk": "koka",
-      "koka": "koka",
+      "kk": "koka_file_light",
+      "koka": "koka_file_light",
       "latte": "latte",
-      "neon": "neon",
+      "neon": "neon_file_light",
       "qs": "qsharp",
       "sk": "skript",
       "skript": "skript",
       "trunk": "trunk",
-      "vsix": "vsix",
-      "vsixmanifest": "vsix",
+      "vsix": "vsix_file_light",
+      "vsixmanifest": "vsix_file_light",
       "wikitext": "wikitext",
       "wt": "wikitext",
-      "svg": "svg",
-      "svgz": "svg",
-      "cfg": "pref",
-      "cnf": "pref",
-      "conf": "pref",
-      "config": "pref",
-      "pref": "pref",
-      "prefs": "pref",
-      "css": "css",
-      "tss": "css"
+      "svg": "svg_file",
+      "svgz": "svg_file",
+      "cfg": "pref_file_light",
+      "cnf": "pref_file_light",
+      "conf": "pref_file_light",
+      "config": "pref_file_light",
+      "pref": "pref_file_light",
+      "prefs": "pref_file_light",
+      "css": "css_file_light",
+      "tss": "css_file_light"
     },
     "fileNames": {
+      "index.tsx": "index_tsx_file_light",
+      "app.cjs": "nodejs_file_light",
+      "app.js": "nodejs_file_light",
+      "app.mjs": "nodejs_file_light",
+      "app.ts": "nodejs_file_light",
+      "main.cjs": "nodejs_file_light",
+      "main.js": "nodejs_file_light",
+      "main.mjs": "nodejs_file_light",
+      "main.ts": "nodejs_file_light",
+      "server.cjs": "nodejs_file_light",
+      "server.js": "nodejs_file_light",
+      "server.mjs": "nodejs_file_light",
+      "server.ts": "nodejs_file_light",
+      "jsconfig.cjs": "jsconfig_file_light",
+      "jsconfig.js": "jsconfig_file_light",
+      "jsconfig.json": "jsconfig_file_light",
+      "jsconfig.mjs": "jsconfig_file_light",
+      "jsconfig.ts": "jsconfig_file_light",
+      "renovate.json": "renovate_file_light",
+      "renovate.json5": "renovate_file_light",
+      "renovate.jsonc": "renovate_file_light",
+      "esmrc": "nvm_file_light",
+      "nvmrc": "nvm_file_light",
+      "licence": "license_file_light",
+      "licence.md": "license_file_light",
+      "licence.txt": "license_file_light",
+      "license": "license_file_light",
+      "license.md": "license_file_light",
+      "license.txt": "license_file_light",
+      "favicon.gif": "favicon_file_light",
+      "favicon.ico": "favicon_file_light",
+      "favicon.jpeg": "favicon_file_light",
+      "favicon.jpg": "favicon_file_light",
+      "favicon.png": "favicon_file_light",
+      "favicon.svg": "favicon_file_light",
+      "changelog": "changelog_file_light",
+      "changelog.md": "changelog_file_light",
+      "changelog.rst": "changelog_file_light",
+      "changelog.txt": "changelog_file_light",
+      "changes": "changelog_file_light",
+      "changes.md": "changelog_file_light",
+      "changes.rst": "changelog_file_light",
+      "changes.txt": "changelog_file_light",
       "COMMIT_MESSAGE_TEMPLATE.md": "github",
       "COMMIT_MESSAGE_TEMPLATE.txt": "github",
       "PULL_REQUEST_TEMPLATE.md": "github",
@@ -21812,23 +22137,23 @@
       "readme": "readme",
       "readme.md": "readme",
       "readme.txt": "readme",
-      ".apmrc": "apm",
-      "bunfig.toml": "bun",
+      ".apmrc": "apm_file_light",
+      "bunfig.toml": "bun_file_light",
       "import_map.json": "deno",
       "mod.ts": "deno",
-      "karma.conf.cjs": "karma",
-      "karma.conf.coffee": "karma",
-      "karma.conf.js": "karma",
-      "karma.conf.mjs": "karma",
-      "karma.conf.ts": "karma",
-      "karma.config.cjs": "karma",
-      "karma.config.coffee": "karma",
-      "karma.config.js": "karma",
-      "karma.config.mjs": "karma",
-      "karma.config.ts": "karma",
-      "nx.json": "nx",
-      "project.json": "nx",
-      "workspace.json": "nx",
+      "karma.conf.cjs": "karma_file_light",
+      "karma.conf.coffee": "karma_file_light",
+      "karma.conf.js": "karma_file_light",
+      "karma.conf.mjs": "karma_file_light",
+      "karma.conf.ts": "karma_file_light",
+      "karma.config.cjs": "karma_file_light",
+      "karma.config.coffee": "karma_file_light",
+      "karma.config.js": "karma_file_light",
+      "karma.config.mjs": "karma_file_light",
+      "karma.config.ts": "karma_file_light",
+      "nx.json": "nx_file_light",
+      "project.json": "nx_file_light",
+      "workspace.json": "nx_file_light",
       "payload.config.js": "payload",
       "payload.config.ts": "payload",
       "payload.config.cjs": "payload",
@@ -21841,38 +22166,93 @@
       "vercel.json": "vercel",
       "vercel.yml": "vercel",
       "vercel.yaml": "vercel",
-      "zeit.json": "zeit",
-      "cnf": "pref",
-      "conf": "pref",
-      "config": "pref",
-      "pref": "pref",
-      "prefs": "pref"
+      "zeit.json": "zeit_file_light",
+      "cnf": "pref_file_light",
+      "conf": "pref_file_light",
+      "config": "pref_file_light",
+      "pref": "pref_file_light",
+      "prefs": "pref_file_light"
     },
     "languageIds": {
+      "less": "less_file_light",
+      "jsconfig": "jsconfig_file_light",
+      "info": "yaml_file_light",
+      "yaml": "yaml_file_light",
+      "wxml": "wxml_file_light",
+      "wxml-pug": "wxml_file_light",
+      "vscodeignore": "vscodeignore_file_light",
+      "tslint": "typeScript_file_light",
+      "typescript": "typeScript_file_light",
+      "typescriptreact": "tsx_file_light",
+      "tfignore": "tfsignore_file_light",
+      "tfsignore": "tfsignore_file_light",
+      "mysql": "sql_file_light",
+      "sql": "sql_file_light",
+      "plsql": "sql_file_light",
+      "mercurialignore": "mercurialignore_file_light",
+      "ignore-hgignore": "mercurialignore_file_light",
+      "jsx": "jsx_file_light",
+      "javascriptreact": "jsx_file_light",
+      "js": "js_file_light",
+      "cjs": "js_file_light",
+      "javascript": "js_file_light",
+      "mjs": "js_file_light",
+      "ecmascript": "js_file_light",
+      "es6": "js_file_light",
+      "jspp": "js_file_light",
+      "html": "html_file_light",
+      "cshtml": "html_file_light",
+      "html-eex": "html_file_light",
+      "gitignore": "gitignore_file_light",
+      "ignore": "gitignore_file_light",
       "csound": "csound",
       "csound-orc": "csound",
       "csound-sco": "csound",
       "csound-csd": "csound",
       "dhall": "dhall",
-      "gauge": "gauge",
+      "gauge": "gauge_file_light",
       "isabelle": "isabelle",
       "isabelle-ml": "isabelle",
-      "koka": "koka",
-      "kokadoc": "koka",
+      "koka": "koka_file_light",
+      "kokadoc": "koka_file_light",
       "latte": "latte",
-      "neon": "neon",
+      "neon": "neon_file_light",
       "phalcon": "phalcon",
       "volt": "phalcon",
       "js.volt": "phalcon",
       "qs": "qsharp",
       "qsharp": "qsharp",
       "wikitext": "wikitext",
-      "zeit": "zeit",
-      "zeitignore": "zeit"
+      "zeit": "zeit_file_light",
+      "zeitignore": "zeit_file_light"
+    },
+    "folderNames": {
+      "empty": "empties_folder_light",
+      ".empty": "empties_folder_light",
+      "_empty": "empties_folder_light",
+      "empties": "empties_folder_light",
+      ".empties": "empties_folder_light",
+      "_empties": "empties_folder_light",
+      "stock": "empties_folder_light",
+      ".stock": "empties_folder_light",
+      "_stock": "empties_folder_light",
+      "stocks": "empties_folder_light",
+      ".stocks": "empties_folder_light",
+      "_stocks": "empties_folder_light"
+    },
+    "folderNamesExpanded": {
+      "empty": "empties_folder_open_light",
+      ".empty": "empties_folder_open_light",
+      "_empty": "empties_folder_open_light",
+      "empties": "empties_folder_open_light",
+      ".empties": "empties_folder_open_light",
+      "_empties": "empties_folder_open_light",
+      "stock": "empties_folder_open_light",
+      ".stock": "empties_folder_open_light",
+      "_stock": "empties_folder_open_light",
+      "stocks": "empties_folder_open_light",
+      ".stocks": "empties_folder_open_light",
+      "_stocks": "empties_folder_open_light"
     }
-  },
-  "highContrast": {
-    "fileExtensions": {},
-    "fileNames": {}
   }
 }
