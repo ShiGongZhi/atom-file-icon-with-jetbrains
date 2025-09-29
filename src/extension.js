@@ -110,33 +110,48 @@ function updateIconTheme(showNotification = false) {
       baseTheme.folderExpanded = 'default_folder_open_light'
     }
     let mergedTheme = JSON.parse(JSON.stringify(baseTheme))
+    mergedTheme.light = mergeThemeVariant(mergedTheme.light || {}, mergedTheme)
 
     const config = vscode.workspace.getConfiguration(
       'atom-file-icon-with-jetbrains'
     )
 
     // 新增图标包起始
-    const angularIconPackOld = config.get('angularIconPackOld', false)
-    const angularIconPackNew = config.get('angularIconPackNew', false)
-    const nestIconPack = config.get('nestIconPack', false)
+    // const angularIconPackOld = config.get('iconpack-angular-old', false)
+    // const angularIconPackNew = config.get('iconpack-angular-new', false)
 
-    const angularThemePathOld = path.join(
-      extensionPath,
-      'themes',
-      'angular.json'
-    )
-    const angularThemePathNew = path.join(
-      extensionPath,
-      'themes',
-      'angular2.json'
-    )
-    const nestThemePath = path.join(extensionPath, 'themes', 'nest.json')
+    // const angularThemePathOld = path.join(
+    //   extensionPath,
+    //   'themes',
+    //   'iconpack-angular-old.json'
+    // )
+    // const angularThemePathNew = path.join(
+    //   extensionPath,
+    //   'themes',
+    //   'iconpack-angular-new.json'
+    // )
 
+    // const iconPackArray = [
+    //   [angularIconPackOld, angularThemePathOld],
+    //   [angularIconPackNew, angularThemePathNew],
+    // ]
     const iconPackArray = [
-      [angularIconPackOld, angularThemePathOld],
-      [angularIconPackNew, angularThemePathNew],
-      [nestIconPack, nestThemePath]
-    ]
+      'iconpack-angular-old',
+      'iconpack-angular-new',
+      'iconpack-jotai',
+      'iconpack-nest',
+      'iconpack-next',
+      'iconpack-ngrx',
+      'iconpack-phalcon',
+      'iconpack-rails',
+      'iconpack-recoil',
+      'iconpack-redux',
+      'iconpack-volt',
+      'iconpack-index'
+    ].map((item) => [
+      config.get(item, false),
+      path.join(extensionPath, 'themes', item + '.json')
+    ])
     // 新增图标包结束
 
     // 合并图标包
@@ -144,6 +159,7 @@ function updateIconTheme(showNotification = false) {
       const fileName = path.parse(themePath).name
       if (isEnabled && fs.existsSync(themePath)) {
         const theme = JSON.parse(fs.readFileSync(themePath, 'utf8'))
+        theme.light = mergeThemeVariant(theme.light || {}, theme)
         mergedTheme = mergeThemes(mergedTheme, theme)
       } else if (isEnabled) {
         console.log(`❌ ${fileName}图标包已启用但文件不存在:`, themePath)
@@ -242,25 +258,32 @@ function mergeThemes(baseTheme, additionalTheme) {
   return merged
 }
 
-// function mergeThemeVariant(baseVariant, additionalVariant) {
-//   const merged = JSON.parse(JSON.stringify(baseVariant))
+function mergeThemeVariant(baseVariant, additionalVariant) {
+  const merged = JSON.parse(JSON.stringify(baseVariant))
 
-//   if (additionalVariant.fileExtensions) {
-//     merged.fileExtensions = {
-//       ...merged.fileExtensions,
-//       ...additionalVariant.fileExtensions
-//     }
-//   }
+  if (additionalVariant.fileExtensions) {
+    merged.fileExtensions = {
+      ...additionalVariant.fileExtensions,
+      ...merged.fileExtensions
+    }
+  }
 
-//   if (additionalVariant.fileNames) {
-//     merged.fileNames = {
-//       ...merged.fileNames,
-//       ...additionalVariant.fileNames
-//     }
-//   }
+  if (additionalVariant.fileNames) {
+    merged.fileNames = {
+      ...additionalVariant.fileNames,
+      ...merged.fileNames
+    }
+  }
 
-//   return merged
-// }
+  if (additionalVariant.languageIds) {
+    merged.languageIds = {
+      ...additionalVariant.languageIds,
+      ...merged.languageIds
+    }
+  }
+
+  return merged
+}
 
 function deactivate() {}
 

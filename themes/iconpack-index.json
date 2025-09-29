@@ -1,0 +1,61 @@
+{
+  "iconDefinitions": {
+    "routesfiles": {
+      "iconPath": "./files/routesfiles.svg"
+    },
+    "index_html_file": {
+      "iconPath": "./files/index_html_file.svg"
+    },
+    "index_css_file_dark": {
+      "iconPath": "./files/index_css_file_dark.svg"
+    },
+    "index_css_file_light": {
+      "iconPath": "./files/index_css_file_light.svg"
+    },
+    "tsx_file_dark": {
+      "iconPath": "./files/tsx_file_dark.svg"
+    },
+    "tsx_file_light": {
+      "iconPath": "./files/tsx_file_light.svg"
+    },
+    "index_tsx_file_dark": {
+      "iconPath": "./files/index_tsx_file_dark.svg"
+    },
+    "index_tsx_file_light": {
+      "iconPath": "./files/index_tsx_file_light.svg"
+    }
+  },
+  "fileNames": {
+    "router/index.js": "routesfiles",
+    "router/index.jsx": "routesfiles",
+    "router/index.ts": "routesfiles",
+    "router/index.tsx": "routesfiles",
+    "routes/index.js": "routesfiles",
+    "routes/index.jsx": "routesfiles",
+    "routes/index.ts": "routesfiles",
+    "routes/index.tsx": "routesfiles",
+    "routing/index.js": "routesfiles",
+    "routing/index.jsx": "routesfiles",
+    "routing/index.ts": "routesfiles",
+    "routing/index.tsx": "routesfiles",
+    "index.html": "index_html_file",
+    "index.htm": "index_html_file",
+    "index.phtml": "index_html_file",
+    "index.pug": "index_html_file",
+    "index.jade": "index_html_file",
+    "index.hbs": "index_html_file",
+    "index.handlebars": "index_html_file",
+    "index.twig": "index_html_file",
+    "index.php": "index_html_file",
+    "index.jsp": "index_html_file",
+    "index.ejs": "index_html_file",
+    "index.css": "index_css_file_dark",
+    "index.tsx": "index_tsx_file_dark"
+  },
+  "light": {
+    "fileNames": {
+      "index.css": "index_css_file_light",
+      "index.tsx": "index_tsx_file_light"
+    }
+  }
+}

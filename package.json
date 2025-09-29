@@ -2,7 +2,7 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.25",
+  "version": "0.1.27",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
@@ -23,60 +23,65 @@
     ],
     "configuration": {
       "properties": {
-        "atom-file-icon-with-jetbrains.angularIconPackOld": {
+        "atom-file-icon-with-jetbrains.iconpack-angular-old": {
           "type": "boolean",
           "default": false,
           "description": "Use Old Angular Icons"
         },
-        "atom-file-icon-with-jetbrains.angularIconPackNew": {
+        "atom-file-icon-with-jetbrains.iconpack-angular-new": {
           "type": "boolean",
           "default": false,
           "description": "Use New Angular Icons"
         },
-        "atom-file-icon-with-jetbrains.nestIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-nest": {
           "type": "boolean",
           "default": false,
           "description": "Use NestJS Icons"
         },
-        "atom-file-icon-with-jetbrains.nextIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-next": {
           "type": "boolean",
           "default": false,
           "description": "Use Next.js Icons"
         },
-        "atom-file-icon-with-jetbrains.ngrxIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-ngrx": {
           "type": "boolean",
           "default": false,
           "description": "Use NgRx Icons"
         },
-        "atom-file-icon-with-jetbrains.phalconIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-phalcon": {
           "type": "boolean",
           "default": false,
           "description": "Use Phalcon Icons"
         },
-        "atom-file-icon-with-jetbrains.railsIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-rails": {
           "type": "boolean",
           "default": false,
           "description": "Use Rails Icons"
         },
-        "atom-file-icon-with-jetbrains.jotaiIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-jotai": {
           "type": "boolean",
           "default": false,
           "description": "Use Jotai Icons"
         },
-        "atom-file-icon-with-jetbrains.recoilIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-recoil": {
           "type": "boolean",
           "default": false,
           "description": "Use Recoil Icons"
         },
-        "atom-file-icon-with-jetbrains.reduxIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-redux": {
           "type": "boolean",
           "default": false,
           "description": "Use Redux Icons"
         },
-        "atom-file-icon-with-jetbrains.voltIconPack": {
+        "atom-file-icon-with-jetbrains.iconpack-volt": {
           "type": "boolean",
           "default": false,
           "description": "Use Volt Icons"
+        },
+        "atom-file-icon-with-jetbrains.iconpack-index": {
+          "type": "boolean",
+          "default": false,
+          "description": "Make the file named index have a special icon"
         }
       }
     }

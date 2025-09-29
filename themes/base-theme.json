@@ -2,8 +2,8 @@
   "file": "default_file_dark",
   "folder": "default_folder_dark",
   "folderExpanded": "default_folder_open_dark",
-  "rootFolder": "folder-folder-root",
-  "rootFolderExpanded": "folder-folder-root-open",
+  "rootFolder": "root_folder",
+  "rootFolderExpanded": "root_folder_open",
   "iconDefinitions": {
     "default_file_dark": {
       "iconPath": "./files/default_file_dark.svg"
@@ -22,21 +22,6 @@
     },
     "default_folder_open_light": {
       "iconPath": "./foldersOpen/default_folder_open_light.svg"
-    },
-    "indexhtml": {
-      "iconPath": "./files/indexhtml.svg"
-    },
-    "index_css_file_dark": {
-      "iconPath": "./files/index_css_file_dark.svg"
-    },
-    "index_css_file_light": {
-      "iconPath": "./files/index_css_file_light.svg"
-    },
-    "index_tsx_file_dark": {
-      "iconPath": "./files/index_tsx_file_dark.svg"
-    },
-    "index_tsx_file_light": {
-      "iconPath": "./files/index_tsx_file_light.svg"
     },
     "index": {
       "iconPath": "./files/index.svg"
@@ -113,26 +98,26 @@
     "testktfiles": {
       "iconPath": "./files/testktfiles.svg"
     },
-    "testjs_file_dark": {
-      "iconPath": "./files/testjs_file_dark.svg"
+    "test_js_file_dark": {
+      "iconPath": "./files/test_js_file_dark.svg"
     },
-    "testjs_file_light": {
-      "iconPath": "./files/testjs_file_light.svg"
+    "test_js_file_light": {
+      "iconPath": "./files/test_js_file_light.svg"
     },
     "testperlfiles": {
       "iconPath": "./files/testperlfiles.svg"
     },
-    "testjsx_file_dark": {
-      "iconPath": "./files/testjsx_file_dark.svg"
+    "test_jsx_file_dark": {
+      "iconPath": "./files/test_jsx_file_dark.svg"
     },
-    "testjsx_file_light": {
-      "iconPath": "./files/testjsx_file_light.svg"
+    "test_jsx_file_light": {
+      "iconPath": "./files/test_jsx_file_light.svg"
     },
-    "testtsx_file_dark": {
-      "iconPath": "./files/testtsx_file_dark.svg"
+    "test_tsx_file_dark": {
+      "iconPath": "./files/test_tsx_file_dark.svg"
     },
-    "testtsx_file_light": {
-      "iconPath": "./files/testtsx_file_light.svg"
+    "test_tsx_file_light": {
+      "iconPath": "./files/test_tsx_file_light.svg"
     },
     "testpyfiles": {
       "iconPath": "./files/testpyfiles.svg"
@@ -146,11 +131,11 @@
     "testscalafiles": {
       "iconPath": "./files/testscalafiles.svg"
     },
-    "testtsfiles_file_dark": {
-      "iconPath": "./files/testtsfiles_file_dark.svg"
+    "test_ts_file_dark": {
+      "iconPath": "./files/test_ts_file_dark.svg"
     },
-    "testtsfiles_file_light": {
-      "iconPath": "./files/testtsfiles_file_light.svg"
+    "test_ts_file_light": {
+      "iconPath": "./files/test_ts_file_light.svg"
     },
     "testphpfiles": {
       "iconPath": "./files/testphpfiles.svg"
@@ -3458,9 +3443,6 @@
     "routes": {
       "iconPath": "./files/routes.svg"
     },
-    "routesfiles": {
-      "iconPath": "./files/routesfiles.svg"
-    },
     "rstudio": {
       "iconPath": "./files/rstudio.svg"
     },
@@ -4485,10 +4467,13 @@
       "iconPath": "./files/image.svg"
     },
     "image2": {
-      "iconPath": "./files/image2.svg"
+      "iconPath": "./files/image.svg"
     },
     "image3": {
-      "iconPath": "./files/image3.svg"
+      "iconPath": "./files/image.svg"
+    },
+    "image4": {
+      "iconPath": "./files/image.svg"
     },
     "svg_file": {
       "iconPath": "./files/svg_file.svg"
@@ -4587,10 +4572,10 @@
       "iconPath": "./files/jsx_file_light.svg"
     },
     "tsx_file_dark": {
-      "iconPath": "./files/tsx_file_dark.svg"
+      "iconPath": "./files/index_tsx_file_dark.svg"
     },
     "tsx_file_light": {
-      "iconPath": "./files/tsx_file_light.svg"
+      "iconPath": "./files/index_tsx_file_light.svg"
     },
     "json": {
       "iconPath": "./files/json.svg"
@@ -4646,11 +4631,11 @@
     "text": {
       "iconPath": "./files/text.svg"
     },
-    "typeScript_file_dark": {
-      "iconPath": "./files/typeScript_file_dark.svg"
+    "ts_file_dark": {
+      "iconPath": "./files/ts_file_dark.svg"
     },
-    "typeScript_file_light": {
-      "iconPath": "./files/typeScript_file_light.svg"
+    "ts_file_light": {
+      "iconPath": "./files/ts_file_light.svg"
     },
     "class": {
       "iconPath": "./files/class.svg"
@@ -6125,11 +6110,11 @@
     "folder-reviews-open": {
       "iconPath": "./foldersOpen/reviews.svg"
     },
-    "folder-root": {
-      "iconPath": "./folders/root.svg"
+    "root_folder": {
+      "iconPath": "./folders/root_folder.svg"
     },
-    "folder-root-open": {
-      "iconPath": "./foldersOpen/root.svg"
+    "root_folder_open": {
+      "iconPath": "./foldersOpen/root_folder_open.svg"
     },
     "folder-routes": {
       "iconPath": "./folders/routes.svg"
@@ -9517,12 +9502,12 @@
     "revisions": "folder-reviews",
     ".revisions": "folder-reviews",
     "_revisions": "folder-reviews",
-    "root": "folder-root",
-    ".root": "folder-root",
-    "_root": "folder-root",
-    "roots": "folder-root",
-    ".roots": "folder-root",
-    "_roots": "folder-root",
+    "root": "root_folder",
+    ".root": "root_folder",
+    "_root": "root_folder",
+    "roots": "root_folder",
+    ".roots": "root_folder",
+    "_roots": "root_folder",
     "route": "folder-routes",
     ".route": "folder-routes",
     "_route": "folder-routes",
@@ -13515,12 +13500,12 @@
     "revisions": "folder-reviews-open",
     ".revisions": "folder-reviews-open",
     "_revisions": "folder-reviews-open",
-    "root": "folder-root-open",
-    ".root": "folder-root-open",
-    "_root": "folder-root-open",
-    "roots": "folder-root-open",
-    ".roots": "folder-root-open",
-    "_roots": "folder-root-open",
+    "root": "root_folder_open",
+    ".root": "root_folder_open",
+    "_root": "root_folder_open",
+    "roots": "root_folder_open",
+    ".roots": "root_folder_open",
+    "_roots": "root_folder_open",
     "route": "folder-routes-open",
     ".route": "folder-routes-open",
     "_route": "folder-routes-open",
@@ -14670,30 +14655,14 @@
     "test/kt": "testktfiles",
     "tests/kt": "testktfiles",
     "unit/kt": "testktfiles",
-    "spec.cjs": "testjs_file_dark",
-    "spec.es6": "testjs_file_dark",
-    "spec.js": "testjs_file_dark",
-    "spec.mjs": "testjs_file_dark",
-    "spec/cjs": "testjs_file_dark",
-    "spec/es6": "testjs_file_dark",
-    "spec/js": "testjs_file_dark",
-    "spec/mjs": "testjs_file_dark",
-    "specs/cjs": "testjs_file_dark",
-    "specs/es6": "testjs_file_dark",
-    "specs/js": "testjs_file_dark",
-    "specs/mjs": "testjs_file_dark",
-    "test.cjs": "testjs_file_dark",
-    "test.es6": "testjs_file_dark",
-    "test.js": "testjs_file_dark",
-    "test.mjs": "testjs_file_dark",
-    "test/cjs": "testjs_file_dark",
-    "test/es6": "testjs_file_dark",
-    "test/js": "testjs_file_dark",
-    "test/mjs": "testjs_file_dark",
-    "tests/cjs": "testjs_file_dark",
-    "tests/es6": "testjs_file_dark",
-    "tests/js": "testjs_file_dark",
-    "tests/mjs": "testjs_file_dark",
+    "spec.cjs": "test_js_file_dark",
+    "spec.es6": "test_js_file_dark",
+    "spec.js": "test_js_file_dark",
+    "spec.mjs": "test_js_file_dark",
+    "test.cjs": "test_js_file_dark",
+    "test.es6": "test_js_file_dark",
+    "test.js": "test_js_file_dark",
+    "test.mjs": "test_js_file_dark",
     "spec.perl": "testperlfiles",
     "spec.ph": "testperlfiles",
     "spec.pl": "testperlfiles",
@@ -14724,18 +14693,10 @@
     "tests/pl": "testperlfiles",
     "tests/pl6": "testperlfiles",
     "tests/pm6": "testperlfiles",
-    "spec.jsx": "testjsx_file_dark",
-    "spec/jsx": "testjsx_file_dark",
-    "specs/jsx": "testjsx_file_dark",
-    "test.jsx": "testjsx_file_dark",
-    "test/jsx": "testjsx_file_dark",
-    "tests/jsx": "testjsx_file_dark",
-    "spec.tsx": "testtsx_file_dark",
-    "spec/tsx": "testtsx_file_dark",
-    "specs/tsx": "testtsx_file_dark",
-    "test.tsx": "testtsx_file_dark",
-    "test/tsx": "testtsx_file_dark",
-    "tests/tsx": "testtsx_file_dark",
+    "spec.jsx": "test_jsx_file_dark",
+    "test.jsx": "test_jsx_file_dark",
+    "spec.tsx": "test_tsx_file_dark",
+    "test.tsx": "test_tsx_file_dark",
     "spec.ipy": "testpyfiles",
     "spec.pep": "testpyfiles",
     "spec.py": "testpyfiles",
@@ -14802,12 +14763,8 @@
     "test.scala": "testscalafiles",
     "test/scala": "testscalafiles",
     "tests/scala": "testscalafiles",
-    "spec.ts": "testtsfiles_file_dark",
-    "spec/ts": "testtsfiles_file_dark",
-    "specs/ts": "testtsfiles_file_dark",
-    "test.ts": "testtsfiles_file_dark",
-    "test/ts": "testtsfiles_file_dark",
-    "tests/ts": "testtsfiles_file_dark",
+    "spec.ts": "test_ts_file_dark",
+    "test.ts": "test_ts_file_dark",
     "spec.php": "testphpfiles",
     "spec/php": "testphpfiles",
     "specs/php": "testphpfiles",
@@ -15626,10 +15583,6 @@
     "eslint/ts": "eslintrules",
     "eslint/cjs": "eslintrules",
     "eslint/ms": "eslintrules",
-    "rules/js": "eslintrules",
-    "rules/ts": "eslintrules",
-    "rules/cjs": "eslintrules",
-    "rules/ms": "eslintrules",
     "eslintcache": "eslintcache",
     "eslintignore": "eslintignore_file_dark",
     "erb": "erb",
@@ -17267,18 +17220,6 @@
     "robot": "robot",
     "rome": "rome",
     "romeignore": "rome",
-    "router/js": "routesfiles",
-    "router/jsx": "routesfiles",
-    "router/ts": "routesfiles",
-    "router/tsx": "routesfiles",
-    "routes/js": "routesfiles",
-    "routes/jsx": "routesfiles",
-    "routes/ts": "routesfiles",
-    "routes/tsx": "routesfiles",
-    "routing/js": "routesfiles",
-    "routing/jsx": "routesfiles",
-    "routing/ts": "routesfiles",
-    "routing/tsx": "routesfiles",
     "rproj": "rstudio",
     "rspec": "rspec",
     "rspec/rb": "rspecfiles",
@@ -18124,6 +18065,38 @@
     "tiff": "image3",
     "vsdm": "image3",
     "wbm": "image3",
+    "3fr": "image4",
+    "arw": "image4",
+    "bay": "image4",
+    "crw": "image4",
+    "cr2": "image4",
+    "dcs": "image4",
+    "dng": "image4",
+    "drf": "image4",
+    "eip": "image4",
+    "erf": "image4",
+    "fff": "image4",
+    "iiq": "image4",
+    "k25": "image4",
+    "kdc": "image4",
+    "mdc": "image4",
+    "mef": "image4",
+    "mrw": "image4",
+    "nef": "image4",
+    "nrw": "image4",
+    "obm": "image4",
+    "orf": "image4",
+    "pef": "image4",
+    "ptx": "image4",
+    "pxn": "image4",
+    "r3d": "image4",
+    "raf": "image4",
+    "rw2": "image4",
+    "rwz": "image4",
+    "sr2": "image4",
+    "srf": "image4",
+    "tif": "image4",
+    "x3f": "image4",
     "svg": "svg_file",
     "svgz": "svg_file",
     "webp": "webp",
@@ -18368,8 +18341,8 @@
     "no": "text",
     "rtf": "text",
     "txt": "text",
-    "ts": "typeScript_file_dark",
-    "tslint": "typeScript_file_dark",
+    "ts": "ts_file_dark",
+    "tslint": "ts_file_dark",
     "class": "class",
     "ko": "class",
     "o": "class",
@@ -18432,19 +18405,6 @@
     "yml": "yaml_file_dark"
   },
   "fileNames": {
-    "index.html": "indexhtml",
-    "index.htm": "indexhtml",
-    "index.phtml": "indexhtml",
-    "index.pug": "indexhtml",
-    "index.jade": "indexhtml",
-    "index.hbs": "indexhtml",
-    "index.handlebars": "indexhtml",
-    "index.twig": "indexhtml",
-    "index.php": "indexhtml",
-    "index.jsp": "indexhtml",
-    "index.ejs": "indexhtml",
-    "index.css": "index_css_file_dark",
-    "index.tsx": "index_tsx_file_dark",
     "architecture": "architecture",
     "architecture.md": "architecture",
     "architecture.rst": "architecture",
@@ -20302,6 +20262,12 @@
     "webpack.common.js": "webpack",
     "webpack.common.mjs": "webpack",
     "webpack.common.ts": "webpack",
+    "webpack.server.cjs": "webpack",
+    "webpack.server.coffee": "webpack",
+    "webpack.server.es6": "webpack",
+    "webpack.server.js": "webpack",
+    "webpack.server.mjs": "webpack",
+    "webpack.server.ts": "webpack",
     "webpack.config.cjs": "webpack",
     "webpack.config.coffee": "webpack",
     "webpack.config.es6": "webpack",
@@ -21748,8 +21714,8 @@
     "twee3-harlowe-3": "twine",
     "twee3-sugarcube-2": "twine",
     "txl": "txl",
-    "tslint": "typeScript_file_dark",
-    "typescript": "typeScript_file_dark",
+    "tslint": "ts_file_dark",
+    "typescript": "ts_file_dark",
     "typoscript": "typo3",
     "uml": "uml",
     "plantuml": "uml",
@@ -21910,29 +21876,17 @@
       "vscodeignore": "vscodeignore_file_light",
       "vscodeignore.json": "vscodeignore_file_light",
       "vercelignore": "vercelignore_file_light",
-      "ts": "typeScript_file_light",
-      "tslint": "typeScript_file_light",
+      "ts": "ts_file_light",
+      "tslint": "ts_file_light",
       "tsx": "tsx_file_light",
       "tfsignore": "tfsignore_file_light",
       "tfignore": "tfsignore_file_light",
-      "spec.tsx": "testtsx_file_light",
-      "spec/tsx": "testtsx_file_light",
-      "specs/tsx": "testtsx_file_light",
-      "test.tsx": "testtsx_file_light",
-      "test/tsx": "testtsx_file_light",
-      "tests/tsx": "testtsx_file_light",
-      "spec.ts": "testtsfiles_file_light",
-      "spec/ts": "testtsfiles_file_light",
-      "specs/ts": "testtsfiles_file_light",
-      "test.ts": "testtsfiles_file_light",
-      "test/ts": "testtsfiles_file_light",
-      "tests/ts": "testtsfiles_file_light",
-      "spec.jsx": "testjsx_file_light",
-      "spec/jsx": "testjsx_file_light",
-      "specs/jsx": "testjsx_file_light",
-      "test.jsx": "testjsx_file_light",
-      "test/jsx": "testjsx_file_light",
-      "tests/jsx": "testjsx_file_light",
+      "spec.tsx": "test_tsx_file_light",
+      "test.tsx": "test_tsx_file_light",
+      "spec.ts": "test_ts_file_light",
+      "test.ts": "test_ts_file_light",
+      "spec.jsx": "test_jsx_file_light",
+      "test.jsx": "test_jsx_file_light",
       "taurignore": "taurignore_file_light",
       "stylelintignore": "stylelintignore_file_light",
       "stylelintignore.json": "stylelintignore_file_light",
@@ -22015,30 +21969,14 @@
       "boringignore": "boringignore_file_light",
       "bazelignore": "bazelignore_file_light",
       "alexignore": "alexignore_file_light",
-      "spec.cjs": "testjs_file_light",
-      "spec.es6": "testjs_file_light",
-      "spec.js": "testjs_file_light",
-      "spec.mjs": "testjs_file_light",
-      "spec/cjs": "testjs_file_light",
-      "spec/es6": "testjs_file_light",
-      "spec/js": "testjs_file_light",
-      "spec/mjs": "testjs_file_light",
-      "specs/cjs": "testjs_file_light",
-      "specs/es6": "testjs_file_light",
-      "specs/js": "testjs_file_light",
-      "specs/mjs": "testjs_file_light",
-      "test.cjs": "testjs_file_light",
-      "test.es6": "testjs_file_light",
-      "test.js": "testjs_file_light",
-      "test.mjs": "testjs_file_light",
-      "test/cjs": "testjs_file_light",
-      "test/es6": "testjs_file_light",
-      "test/js": "testjs_file_light",
-      "test/mjs": "testjs_file_light",
-      "tests/cjs": "testjs_file_light",
-      "tests/es6": "testjs_file_light",
-      "tests/js": "testjs_file_light",
-      "tests/mjs": "testjs_file_light",
+      "spec.cjs": "test_js_file_light",
+      "spec.es6": "test_js_file_light",
+      "spec.js": "test_js_file_light",
+      "spec.mjs": "test_js_file_light",
+      "test.cjs": "test_js_file_light",
+      "test.es6": "test_js_file_light",
+      "test.js": "test_js_file_light",
+      "test.mjs": "test_js_file_light",
       "11ty.cjs": "11ty_file_light",
       "11ty.js": "11ty_file_light",
       "11ty.mjs": "11ty_file_light",
@@ -22091,8 +22029,6 @@
       "tss": "css_file_light"
     },
     "fileNames": {
-      "index.css": "index_css_file_light",
-      "index.tsx": "index_tsx_file_light",
       "app.cjs": "nodejs_file_light",
       "app.js": "nodejs_file_light",
       "app.mjs": "nodejs_file_light",
@@ -22181,6 +22117,7 @@
       "prefs": "pref_file_light"
     },
     "languageIds": {
+      "bats": "bats_file_light",
       "less": "less_file_light",
       "jsconfig": "jsconfig_file_light",
       "info": "yaml_file_light",
@@ -22188,8 +22125,8 @@
       "wxml": "wxml_file_light",
       "wxml-pug": "wxml_file_light",
       "vscodeignore": "vscodeignore_file_light",
-      "tslint": "typeScript_file_light",
-      "typescript": "typeScript_file_light",
+      "tslint": "ts_file_light",
+      "typescript": "ts_file_light",
       "typescriptreact": "tsx_file_light",
       "tfignore": "tfsignore_file_light",
       "tfsignore": "tfsignore_file_light",
@@ -22216,6 +22153,8 @@
       "csound-orc": "csound",
       "csound-sco": "csound",
       "csound-csd": "csound",
+      "css": "css_file_light",
+      "tss": "css_file_light",
       "dhall": "dhall",
       "gauge": "gauge_file_light",
       "isabelle": "isabelle",

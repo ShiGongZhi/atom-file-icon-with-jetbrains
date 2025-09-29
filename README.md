@@ -1,10 +1,16 @@
 # Atom Material Icons + Jetbrains Icons
 
-Fix the original plug-in bug, automatically load the corresponding icon according to the light and dark theme, making the icon look clearer
+Best Icon Themes Especially in light themes
+
+Switch Theme Or Modify the configuration will be automatically load the corresponding icon according to the light and dark theme
+
+Rich and beautiful icons making the file look clearer
+
+enjoy it!
 
 <h1 align="center">
   <br>
-    <img src="https://raw.githubusercontent.com/ToneAr/a-file-icon-vscode/master/logo.png?sanitize=true" alt="logo" width="200">
+    <img src="https://raw.githubusercontent.com/mallowigi/a-file-icon-vscode/master/logo.png?sanitize=true" alt="logo" width="200">
   <br><br>
   Atom Material Icons + Jetbrains Icons for VSCode
   <br>
@@ -31,18 +37,23 @@ This plugin also use some file icon from [jetbrains](https://intellij-icons.jetb
 - **Dynamic Icon Packs**: Choose which icon packs to enable
   - Angular Icon Pack: Special icons for Angular files (component.ts, service.ts, etc.)
   - NestJS Icon Pack: Special icons for NestJS files (controller.ts, module.ts, etc.)
+  - For more Icon Packs, see Configuration
 
 ## Configuration
 
-This extension provides configurable icon packs that can be enabled or disabled based on your project needs:
+This extension provides configurable icon packs that can be enabled or disabled based on your project needs default to disabled.:
 
 ### Settings
 
-- **`atom-file-icon-with-jetbrains.angularIconPackNew`** (boolean, default: false)
+- **`atom-file-icon-with-jetbrains.iconpack-angular-old`** (boolean, default: false)
 
-  - Enable Angular-specific file icons for `.component.ts`, `.service.ts`, `.module.ts`, etc.
+  - Enable Angular-specific old file icons for `.component.ts`, `.service.ts`, `.module.ts`, etc.
 
-- **`atom-file-icon-with-jetbrains.nestIconPack`** (boolean, default: false)
+- **`atom-file-icon-with-jetbrains.iconpack-angular-new`** (boolean, default: false)
+
+  - Enable Angular-specific new file icons for `.component.ts`, `.service.ts`, `.module.ts`, etc.
+
+- **`atom-file-icon-with-jetbrains.iconpack-nest`** (boolean, default: false)
   - Enable NestJS-specific file icons for `.controller.ts`, `.dto.ts`, `.entity.ts`, etc.
 
 ### How to Configure
@@ -51,14 +62,6 @@ This extension provides configurable icon packs that can be enabled or disabled 
 2. Search for "atom-file-icon-with-jetbrains"
 3. Toggle the desired icon packs
 4. The extension will automatically regenerate the icon theme
-5. Reload the window when prompted to apply changes
-
-### Manual Regeneration
-
-You can manually regenerate the icon theme by:
-
-1. Opening the Command Palette (Ctrl/Cmd + Shift + P)
-2. Running the "Regenerate Icon Theme" command
 
 ## File Icons
 

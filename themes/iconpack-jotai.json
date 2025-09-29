@@ -1,0 +1,40 @@
+{
+  "iconDefinitions": {
+    "jotai_js_file_dark": {
+      "iconPath": "./files/jotai_js_file_dark.svg"
+    },
+    "jotai_js_file_light": {
+      "iconPath": "./files/jotai_js_file_light.svg"
+    },
+    "jotai_ts_file_dark": {
+      "iconPath": "./files/jotai_ts_file_dark.svg"
+    },
+    "jotai_ts_file_light": {
+      "iconPath": "./files/jotai_ts_file_light.svg"
+    }
+  },
+  "fileExtensions": {
+    "atom.js": "jotai_js_file_dark",
+    "atom.ts": "jotai_ts_file_dark",
+    "atoms.js": "jotai_js_file_dark",
+    "atoms.ts": "jotai_ts_file_dark",
+    "atoms/js": "jotai_js_file_dark",
+    "atoms/ts": "jotai_ts_file_dark",
+    "atom/js": "jotai_js_file_dark",
+    "atom/ts": "jotai_ts_file_dark",
+    "jotai/js": "jotai_js_file_dark",
+    "jotai/ts": "jotai_ts_file_dark"
+  },
+  "fileNames": {
+    "atoms/app.ts": "jotai_ts_file_dark",
+    "atom/app.ts": "jotai_ts_file_dark",
+    "jotai/app.ts": "jotai_ts_file_dark",
+    "atoms/app.js": "jotai_js_file_dark",
+    "atom/app.js": "jotai_js_file_dark",
+    "jotai/app.js": "jotai_js_file_dark",
+    "atom.js": "jotai_js_file_dark",
+    "atom.ts": "jotai_ts_file_dark",
+    "atoms.js": "jotai_js_file_dark",
+    "atoms.ts": "jotai_ts_file_dark"
+  }
+}
