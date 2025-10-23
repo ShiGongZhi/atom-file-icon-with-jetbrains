@@ -32,8 +32,11 @@
     "githubActions": {
       "iconPath": "./files/githubActions.svg"
     },
-    "githubCode": {
-      "iconPath": "./files/githubCode.svg"
+    "githubCode_file_dark": {
+      "iconPath": "./files/githubCode_file_dark.svg"
+    },
+    "githubCode_file_light": {
+      "iconPath": "./files/githubCode_file_light.svg"
     },
     "githubContributing": {
       "iconPath": "./files/githubContributing.svg"
@@ -4754,11 +4757,17 @@
     "folder-ansible-open": {
       "iconPath": "./foldersOpen/ansible.svg"
     },
-    "folder-api": {
-      "iconPath": "./folders/api.svg"
+    "api_folder_dark": {
+      "iconPath": "./folders/api_folder_dark.svg"
     },
-    "folder-api-open": {
-      "iconPath": "./foldersOpen/api.svg"
+    "api_folder_light": {
+      "iconPath": "./folders/api_folder_light.svg"
+    },
+    "api_folder_open_dark": {
+      "iconPath": "./foldersOpen/api_folder_open_dark.svg"
+    },
+    "api_folder_open_light": {
+      "iconPath": "./foldersOpen/api_folder_open_light.svg"
     },
     "folder-apollo": {
       "iconPath": "./folders/apollo.svg"
@@ -6703,21 +6712,21 @@
     "vars": "folder-ansible",
     ".vars": "folder-ansible",
     "_vars": "folder-ansible",
-    "api": "folder-api",
-    ".api": "folder-api",
-    "_api": "folder-api",
-    "apis": "folder-api",
-    ".apis": "folder-api",
-    "_apis": "folder-api",
-    "openapi": "folder-api",
-    ".openapi": "folder-api",
-    "_openapi": "folder-api",
-    "rest": "folder-api",
-    ".rest": "folder-api",
-    "_rest": "folder-api",
-    "parsers": "folder-api",
-    ".parsers": "folder-api",
-    "_parsers": "folder-api",
+    "api": "api_folder_dark",
+    ".api": "api_folder_dark",
+    "_api": "api_folder_dark",
+    "apis": "api_folder_dark",
+    ".apis": "api_folder_dark",
+    "_apis": "api_folder_dark",
+    "openapi": "api_folder_dark",
+    ".openapi": "api_folder_dark",
+    "_openapi": "api_folder_dark",
+    "rest": "api_folder_dark",
+    ".rest": "api_folder_dark",
+    "_rest": "api_folder_dark",
+    "parsers": "api_folder_dark",
+    ".parsers": "api_folder_dark",
+    "_parsers": "api_folder_dark",
     "apollo": "folder-apollo",
     ".apollo": "folder-apollo",
     "_apollo": "folder-apollo",
@@ -10701,21 +10710,21 @@
     "vars": "folder-ansible-open",
     ".vars": "folder-ansible-open",
     "_vars": "folder-ansible-open",
-    "api": "folder-api-open",
-    ".api": "folder-api-open",
-    "_api": "folder-api-open",
-    "apis": "folder-api-open",
-    ".apis": "folder-api-open",
-    "_apis": "folder-api-open",
-    "openapi": "folder-api-open",
-    ".openapi": "folder-api-open",
-    "_openapi": "folder-api-open",
-    "rest": "folder-api-open",
-    ".rest": "folder-api-open",
-    "_rest": "folder-api-open",
-    "parsers": "folder-api-open",
-    ".parsers": "folder-api-open",
-    "_parsers": "folder-api-open",
+    "api": "api_folder_open_dark",
+    ".api": "api_folder_open_dark",
+    "_api": "api_folder_open_dark",
+    "apis": "api_folder_open_dark",
+    ".apis": "api_folder_open_dark",
+    "_apis": "api_folder_open_dark",
+    "openapi": "api_folder_open_dark",
+    ".openapi": "api_folder_open_dark",
+    "_openapi": "api_folder_open_dark",
+    "rest": "api_folder_open_dark",
+    ".rest": "api_folder_open_dark",
+    "_rest": "api_folder_open_dark",
+    "parsers": "api_folder_open_dark",
+    ".parsers": "api_folder_open_dark",
+    "_parsers": "api_folder_open_dark",
     "apollo": "folder-apollo-open",
     ".apollo": "folder-apollo-open",
     "_apollo": "folder-apollo-open",
@@ -18421,8 +18430,8 @@
     ".github/release.yml": "githubActions",
     ".github/workflow.yaml": "githubActions",
     ".github/workflow.yml": "githubActions",
-    "CODE_OF_CONDUCT.md": "githubCode",
-    "CODE_OF_CONDUCT.txt": "githubCode",
+    "CODE_OF_CONDUCT.md": "githubCode_file_dark",
+    "CODE_OF_CONDUCT.txt": "githubCode_file_dark",
     "CONTRIBUTING.md": "githubContributing",
     "CONTRIBUTING.txt": "githubContributing",
     "COMMIT_MESSAGE_TEMPLATE.md": "github_dark",
@@ -22029,6 +22038,8 @@
       "tss": "css_file_light"
     },
     "fileNames": {
+      "CODE_OF_CONDUCT.md": "githubCode_file_light",
+      "CODE_OF_CONDUCT.txt": "githubCode_file_light",
       "app.cjs": "nodejs_file_light",
       "app.js": "nodejs_file_light",
       "app.mjs": "nodejs_file_light",
@@ -22173,6 +22184,21 @@
       "zeitignore": "zeit_file_light"
     },
     "folderNames": {
+      "api": "api_folder_light",
+      ".api": "api_folder_light",
+      "_api": "api_folder_light",
+      "apis": "api_folder_light",
+      ".apis": "api_folder_light",
+      "_apis": "api_folder_light",
+      "openapi": "api_folder_light",
+      ".openapi": "api_folder_light",
+      "_openapi": "api_folder_light",
+      "rest": "api_folder_light",
+      ".rest": "api_folder_light",
+      "_rest": "api_folder_light",
+      "parsers": "api_folder_light",
+      ".parsers": "api_folder_light",
+      "_parsers": "api_folder_light",
       "empty": "empties_folder_light",
       ".empty": "empties_folder_light",
       "_empty": "empties_folder_light",
@@ -22187,6 +22213,21 @@
       "_stocks": "empties_folder_light"
     },
     "folderNamesExpanded": {
+      "api": "api_folder_open_light",
+      ".api": "api_folder_open_light",
+      "_api": "api_folder_open_light",
+      "apis": "api_folder_open_light",
+      ".apis": "api_folder_open_light",
+      "_apis": "api_folder_open_light",
+      "openapi": "api_folder_open_light",
+      ".openapi": "api_folder_open_light",
+      "_openapi": "api_folder_open_light",
+      "rest": "api_folder_open_light",
+      ".rest": "api_folder_open_light",
+      "_rest": "api_folder_open_light",
+      "parsers": "api_folder_open_light",
+      ".parsers": "api_folder_open_light",
+      "_parsers": "api_folder_open_light",
       "empty": "empties_folder_open_light",
       ".empty": "empties_folder_open_light",
       "_empty": "empties_folder_open_light",
