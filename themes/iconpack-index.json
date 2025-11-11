@@ -1,7 +1,7 @@
 {
   "iconDefinitions": {
-    "routesfiles": {
-      "iconPath": "./files/routesfiles.svg"
+    "index_routes_file": {
+      "iconPath": "./files/index_routes_file.svg"
     },
     "index_html_file": {
       "iconPath": "./files/index_html_file.svg"
@@ -26,18 +26,18 @@
     }
   },
   "fileNames": {
-    "router/index.js": "routesfiles",
-    "router/index.jsx": "routesfiles",
-    "router/index.ts": "routesfiles",
-    "router/index.tsx": "routesfiles",
-    "routes/index.js": "routesfiles",
-    "routes/index.jsx": "routesfiles",
-    "routes/index.ts": "routesfiles",
-    "routes/index.tsx": "routesfiles",
-    "routing/index.js": "routesfiles",
-    "routing/index.jsx": "routesfiles",
-    "routing/index.ts": "routesfiles",
-    "routing/index.tsx": "routesfiles",
+    "router/index.js": "index_routes_file",
+    "router/index.jsx": "index_routes_file",
+    "router/index.ts": "index_routes_file",
+    "router/index.tsx": "index_routes_file",
+    "routes/index.js": "index_routes_file",
+    "routes/index.jsx": "index_routes_file",
+    "routes/index.ts": "index_routes_file",
+    "routes/index.tsx": "index_routes_file",
+    "routing/index.js": "index_routes_file",
+    "routing/index.jsx": "index_routes_file",
+    "routing/index.ts": "index_routes_file",
+    "routing/index.tsx": "index_routes_file",
     "index.html": "index_html_file",
     "index.htm": "index_html_file",
     "index.phtml": "index_html_file",

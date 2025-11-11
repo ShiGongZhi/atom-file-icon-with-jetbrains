@@ -2,7 +2,7 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "0.1.27",
+  "version": "1.0.13",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
@@ -32,6 +32,11 @@
           "type": "boolean",
           "default": false,
           "description": "Use New Angular Icons"
+        },
+        "atom-file-icon-with-jetbrains.iconpack-eslint": {
+          "type": "boolean",
+          "default": false,
+          "description": "Files in eslint folder have ESLint Icons"
         },
         "atom-file-icon-with-jetbrains.iconpack-nest": {
           "type": "boolean",
@@ -72,6 +77,16 @@
           "type": "boolean",
           "default": false,
           "description": "Use Redux Icons"
+        },
+        "atom-file-icon-with-jetbrains.iconpack-router": {
+          "type": "boolean",
+          "default": false,
+          "description": "Files in router folder have Router Icons"
+        },
+        "atom-file-icon-with-jetbrains.iconpack-test": {
+          "type": "boolean",
+          "default": false,
+          "description": "Files in test folder have Test Icons"
         },
         "atom-file-icon-with-jetbrains.iconpack-volt": {
           "type": "boolean",

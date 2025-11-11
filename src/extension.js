@@ -67,7 +67,7 @@ function updateIconTheme(showNotification = false) {
   try {
     // 获取扩展路径
     const extensionPath = vscode.extensions.getExtension(
-      'SoulFriends.atom-file-icon-with-jetbrains'
+      'SoulFriends.atom-file-icon-with-jetbrains',
     )?.extensionPath
     if (!extensionPath) {
       console.error('无法获取扩展路径')
@@ -79,14 +79,14 @@ function updateIconTheme(showNotification = false) {
     const outputThemePath = path.join(
       extensionPath,
       'themes',
-      'a-wl-file-icon-vscode-icon-theme.json'
+      'a-wl-file-icon-vscode-icon-theme.json',
     )
 
     // 确保基础主题文件存在
     if (!fs.existsSync(baseThemePath)) {
       console.error('基础主题文件不存在')
       vscode.window.showErrorMessage(
-        'Some files are missing and the extension may not work properly'
+        'Some files are missing and the extension may not work properly',
       )
       return
     }
@@ -113,7 +113,7 @@ function updateIconTheme(showNotification = false) {
     mergedTheme.light = mergeThemeVariant(mergedTheme.light || {}, mergedTheme)
 
     const config = vscode.workspace.getConfiguration(
-      'atom-file-icon-with-jetbrains'
+      'atom-file-icon-with-jetbrains',
     )
 
     // 新增图标包起始
@@ -138,6 +138,7 @@ function updateIconTheme(showNotification = false) {
     const iconPackArray = [
       'iconpack-angular-old',
       'iconpack-angular-new',
+      'iconpack-eslint',
       'iconpack-jotai',
       'iconpack-nest',
       'iconpack-next',
@@ -146,11 +147,13 @@ function updateIconTheme(showNotification = false) {
       'iconpack-rails',
       'iconpack-recoil',
       'iconpack-redux',
+      'iconpack-router',
+      'iconpack-test',
       'iconpack-volt',
-      'iconpack-index'
+      'iconpack-index',
     ].map((item) => [
       config.get(item, false),
-      path.join(extensionPath, 'themes', item + '.json')
+      path.join(extensionPath, 'themes', item + '.json'),
     ])
     // 新增图标包结束
 
@@ -198,7 +201,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.iconDefinitions) {
     merged.iconDefinitions = {
       ...merged.iconDefinitions,
-      ...additionalTheme.iconDefinitions
+      ...additionalTheme.iconDefinitions,
     }
   }
 
@@ -206,7 +209,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.fileExtensions) {
     merged.fileExtensions = {
       ...merged.fileExtensions,
-      ...additionalTheme.fileExtensions
+      ...additionalTheme.fileExtensions,
     }
   }
 
@@ -214,7 +217,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.fileNames) {
     merged.fileNames = {
       ...merged.fileNames,
-      ...additionalTheme.fileNames
+      ...additionalTheme.fileNames,
     }
   }
 
@@ -222,7 +225,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.folderNames) {
     merged.folderNames = {
       ...merged.folderNames,
-      ...additionalTheme.folderNames
+      ...additionalTheme.folderNames,
     }
   }
 
@@ -230,7 +233,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.folderNamesExpanded) {
     merged.folderNamesExpanded = {
       ...merged.folderNamesExpanded,
-      ...additionalTheme.folderNamesExpanded
+      ...additionalTheme.folderNamesExpanded,
     }
   }
 
@@ -238,7 +241,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.languageIds) {
     merged.languageIds = {
       ...merged.languageIds,
-      ...additionalTheme.languageIds
+      ...additionalTheme.languageIds,
     }
   }
 
@@ -251,7 +254,7 @@ function mergeThemes(baseTheme, additionalTheme) {
   if (additionalTheme.highContrast) {
     merged.highContrast = mergeThemes(
       merged.highContrast || {},
-      additionalTheme.highContrast
+      additionalTheme.highContrast,
     )
   }
 
@@ -264,21 +267,21 @@ function mergeThemeVariant(baseVariant, additionalVariant) {
   if (additionalVariant.fileExtensions) {
     merged.fileExtensions = {
       ...additionalVariant.fileExtensions,
-      ...merged.fileExtensions
+      ...merged.fileExtensions,
     }
   }
 
   if (additionalVariant.fileNames) {
     merged.fileNames = {
       ...additionalVariant.fileNames,
-      ...merged.fileNames
+      ...merged.fileNames,
     }
   }
 
   if (additionalVariant.languageIds) {
     merged.languageIds = {
       ...additionalVariant.languageIds,
-      ...merged.languageIds
+      ...merged.languageIds,
     }
   }
 
@@ -290,5 +293,5 @@ function deactivate() {}
 module.exports = {
   activate,
   deactivate,
-  getCurrentThemeType
+  getCurrentThemeType,
 }

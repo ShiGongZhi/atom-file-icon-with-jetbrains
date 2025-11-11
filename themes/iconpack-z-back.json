@@ -1,22 +1,14 @@
 {
+  "iconDefinitions": {
+    "eslintfiles_file": {
+      "iconPath": "./files/eslintfiles_file.svg"
+    }
+  },
   "fileExtensions": {
-    "router/js": "routesfiles",
-    "router/jsx": "routesfiles",
-    "router/ts": "routesfiles",
-    "router/tsx": "routesfiles",
-    "routes/js": "routesfiles",
-    "routes/jsx": "routesfiles",
-    "routes/ts": "routesfiles",
-    "routes/tsx": "routesfiles",
-    "routing/js": "routesfiles",
-    "routing/jsx": "routesfiles",
-    "routing/ts": "routesfiles",
-    "routing/tsx": "routesfiles",
-
-    "rules/js": "eslintrules",
-    "rules/ts": "eslintrules",
-    "rules/cjs": "eslintrules",
-    "rules/ms": "eslintrules"
+    "rules/js": "eslintfiles_file",
+    "rules/ts": "eslintfiles_file",
+    "rules/cjs": "eslintfiles_file",
+    "rules/ms": "eslintfiles_file"
   },
   "languageIds": {},
   "light": {

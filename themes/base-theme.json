@@ -26,14 +26,74 @@
     "index": {
       "iconPath": "./files/index.svg"
     },
+    "properties_file": {
+      "iconPath": "./files/properties_file.svg"
+    },
+    "prompt_file": {
+      "iconPath": "./files/prompt_file.svg"
+    },
+    "copilot_file_dark": {
+      "iconPath": "./files/copilot_file_dark.svg"
+    },
+    "copilot_file_light": {
+      "iconPath": "./files/copilot_file_light.svg"
+    },
+    "eslint_folder": {
+      "iconPath": "./folders/eslint_folder.svg"
+    },
+    "eslint_folder_open": {
+      "iconPath": "./foldersOpen/eslint_folder_open.svg"
+    },
+    "claude_file_dark": {
+      "iconPath": "./files/claude_file_dark.svg"
+    },
+    "claude_file_light": {
+      "iconPath": "./files/claude_file_light.svg"
+    },
+    "claude_folder": {
+      "iconPath": "./folders/claude_folder.svg"
+    },
+    "claude_folder_open": {
+      "iconPath": "./foldersOpen/claude_folder_open.svg"
+    },
+    "cursor_folder_dark": {
+      "iconPath": "./folders/cursor_folder_dark.svg"
+    },
+    "cursor_folder_light": {
+      "iconPath": "./folders/cursor_folder_light.svg"
+    },
+    "cursor_folder_open_dark": {
+      "iconPath": "./foldersOpen/cursor_folder_open_dark.svg"
+    },
+    "cursor_folder_open_light": {
+      "iconPath": "./foldersOpen/cursor_folder_open_light.svg"
+    },
+    "cursor_file_dark": {
+      "iconPath": "./files/cursor_file_dark.svg"
+    },
+    "cursor_file_light": {
+      "iconPath": "./files/cursor_file_light.svg"
+    },
+    "mdc_file": {
+      "iconPath": "./files/mdc_file.svg"
+    },
+    "mcp_file_dark": {
+      "iconPath": "./files/mcp_file_dark.svg"
+    },
+    "mcp_file_light": {
+      "iconPath": "./files/mcp_file_light.svg"
+    },
     "architecture": {
       "iconPath": "./files/architecture.svg"
     },
     "githubActions": {
       "iconPath": "./files/githubActions.svg"
     },
-    "githubCode": {
-      "iconPath": "./files/githubCode.svg"
+    "githubCode_file_dark": {
+      "iconPath": "./files/githubCode_file_dark.svg"
+    },
+    "githubCode_file_light": {
+      "iconPath": "./files/githubCode_file_light.svg"
     },
     "githubContributing": {
       "iconPath": "./files/githubContributing.svg"
@@ -641,8 +701,8 @@
     "brotli": {
       "iconPath": "./files/brotli.svg"
     },
-    "browserslist": {
-      "iconPath": "./files/browserslist.svg"
+    "browserslist_file": {
+      "iconPath": "./files/browserslist_file.svg"
     },
     "browsersync": {
       "iconPath": "./files/browsersync.svg"
@@ -959,8 +1019,11 @@
     "creole": {
       "iconPath": "./files/creole.svg"
     },
-    "crowdin": {
-      "iconPath": "./files/crowdin.svg"
+    "crowdin_file_dark": {
+      "iconPath": "./files/crowdin_file_dark.svg"
+    },
+    "crowdin_file_light": {
+      "iconPath": "./files/crowdin_file_light.svg"
     },
     "crystal": {
       "iconPath": "./files/crystal.svg"
@@ -1292,8 +1355,8 @@
     "edge": {
       "iconPath": "./files/edge.svg"
     },
-    "editorconfig": {
-      "iconPath": "./files/editorconfig.svg"
+    "editorconfig_file": {
+      "iconPath": "./files/editorconfig_file.svg"
     },
     "egg": {
       "iconPath": "./files/egg.svg"
@@ -1361,17 +1424,14 @@
     "esdoc": {
       "iconPath": "./files/esdoc.svg"
     },
-    "eslint": {
-      "iconPath": "./files/eslint.svg"
+    "eslint_file_dark": {
+      "iconPath": "./files/eslint_file_dark.svg"
     },
-    "eslintconfig": {
-      "iconPath": "./files/eslintconfig.svg"
+    "eslint_file_light": {
+      "iconPath": "./files/eslint_file_light.svg"
     },
-    "eslintrules": {
-      "iconPath": "./files/eslintrules.svg"
-    },
-    "eslintcache": {
-      "iconPath": "./files/eslintcache.svg"
+    "eslintcache_file": {
+      "iconPath": "./files/eslintcache_file.svg"
     },
     "eslintignore_file_dark": {
       "iconPath": "./files/eslintignore_file_dark.svg"
@@ -1916,11 +1976,11 @@
     "huskyhooksfiles": {
       "iconPath": "./files/huskyhooksfiles.svg"
     },
-    "huskyfiles": {
-      "iconPath": "./files/huskyfiles.svg"
+    "husky_file_dark": {
+      "iconPath": "./files/husky_file_dark.svg"
     },
-    "husky": {
-      "iconPath": "./files/husky.svg"
+    "husky_file_light": {
+      "iconPath": "./files/husky_file_light.svg"
     },
     "hy": {
       "iconPath": "./files/hy.svg"
@@ -1952,8 +2012,11 @@
     "icomoon": {
       "iconPath": "./files/icomoon.svg"
     },
-    "icu": {
-      "iconPath": "./files/icu.svg"
+    "icu_file_dark": {
+      "iconPath": "./files/icu_file_dark.svg"
+    },
+    "icu_file_light": {
+      "iconPath": "./files/icu_file_light.svg"
     },
     "idea": {
       "iconPath": "./files/idea.svg"
@@ -1967,8 +2030,11 @@
     "igor": {
       "iconPath": "./files/igor.svg"
     },
-    "imba": {
-      "iconPath": "./files/imba.svg"
+    "imba_file_dark": {
+      "iconPath": "./files/imba_file_dark.svg"
+    },
+    "imba_file_light": {
+      "iconPath": "./files/imba_file_light.svg"
     },
     "imgbot": {
       "iconPath": "./files/imgbot.svg"
@@ -2000,11 +2066,11 @@
     "iso": {
       "iconPath": "./files/iso.svg"
     },
-    "istanbul": {
-      "iconPath": "./files/istanbul.svg"
+    "istanbul_file_dark": {
+      "iconPath": "./files/istanbul_file_dark.svg"
     },
-    "istanbulconf": {
-      "iconPath": "./files/istanbulconf.svg"
+    "istanbul_file_light": {
+      "iconPath": "./files/istanbul_file_light.svg"
     },
     "io": {
       "iconPath": "./files/io.svg"
@@ -2138,11 +2204,17 @@
     "jsp": {
       "iconPath": "./files/jsp.svg"
     },
-    "jsr": {
-      "iconPath": "./files/jsr.svg"
+    "jsr_file_dark": {
+      "iconPath": "./files/jsr_file_dark.svg"
     },
-    "jss": {
-      "iconPath": "./files/jss.svg"
+    "jsr_file_light": {
+      "iconPath": "./files/jsr_file_light.svg"
+    },
+    "jss_file_dark": {
+      "iconPath": "./files/jss_file_dark.svg"
+    },
+    "jss_file_light": {
+      "iconPath": "./files/jss_file_light.svg"
     },
     "julia": {
       "iconPath": "./files/julia.svg"
@@ -2342,11 +2414,11 @@
     "llvm": {
       "iconPath": "./files/llvm.svg"
     },
-    "log": {
-      "iconPath": "./files/log.svg"
+    "log_file_dark": {
+      "iconPath": "./files/log_file_dark.svg"
     },
-    "logreport": {
-      "iconPath": "./files/logreport.svg"
+    "log_file_light": {
+      "iconPath": "./files/log_file_light.svg"
     },
     "logtalk": {
       "iconPath": "./files/logtalk.svg"
@@ -2456,8 +2528,11 @@
     "maya": {
       "iconPath": "./files/maya.svg"
     },
-    "mdx": {
-      "iconPath": "./files/mdx.svg"
+    "mdx_file_dark": {
+      "iconPath": "./files/mdx_file_dark.svg"
+    },
+    "mdx_file_light": {
+      "iconPath": "./files/mdx_file_light.svg"
     },
     "mediawiki": {
       "iconPath": "./files/mediawiki.svg"
@@ -2765,8 +2840,17 @@
     "nowignore_file_light": {
       "iconPath": "./files/nowignore_file_light.svg"
     },
-    "npm": {
-      "iconPath": "./files/npm.svg"
+    "npmrc_file_dark": {
+      "iconPath": "./files/npmrc_file_dark.svg"
+    },
+    "npmrc_file_light": {
+      "iconPath": "./files/npmrc_file_light.svg"
+    },
+    "npm_file_dark": {
+      "iconPath": "./files/npm_file_dark.svg"
+    },
+    "npm_file_light": {
+      "iconPath": "./files/npm_file_light.svg"
     },
     "npmignore_file_dark": {
       "iconPath": "./files/npmignore_file_dark.svg"
@@ -2783,11 +2867,17 @@
     "nsis": {
       "iconPath": "./files/nsis.svg"
     },
-    "nsri": {
-      "iconPath": "./files/nsri.svg"
+    "nsri_file_dark": {
+      "iconPath": "./files/nsri_file_dark.svg"
     },
-    "nsriignore": {
-      "iconPath": "./files/nsriignore.svg"
+    "nsri_file_light": {
+      "iconPath": "./files/nsri_file_light.svg"
+    },
+    "nsriignore_file_dark": {
+      "iconPath": "./files/nsriignore_file_dark.svg"
+    },
+    "nsriignore_file_light": {
+      "iconPath": "./files/nsriignore_file_light.svg"
     },
     "nu": {
       "iconPath": "./files/nu.svg"
@@ -3089,11 +3179,11 @@
     "pm2": {
       "iconPath": "./files/pm2.svg"
     },
-    "pnpm": {
-      "iconPath": "./files/pnpm.svg"
+    "pnpm_file_dark": {
+      "iconPath": "./files/pnpm_file_dark.svg"
     },
-    "pnpmfile": {
-      "iconPath": "./files/pnpmfile.svg"
+    "pnpm_file_light": {
+      "iconPath": "./files/pnpm_file_light.svg"
     },
     "pod": {
       "iconPath": "./files/pod.svg"
@@ -3116,8 +3206,8 @@
     "postcss": {
       "iconPath": "./files/postcss.svg"
     },
-    "postcssconfig": {
-      "iconPath": "./files/postcssconfig.svg"
+    "postcssconfig_file": {
+      "iconPath": "./files/postcssconfig_file.svg"
     },
     "posthtml": {
       "iconPath": "./files/posthtml.svg"
@@ -3146,17 +3236,17 @@
     "preact": {
       "iconPath": "./files/preact.svg"
     },
-    "prettier": {
-      "iconPath": "./files/prettier.svg"
+    "prettier_file_dark": {
+      "iconPath": "./files/prettier_file_dark_back.svg"
     },
-    "prettierconfig": {
-      "iconPath": "./files/prettierconfig.svg"
+    "prettier_file_light": {
+      "iconPath": "./files/prettier_file_light_back.svg"
     },
     "prettierignore_file_dark": {
-      "iconPath": "./files/prettierignore_file_dark.svg"
+      "iconPath": "./files/prettierignore_file_dark_back.svg"
     },
     "prettierignore_file_light": {
-      "iconPath": "./files/prettierignore_file_light.svg"
+      "iconPath": "./files/prettierignore_file_light_back.svg"
     },
     "prismaconfig": {
       "iconPath": "./files/prismaconfig.svg"
@@ -3236,23 +3326,32 @@
     "pytyped": {
       "iconPath": "./files/pytyped.svg"
     },
-    "pythonconfig": {
-      "iconPath": "./files/pythonconfig.svg"
+    "pythonconfig_file_dark": {
+      "iconPath": "./files/pythonconfig_file_dark.svg"
     },
-    "pythonconfigs": {
-      "iconPath": "./files/pythonconfigs.svg"
+    "pythonconfig_file_light": {
+      "iconPath": "./files/pythonconfig_file_light.svg"
     },
-    "pythonversion": {
-      "iconPath": "./files/pythonversion.svg"
+    "pythonconfigs_file_dark": {
+      "iconPath": "./files/pythonconfig_file_dark.svg"
+    },
+    "pythonconfigs_file_light": {
+      "iconPath": "./files/pythonconfig_file_light.svg"
+    },
+    "pythonversion_file_dark": {
+      "iconPath": "./files/pythonconfig_file_dark.svg"
+    },
+    "pythonversion_file_light": {
+      "iconPath": "./files/pythonconfig_file_light.svg"
     },
     "pyup": {
       "iconPath": "./files/pyup.svg"
     },
-    "qsharp": {
-      "iconPath": "./files/qsharp.svg"
+    "qsharp_file_dark": {
+      "iconPath": "./files/qsharp_file_dark.svg"
     },
-    "qsharp_dark": {
-      "iconPath": "./files/qsharp_dark.svg"
+    "qsharp_file_light": {
+      "iconPath": "./files/qsharp_file_light.svg"
     },
     "qiskit": {
       "iconPath": "./files/qiskit.svg"
@@ -4055,8 +4154,11 @@
     "uno": {
       "iconPath": "./files/uno.svg"
     },
-    "unocss": {
-      "iconPath": "./files/unocss.svg"
+    "unocss_file_dark": {
+      "iconPath": "./files/unocss_file_dark.svg"
+    },
+    "unocss_file_light": {
+      "iconPath": "./files/unocss_file_light.svg"
     },
     "unreal": {
       "iconPath": "./files/unreal.svg"
@@ -4139,8 +4241,8 @@
     "vs": {
       "iconPath": "./files/vs.svg"
     },
-    "vitest": {
-      "iconPath": "./files/vitest.svg"
+    "vitest_file": {
+      "iconPath": "./files/vitest_file.svg"
     },
     "vite": {
       "iconPath": "./files/vite.svg"
@@ -4160,11 +4262,17 @@
     "vsix_file_dark": {
       "iconPath": "./files/vsix_file_dark.svg"
     },
-    "vscode": {
-      "iconPath": "./files/vscode.svg"
+    "vscode_file_dark": {
+      "iconPath": "./files/vscode_file_dark.svg"
     },
-    "vscodesettings": {
-      "iconPath": "./files/vscodesettings.svg"
+    "vscode_file_light": {
+      "iconPath": "./files/vscode_file_light.svg"
+    },
+    "vscodesettings_file": {
+      "iconPath": "./files/vscodesettings_file.svg"
+    },
+    "vscodejson_file": {
+      "iconPath": "./files/vscodejson_file.svg"
     },
     "vscodeignore_file_dark": {
       "iconPath": "./files/vscodeignore_file_dark.svg"
@@ -4181,8 +4289,8 @@
     "tfsignore_file_light": {
       "iconPath": "./files/tfsignore_file_light.svg"
     },
-    "vueconfig": {
-      "iconPath": "./files/vueconfig.svg"
+    "vueconfig_file": {
+      "iconPath": "./files/vueconfig_file.svg"
     },
     "vuerc": {
       "iconPath": "./files/vuerc.svg"
@@ -4367,8 +4475,11 @@
     "yamllint": {
       "iconPath": "./files/yamllint.svg"
     },
-    "yandex": {
-      "iconPath": "./files/yandex.svg"
+    "yandex_file_dark": {
+      "iconPath": "./files/yandex_file_dark.svg"
+    },
+    "yandex_file_light": {
+      "iconPath": "./files/yandex_file_light.svg"
     },
     "yang": {
       "iconPath": "./files/yang.svg"
@@ -4577,8 +4688,11 @@
     "tsx_file_light": {
       "iconPath": "./files/index_tsx_file_light.svg"
     },
-    "json": {
-      "iconPath": "./files/json.svg"
+    "json_file_dark": {
+      "iconPath": "./files/json_file_dark.svg"
+    },
+    "json_file_light": {
+      "iconPath": "./files/json_file_light.svg"
     },
     "kotlin": {
       "iconPath": "./files/kotlin.svg"
@@ -4595,8 +4709,8 @@
     "lua": {
       "iconPath": "./files/lua.svg"
     },
-    "nginx": {
-      "iconPath": "./files/nginx.svg"
+    "nginx_file": {
+      "iconPath": "./files/nginx_file.svg"
     },
     "perl": {
       "iconPath": "./files/perl.svg"
@@ -4604,11 +4718,17 @@
     "php": {
       "iconPath": "./files/php.svg"
     },
-    "python": {
-      "iconPath": "./files/python.svg"
+    "python_file_dark": {
+      "iconPath": "./files/python_file_dark.svg"
     },
-    "python2": {
-      "iconPath": "./files/python2.svg"
+    "python_file_light": {
+      "iconPath": "./files/python_file_light.svg"
+    },
+    "python2_file_dark": {
+      "iconPath": "./files/python2_file_dark.svg"
+    },
+    "python2_file_light": {
+      "iconPath": "./files/python2_file_light.svg"
     },
     "ruby": {
       "iconPath": "./files/ruby.svg"
@@ -4628,8 +4748,8 @@
     "toml": {
       "iconPath": "./files/toml.svg"
     },
-    "text": {
-      "iconPath": "./files/text.svg"
+    "text_file": {
+      "iconPath": "./files/text_file.svg"
     },
     "ts_file_dark": {
       "iconPath": "./files/ts_file_dark.svg"
@@ -4661,14 +4781,29 @@
     "vue": {
       "iconPath": "./files/vue.svg"
     },
-    "xml": {
-      "iconPath": "./files/xml.svg"
+    "xml_file_dark": {
+      "iconPath": "./files/xml_file_dark.svg"
     },
-    "wsdl": {
-      "iconPath": "./files/wsdl.svg"
+    "xml_file_light": {
+      "iconPath": "./files/xml_file_light.svg"
     },
-    "xsd": {
-      "iconPath": "./files/xsd.svg"
+    "wsdl_file_dark": {
+      "iconPath": "./files/wsdl_file_dark.svg"
+    },
+    "wsdl_file_light": {
+      "iconPath": "./files/wsdl_file_light.svg"
+    },
+    "xsd_file_dark": {
+      "iconPath": "./files/xsd_file_dark.svg"
+    },
+    "xsd_file_light": {
+      "iconPath": "./files/xsd_file_light.svg"
+    },
+    "xsl_file_dark": {
+      "iconPath": "./files/xsl_file_dark.svg"
+    },
+    "xsl_file_light": {
+      "iconPath": "./files/xsl_file_light.svg"
     },
     "yaml_file_dark": {
       "iconPath": "./files/yaml_file_dark.svg"
@@ -4754,11 +4889,17 @@
     "folder-ansible-open": {
       "iconPath": "./foldersOpen/ansible.svg"
     },
-    "folder-api": {
-      "iconPath": "./folders/api.svg"
+    "api_folder_dark": {
+      "iconPath": "./folders/api_folder_dark.svg"
     },
-    "folder-api-open": {
-      "iconPath": "./foldersOpen/api.svg"
+    "api_folder_light": {
+      "iconPath": "./folders/api_folder_light.svg"
+    },
+    "api_folder_open_dark": {
+      "iconPath": "./foldersOpen/api_folder_open_dark.svg"
+    },
+    "api_folder_open_light": {
+      "iconPath": "./foldersOpen/api_folder_open_light.svg"
     },
     "folder-apollo": {
       "iconPath": "./folders/apollo.svg"
@@ -5468,11 +5609,17 @@
     "folder-hook-open": {
       "iconPath": "./foldersOpen/hook.svg"
     },
-    "folder-husky": {
-      "iconPath": "./folders/husky.svg"
+    "husky_folder_dark": {
+      "iconPath": "./folders/husky_folder_dark.svg"
     },
-    "folder-husky-open": {
-      "iconPath": "./foldersOpen/husky.svg"
+    "husky_folder_light": {
+      "iconPath": "./folders/husky_folder_light.svg"
+    },
+    "husky_folder_open_dark": {
+      "iconPath": "./foldersOpen/husky_folder_open_dark.svg"
+    },
+    "husky_folder_open_light": {
+      "iconPath": "./foldersOpen/husky_folder_open_light.svg"
     },
     "folder-i18n": {
       "iconPath": "./folders/i18n.svg"
@@ -5540,11 +5687,17 @@
     "folder-islands-open": {
       "iconPath": "./foldersOpen/islands.svg"
     },
-    "folder-istanbul": {
-      "iconPath": "./folders/istanbul.svg"
+    "istanbul_folder_dark": {
+      "iconPath": "./folders/istanbul_folder_dark.svg"
     },
-    "folder-istanbul-open": {
-      "iconPath": "./foldersOpen/istanbul.svg"
+    "istanbul_folder_light": {
+      "iconPath": "./folders/istanbul_folder_light.svg"
+    },
+    "istanbul_folder_open_dark": {
+      "iconPath": "./foldersOpen/istanbul_folder_open_dark.svg"
+    },
+    "istanbul_folder_open_light": {
+      "iconPath": "./foldersOpen/istanbul_folder_open_light.svg"
     },
     "folder-ios": {
       "iconPath": "./folders/ios.svg"
@@ -5588,11 +5741,17 @@
     "folder-job-open": {
       "iconPath": "./foldersOpen/job.svg"
     },
-    "folder-json": {
-      "iconPath": "./folders/json.svg"
+    "json_folder_dark": {
+      "iconPath": "./folders/json_folder_dark.svg"
     },
-    "folder-json-open": {
-      "iconPath": "./foldersOpen/json.svg"
+    "json_folder_light": {
+      "iconPath": "./folders/json_folder_light.svg"
+    },
+    "json_folder_open_dark": {
+      "iconPath": "./foldersOpen/json_folder_open_dark.svg"
+    },
+    "json_folder_open_light": {
+      "iconPath": "./foldersOpen/json_folder_open_light.svg"
     },
     "folder-jwt": {
       "iconPath": "./folders/jwt.svg"
@@ -5906,11 +6065,17 @@
     "folder-php-open": {
       "iconPath": "./foldersOpen/php.svg"
     },
-    "folder-pinia": {
-      "iconPath": "./folders/pinia.svg"
+    "pinia_folder_dark": {
+      "iconPath": "./folders/pinia_folder_dark.svg"
     },
-    "folder-pinia-open": {
-      "iconPath": "./foldersOpen/pinia.svg"
+    "pinia_folder_light": {
+      "iconPath": "./folders/pinia_folder_light.svg"
+    },
+    "pinia_folder_open_dark": {
+      "iconPath": "./foldersOpen/pinia_folder_open_dark.svg"
+    },
+    "pinia_folder_open_light": {
+      "iconPath": "./foldersOpen/pinia_folder_open_light.svg"
     },
     "folder-pipe": {
       "iconPath": "./folders/pipe.svg"
@@ -5990,11 +6155,11 @@
     "folder-providers-open": {
       "iconPath": "./foldersOpen/providers.svg"
     },
-    "folder-python": {
-      "iconPath": "./folders/python.svg"
+    "python_folder": {
+      "iconPath": "./folders/python_folder.svg"
     },
-    "folder-python-open": {
-      "iconPath": "./foldersOpen/python.svg"
+    "python_folder_open": {
+      "iconPath": "./foldersOpen/python_folder_open.svg"
     },
     "folder-quasar": {
       "iconPath": "./folders/quasar.svg"
@@ -6212,11 +6377,29 @@
     "folder-shared-open": {
       "iconPath": "./foldersOpen/shared.svg"
     },
-    "folder-skeleton": {
-      "iconPath": "./folders/skeleton.svg"
+    "skeleton_folder_dark": {
+      "iconPath": "./folders/skeleton_folder_dark.svg"
     },
-    "folder-skeleton-open": {
-      "iconPath": "./foldersOpen/skeleton.svg"
+    "skeleton_folder_light": {
+      "iconPath": "./folders/skeleton_folder_light.svg"
+    },
+    "skeleton_folder_open_dark": {
+      "iconPath": "./foldersOpen/skeleton_folder_open_dark.svg"
+    },
+    "skeleton_folder_open_light": {
+      "iconPath": "./foldersOpen/skeleton_folder_open_light.svg"
+    },
+    "snippet_folder_dark": {
+      "iconPath": "./folders/snippet_folder_dark.svg"
+    },
+    "snippet_folder_light": {
+      "iconPath": "./folders/snippet_folder_light.svg"
+    },
+    "snippet_folder_open_dark": {
+      "iconPath": "./foldersOpen/snippet_folder_open_dark.svg"
+    },
+    "snippet_folder_open_light": {
+      "iconPath": "./foldersOpen/snippet_folder_open_light.svg"
     },
     "folder-src": {
       "iconPath": "./folders/src.svg"
@@ -6512,6 +6695,18 @@
     "folder-vscode-open": {
       "iconPath": "./foldersOpen/vscode.svg"
     },
+    "vscodetest_folder_dark": {
+      "iconPath": "./folders/vscodetest_folder_dark.svg"
+    },
+    "vscodetest_folder_light": {
+      "iconPath": "./folders/vscodetest_folder_light.svg"
+    },
+    "vscodetest_folder_open_dark": {
+      "iconPath": "./foldersOpen/vscodetest_folder_open_dark.svg"
+    },
+    "vscodetest_folder_open_light": {
+      "iconPath": "./foldersOpen/vscodetest_folder_open_light.svg"
+    },
     "folder-vue": {
       "iconPath": "./folders/vue.svg"
     },
@@ -6604,6 +6799,13 @@
     }
   },
   "folderNames": {
+    "eslint": "eslint_folder",
+    "eslint-plugin": "eslint_folder",
+    "eslint-plugins": "eslint_folder",
+    "eslint-config": "eslint_folder",
+    "eslint-configs": "eslint_folder",
+    ".claude": "claude_folder",
+    ".cursor": "cursor_folder_dark",
     "acf": "folder-acf",
     ".acf": "folder-acf",
     "_acf": "folder-acf",
@@ -6703,21 +6905,21 @@
     "vars": "folder-ansible",
     ".vars": "folder-ansible",
     "_vars": "folder-ansible",
-    "api": "folder-api",
-    ".api": "folder-api",
-    "_api": "folder-api",
-    "apis": "folder-api",
-    ".apis": "folder-api",
-    "_apis": "folder-api",
-    "openapi": "folder-api",
-    ".openapi": "folder-api",
-    "_openapi": "folder-api",
-    "rest": "folder-api",
-    ".rest": "folder-api",
-    "_rest": "folder-api",
-    "parsers": "folder-api",
-    ".parsers": "folder-api",
-    "_parsers": "folder-api",
+    "api": "api_folder_dark",
+    ".api": "api_folder_dark",
+    "_api": "api_folder_dark",
+    "apis": "api_folder_dark",
+    ".apis": "api_folder_dark",
+    "_apis": "api_folder_dark",
+    "openapi": "api_folder_dark",
+    ".openapi": "api_folder_dark",
+    "_openapi": "api_folder_dark",
+    "rest": "api_folder_dark",
+    ".rest": "api_folder_dark",
+    "_rest": "api_folder_dark",
+    "parsers": "api_folder_dark",
+    ".parsers": "api_folder_dark",
+    "_parsers": "api_folder_dark",
     "apollo": "folder-apollo",
     ".apollo": "folder-apollo",
     "_apollo": "folder-apollo",
@@ -8113,9 +8315,9 @@
     "composables": "folder-hook",
     ".composables": "folder-hook",
     "_composables": "folder-hook",
-    "husky": "folder-husky",
-    ".husky": "folder-husky",
-    "_husky": "folder-husky",
+    "husky": "husky_folder_dark",
+    ".husky": "husky_folder_dark",
+    "_husky": "husky_folder_dark",
     "g11n": "folder-i18n",
     ".g11n": "folder-i18n",
     "_g11n": "folder-i18n",
@@ -8338,18 +8540,18 @@
     "islands": "folder-islands",
     ".islands": "folder-islands",
     "_islands": "folder-islands",
-    "istanbul": "folder-istanbul",
-    ".istanbul": "folder-istanbul",
-    "_istanbul": "folder-istanbul",
-    "nyc": "folder-istanbul",
-    ".nyc": "folder-istanbul",
-    "_nyc": "folder-istanbul",
-    "nyc_output": "folder-istanbul",
-    ".nyc_output": "folder-istanbul",
-    "_nyc_output": "folder-istanbul",
-    "nyc-output": "folder-istanbul",
-    ".nyc-output": "folder-istanbul",
-    "_nyc-output": "folder-istanbul",
+    "istanbul": "istanbul_folder_dark",
+    ".istanbul": "istanbul_folder_dark",
+    "_istanbul": "istanbul_folder_dark",
+    "nyc": "istanbul_folder_dark",
+    ".nyc": "istanbul_folder_dark",
+    "_nyc": "istanbul_folder_dark",
+    "nyc_output": "istanbul_folder_dark",
+    ".nyc_output": "istanbul_folder_dark",
+    "_nyc_output": "istanbul_folder_dark",
+    "nyc-output": "istanbul_folder_dark",
+    ".nyc-output": "istanbul_folder_dark",
+    "_nyc-output": "istanbul_folder_dark",
     "lproj": "folder-ios",
     ".lproj": "folder-ios",
     "_lproj": "folder-ios",
@@ -8413,21 +8615,21 @@
     "resque": "folder-job",
     ".resque": "folder-job",
     "_resque": "folder-job",
-    "json": "folder-json",
-    ".json": "folder-json",
-    "_json": "folder-json",
-    "jsons": "folder-json",
-    ".jsons": "folder-json",
-    "_jsons": "folder-json",
-    "serialization": "folder-json",
-    ".serialization": "folder-json",
-    "_serialization": "folder-json",
-    "serializer": "folder-json",
-    ".serializer": "folder-json",
-    "_serializer": "folder-json",
-    "serializers": "folder-json",
-    ".serializers": "folder-json",
-    "_serializers": "folder-json",
+    "json": "json_folder_dark",
+    ".json": "json_folder_dark",
+    "_json": "json_folder_dark",
+    "jsons": "json_folder_dark",
+    ".jsons": "json_folder_dark",
+    "_jsons": "json_folder_dark",
+    "serialization": "json_folder_dark",
+    ".serialization": "json_folder_dark",
+    "_serialization": "json_folder_dark",
+    "serializer": "json_folder_dark",
+    ".serializer": "json_folder_dark",
+    "_serializer": "json_folder_dark",
+    "serializers": "json_folder_dark",
+    ".serializers": "json_folder_dark",
+    "_serializers": "json_folder_dark",
     "jwt": "folder-jwt",
     ".jwt": "folder-jwt",
     "_jwt": "folder-jwt",
@@ -9157,9 +9359,9 @@
     "phtml": "folder-php",
     ".phtml": "folder-php",
     "_phtml": "folder-php",
-    "pinia": "folder-pinia",
-    ".pinia": "folder-pinia",
-    "_pinia": "folder-pinia",
+    "pinia": "pinia_folder_dark",
+    ".pinia": "pinia_folder_dark",
+    "_pinia": "pinia_folder_dark",
     "pipe": "folder-pipe",
     ".pipe": "folder-pipe",
     "_pipe": "folder-pipe",
@@ -9277,18 +9479,18 @@
     "providers": "folder-providers",
     ".providers": "folder-providers",
     "_providers": "folder-providers",
-    "python": "folder-python",
-    ".python": "folder-python",
-    "_python": "folder-python",
-    "py": "folder-python",
-    ".py": "folder-python",
-    "_py": "folder-python",
-    "pytest_cache": "folder-python",
-    ".pytest_cache": "folder-python",
-    "_pytest_cache": "folder-python",
-    "__pycache__": "folder-python",
-    ".__pycache__": "folder-python",
-    "___pycache__": "folder-python",
+    "python": "python_folder",
+    ".python": "python_folder",
+    "_python": "python_folder",
+    "py": "python_folder",
+    ".py": "python_folder",
+    "_py": "python_folder",
+    "pytest_cache": "python_folder",
+    ".pytest_cache": "python_folder",
+    "_pytest_cache": "python_folder",
+    "__pycache__": "python_folder",
+    ".__pycache__": "python_folder",
+    "___pycache__": "python_folder",
     "quasar": "folder-quasar",
     ".quasar": "folder-quasar",
     "_quasar": "folder-quasar",
@@ -9745,18 +9947,18 @@
     "shared_components": "folder-shared",
     ".shared_components": "folder-shared",
     "_shared_components": "folder-shared",
-    "skeleton": "folder-skeleton",
-    ".skeleton": "folder-skeleton",
-    "_skeleton": "folder-skeleton",
-    "skeletons": "folder-skeleton",
-    ".skeletons": "folder-skeleton",
-    "_skeletons": "folder-skeleton",
-    "placeholder": "folder-skeleton",
-    ".placeholder": "folder-skeleton",
-    "_placeholder": "folder-skeleton",
-    "placeholders": "folder-skeleton",
-    ".placeholders": "folder-skeleton",
-    "_placeholders": "folder-skeleton",
+    "skeleton": "skeleton_folder_dark",
+    ".skeleton": "skeleton_folder_dark",
+    "_skeleton": "skeleton_folder_dark",
+    "skeletons": "skeleton_folder_dark",
+    ".skeletons": "skeleton_folder_dark",
+    "_skeletons": "skeleton_folder_dark",
+    "placeholder": "skeleton_folder_dark",
+    ".placeholder": "skeleton_folder_dark",
+    "_placeholder": "skeleton_folder_dark",
+    "placeholders": "skeleton_folder_dark",
+    ".placeholders": "skeleton_folder_dark",
+    "_placeholders": "skeleton_folder_dark",
     "buildSrc": "folder-src",
     ".buildSrc": "folder-src",
     "_buildSrc": "folder-src",
@@ -9778,12 +9980,12 @@
     "srcset": "folder-src",
     ".srcset": "folder-src",
     "_srcset": "folder-src",
-    "snippet": "folder-src",
-    ".snippet": "folder-src",
-    "_snippet": "folder-src",
-    "snippets": "folder-src",
-    ".snippets": "folder-src",
-    "_snippets": "folder-src",
+    "snippet": "snippet_folder_dark",
+    ".snippet": "snippet_folder_dark",
+    "_snippet": "snippet_folder_dark",
+    "snippets": "snippet_folder_dark",
+    ".snippets": "snippet_folder_dark",
+    "_snippets": "snippet_folder_dark",
     "maria": "folder-sql",
     ".maria": "folder-sql",
     "_maria": "folder-sql",
@@ -10486,9 +10688,9 @@
     "vscode": "folder-vscode",
     ".vscode": "folder-vscode",
     "_vscode": "folder-vscode",
-    "vscode-test": "folder-vscode",
-    ".vscode-test": "folder-vscode",
-    "_vscode-test": "folder-vscode",
+    "vscode-test": "vscodetest_folder_dark",
+    ".vscode-test": "vscodetest_folder_dark",
+    "_vscode-test": "vscodetest_folder_dark",
     "vssettings": "folder-vscode",
     ".vssettings": "folder-vscode",
     "_vssettings": "folder-vscode",
@@ -10602,6 +10804,13 @@
     "_zod": "folder-zod"
   },
   "folderNamesExpanded": {
+    "eslint": "eslint_folder_open",
+    "eslint-plugin": "eslint_folder_open",
+    "eslint-plugins": "eslint_folder_open",
+    "eslint-config": "eslint_folder_open",
+    "eslint-configs": "eslint_folder_open",
+    ".claude": "claude_folder_open",
+    ".cursor": "cursor_folder_open_dark",
     "acf": "folder-acf-open",
     ".acf": "folder-acf-open",
     "_acf": "folder-acf-open",
@@ -10701,21 +10910,21 @@
     "vars": "folder-ansible-open",
     ".vars": "folder-ansible-open",
     "_vars": "folder-ansible-open",
-    "api": "folder-api-open",
-    ".api": "folder-api-open",
-    "_api": "folder-api-open",
-    "apis": "folder-api-open",
-    ".apis": "folder-api-open",
-    "_apis": "folder-api-open",
-    "openapi": "folder-api-open",
-    ".openapi": "folder-api-open",
-    "_openapi": "folder-api-open",
-    "rest": "folder-api-open",
-    ".rest": "folder-api-open",
-    "_rest": "folder-api-open",
-    "parsers": "folder-api-open",
-    ".parsers": "folder-api-open",
-    "_parsers": "folder-api-open",
+    "api": "api_folder_open_dark",
+    ".api": "api_folder_open_dark",
+    "_api": "api_folder_open_dark",
+    "apis": "api_folder_open_dark",
+    ".apis": "api_folder_open_dark",
+    "_apis": "api_folder_open_dark",
+    "openapi": "api_folder_open_dark",
+    ".openapi": "api_folder_open_dark",
+    "_openapi": "api_folder_open_dark",
+    "rest": "api_folder_open_dark",
+    ".rest": "api_folder_open_dark",
+    "_rest": "api_folder_open_dark",
+    "parsers": "api_folder_open_dark",
+    ".parsers": "api_folder_open_dark",
+    "_parsers": "api_folder_open_dark",
     "apollo": "folder-apollo-open",
     ".apollo": "folder-apollo-open",
     "_apollo": "folder-apollo-open",
@@ -12111,9 +12320,9 @@
     "composables": "folder-hook-open",
     ".composables": "folder-hook-open",
     "_composables": "folder-hook-open",
-    "husky": "folder-husky-open",
-    ".husky": "folder-husky-open",
-    "_husky": "folder-husky-open",
+    "husky": "husky_folder_open_dark",
+    ".husky": "husky_folder_open_dark",
+    "_husky": "husky_folder_open_dark",
     "g11n": "folder-i18n-open",
     ".g11n": "folder-i18n-open",
     "_g11n": "folder-i18n-open",
@@ -12336,18 +12545,18 @@
     "islands": "folder-islands-open",
     ".islands": "folder-islands-open",
     "_islands": "folder-islands-open",
-    "istanbul": "folder-istanbul-open",
-    ".istanbul": "folder-istanbul-open",
-    "_istanbul": "folder-istanbul-open",
-    "nyc": "folder-istanbul-open",
-    ".nyc": "folder-istanbul-open",
-    "_nyc": "folder-istanbul-open",
-    "nyc_output": "folder-istanbul-open",
-    ".nyc_output": "folder-istanbul-open",
-    "_nyc_output": "folder-istanbul-open",
-    "nyc-output": "folder-istanbul-open",
-    ".nyc-output": "folder-istanbul-open",
-    "_nyc-output": "folder-istanbul-open",
+    "istanbul": "istanbul_folder_open_dark",
+    ".istanbul": "istanbul_folder_open_dark",
+    "_istanbul": "istanbul_folder_open_dark",
+    "nyc": "istanbul_folder_open_dark",
+    ".nyc": "istanbul_folder_open_dark",
+    "_nyc": "istanbul_folder_open_dark",
+    "nyc_output": "istanbul_folder_open_dark",
+    ".nyc_output": "istanbul_folder_open_dark",
+    "_nyc_output": "istanbul_folder_open_dark",
+    "nyc-output": "istanbul_folder_open_dark",
+    ".nyc-output": "istanbul_folder_open_dark",
+    "_nyc-output": "istanbul_folder_open_dark",
     "lproj": "folder-ios-open",
     ".lproj": "folder-ios-open",
     "_lproj": "folder-ios-open",
@@ -12411,21 +12620,21 @@
     "resque": "folder-job-open",
     ".resque": "folder-job-open",
     "_resque": "folder-job-open",
-    "json": "folder-json-open",
-    ".json": "folder-json-open",
-    "_json": "folder-json-open",
-    "jsons": "folder-json-open",
-    ".jsons": "folder-json-open",
-    "_jsons": "folder-json-open",
-    "serialization": "folder-json-open",
-    ".serialization": "folder-json-open",
-    "_serialization": "folder-json-open",
-    "serializer": "folder-json-open",
-    ".serializer": "folder-json-open",
-    "_serializer": "folder-json-open",
-    "serializers": "folder-json-open",
-    ".serializers": "folder-json-open",
-    "_serializers": "folder-json-open",
+    "json": "json_folder_open_dark",
+    ".json": "json_folder_open_dark",
+    "_json": "json_folder_open_dark",
+    "jsons": "json_folder_open_dark",
+    ".jsons": "json_folder_open_dark",
+    "_jsons": "json_folder_open_dark",
+    "serialization": "json_folder_open_dark",
+    ".serialization": "json_folder_open_dark",
+    "_serialization": "json_folder_open_dark",
+    "serializer": "json_folder_open_dark",
+    ".serializer": "json_folder_open_dark",
+    "_serializer": "json_folder_open_dark",
+    "serializers": "json_folder_open_dark",
+    ".serializers": "json_folder_open_dark",
+    "_serializers": "json_folder_open_dark",
     "jwt": "folder-jwt-open",
     ".jwt": "folder-jwt-open",
     "_jwt": "folder-jwt-open",
@@ -13155,9 +13364,9 @@
     "phtml": "folder-php-open",
     ".phtml": "folder-php-open",
     "_phtml": "folder-php-open",
-    "pinia": "folder-pinia-open",
-    ".pinia": "folder-pinia-open",
-    "_pinia": "folder-pinia-open",
+    "pinia": "pinia_folder_open_dark",
+    ".pinia": "pinia_folder_open_dark",
+    "_pinia": "pinia_folder_open_dark",
     "pipe": "folder-pipe-open",
     ".pipe": "folder-pipe-open",
     "_pipe": "folder-pipe-open",
@@ -13275,18 +13484,18 @@
     "providers": "folder-providers-open",
     ".providers": "folder-providers-open",
     "_providers": "folder-providers-open",
-    "python": "folder-python-open",
-    ".python": "folder-python-open",
-    "_python": "folder-python-open",
-    "py": "folder-python-open",
-    ".py": "folder-python-open",
-    "_py": "folder-python-open",
-    "pytest_cache": "folder-python-open",
-    ".pytest_cache": "folder-python-open",
-    "_pytest_cache": "folder-python-open",
-    "__pycache__": "folder-python-open",
-    ".__pycache__": "folder-python-open",
-    "___pycache__": "folder-python-open",
+    "python": "python_folder_open",
+    ".python": "python_folder_open",
+    "_python": "python_folder_open",
+    "py": "python_folder_open",
+    ".py": "python_folder_open",
+    "_py": "python_folder_open",
+    "pytest_cache": "python_folder_open",
+    ".pytest_cache": "python_folder_open",
+    "_pytest_cache": "python_folder_open",
+    "__pycache__": "python_folder_open",
+    ".__pycache__": "python_folder_open",
+    "___pycache__": "python_folder_open",
     "quasar": "folder-quasar-open",
     ".quasar": "folder-quasar-open",
     "_quasar": "folder-quasar-open",
@@ -13743,18 +13952,18 @@
     "shared_components": "folder-shared-open",
     ".shared_components": "folder-shared-open",
     "_shared_components": "folder-shared-open",
-    "skeleton": "folder-skeleton-open",
-    ".skeleton": "folder-skeleton-open",
-    "_skeleton": "folder-skeleton-open",
-    "skeletons": "folder-skeleton-open",
-    ".skeletons": "folder-skeleton-open",
-    "_skeletons": "folder-skeleton-open",
-    "placeholder": "folder-skeleton-open",
-    ".placeholder": "folder-skeleton-open",
-    "_placeholder": "folder-skeleton-open",
-    "placeholders": "folder-skeleton-open",
-    ".placeholders": "folder-skeleton-open",
-    "_placeholders": "folder-skeleton-open",
+    "skeleton": "skeleton_folder_open_dark",
+    ".skeleton": "skeleton_folder_open_dark",
+    "_skeleton": "skeleton_folder_open_dark",
+    "skeletons": "skeleton_folder_open_dark",
+    ".skeletons": "skeleton_folder_open_dark",
+    "_skeletons": "skeleton_folder_open_dark",
+    "placeholder": "skeleton_folder_open_dark",
+    ".placeholder": "skeleton_folder_open_dark",
+    "_placeholder": "skeleton_folder_open_dark",
+    "placeholders": "skeleton_folder_open_dark",
+    ".placeholders": "skeleton_folder_open_dark",
+    "_placeholders": "skeleton_folder_open_dark",
     "buildSrc": "folder-src-open",
     ".buildSrc": "folder-src-open",
     "_buildSrc": "folder-src-open",
@@ -13776,12 +13985,12 @@
     "srcset": "folder-src-open",
     ".srcset": "folder-src-open",
     "_srcset": "folder-src-open",
-    "snippet": "folder-src-open",
-    ".snippet": "folder-src-open",
-    "_snippet": "folder-src-open",
-    "snippets": "folder-src-open",
-    ".snippets": "folder-src-open",
-    "_snippets": "folder-src-open",
+    "snippet": "snippet_folder_open_dark",
+    ".snippet": "snippet_folder_open_dark",
+    "_snippet": "snippet_folder_open_dark",
+    "snippets": "snippet_folder_open_dark",
+    ".snippets": "snippet_folder_open_dark",
+    "_snippets": "snippet_folder_open_dark",
     "maria": "folder-sql-open",
     ".maria": "folder-sql-open",
     "_maria": "folder-sql-open",
@@ -14484,9 +14693,9 @@
     "vscode": "folder-vscode-open",
     ".vscode": "folder-vscode-open",
     "_vscode": "folder-vscode-open",
-    "vscode-test": "folder-vscode-open",
-    ".vscode-test": "folder-vscode-open",
-    "_vscode-test": "folder-vscode-open",
+    "vscode-test": "vscodetest_folder_open_dark",
+    ".vscode-test": "vscodetest_folder_open_dark",
+    "_vscode-test": "vscodetest_folder_open_dark",
     "vssettings": "folder-vscode-open",
     ".vssettings": "folder-vscode-open",
     "_vssettings": "folder-vscode-open",
@@ -14600,16 +14809,20 @@
     "_zod": "folder-zod-open"
   },
   "fileExtensions": {
-    "0": "log",
-    "1": "log",
-    "2": "log",
-    "3": "log",
-    "4": "log",
-    "5": "log",
-    "6": "log",
-    "7": "log",
-    "8": "log",
-    "9": "log",
+    "prompt.md": "prompt_file",
+    "prompts.md": "prompt_file",
+    ".vscode/json": "vscodejson_file",
+    "mdc": "mdc_file",
+    "0": "log_file_dark",
+    "1": "log_file_dark",
+    "2": "log_file_dark",
+    "3": "log_file_dark",
+    "4": "log_file_dark",
+    "5": "log_file_dark",
+    "6": "log_file_dark",
+    "7": "log_file_dark",
+    "8": "log_file_dark",
+    "9": "log_file_dark",
     "80386": "intel",
     "bundle.properties": "i18nProperties",
     "messages/properties": "i18nProperties",
@@ -15118,8 +15331,8 @@
     "bfp": "brainfuck",
     "bro": "bro",
     "br": "brotli",
-    "browserslist": "browserslist",
-    "browserslistrc": "browserslist",
+    "browserslist": "browserslist_file",
+    "browserslistrc": "browserslist_file",
     "buck": "buck",
     "buckconfig": "buck",
     "cmj": "bucklescript",
@@ -15509,9 +15722,9 @@
     "eclipse": "eclipse",
     "project": "eclipse",
     "edge": "edge",
-    "ecrc": "editorconfig",
-    "editorconfig": "editorconfig",
-    "editorconfig.json": "editorconfig",
+    "ecrc": "editorconfig_file",
+    "editorconfig": "editorconfig_file",
+    "editorconfig.json": "editorconfig_file",
     "compilerc": "electron",
     "compilerc.json": "electron",
     "asar": "electronasar",
@@ -15571,19 +15784,15 @@
     "esdoc.mjs": "esdoc",
     "esdoc.yaml": "esdoc",
     "esdoc.yml": "esdoc",
-    "eslintrc": "eslint",
-    "eslintrc.cjs": "eslint",
-    "eslintrc.js": "eslint",
-    "eslintrc.json": "eslint",
-    "eslintrc.mjs": "eslint",
-    "eslintrc.ts": "eslint",
-    "eslintrc.yaml": "eslint",
-    "eslintrc.yml": "eslint",
-    "eslint/js": "eslintrules",
-    "eslint/ts": "eslintrules",
-    "eslint/cjs": "eslintrules",
-    "eslint/ms": "eslintrules",
-    "eslintcache": "eslintcache",
+    "eslintrc": "eslint_file_dark",
+    "eslintrc.cjs": "eslint_file_dark",
+    "eslintrc.js": "eslint_file_dark",
+    "eslintrc.json": "eslint_file_dark",
+    "eslintrc.mjs": "eslint_file_dark",
+    "eslintrc.ts": "eslint_file_dark",
+    "eslintrc.yaml": "eslint_file_dark",
+    "eslintrc.yml": "eslint_file_dark",
+    "eslintcache": "eslintcache_file",
     "eslintignore": "eslintignore_file_dark",
     "erb": "erb",
     "erb.deface": "erb",
@@ -15985,14 +16194,14 @@
     "htmlhintrc": "htmlhint",
     "aff": "hunspell",
     "dic": "hunspell",
-    "huskyrc": "husky",
-    "huskyrc.cjs": "husky",
-    "huskyrc.js": "husky",
-    "huskyrc.json": "husky",
-    "huskyrc.mjs": "husky",
-    "huskyrc.ts": "husky",
-    "huskyrc.yaml": "husky",
-    "huskyrc.yml": "husky",
+    "huskyrc": "husky_file_dark",
+    "huskyrc.cjs": "husky_file_dark",
+    "huskyrc.js": "husky_file_dark",
+    "huskyrc.json": "husky_file_dark",
+    "huskyrc.mjs": "husky_file_dark",
+    "huskyrc.ts": "husky_file_dark",
+    "huskyrc.yaml": "husky_file_dark",
+    "huskyrc.yml": "husky_file_dark",
     "hy": "hy",
     "ejs.t": "hygen",
     "hygen.cjs": "hygen",
@@ -16089,8 +16298,8 @@
     "translations/yaml": "i18nlangfiles",
     "translations/yml": "i18nlangfiles",
     "icl": "icl",
-    "icu": "icu",
-    "nrm": "icu",
+    "icu": "icu_file_dark",
+    "nrm": "icu_file_dark",
     "icls": "idea",
     "iml": "idea",
     "ibc": "idris",
@@ -16101,8 +16310,8 @@
     "dlm": "idl",
     "idl": "idl",
     "ipf": "igor",
-    "imba": "imba",
-    "imba2": "imba",
+    "imba": "imba_file_dark",
+    "imba2": "imba_file_dark",
     "imgbotconfig": "imgbot",
     "4gl": "informix",
     "infopathxml": "infopath",
@@ -16120,10 +16329,10 @@
     "iso": "iso",
     "nrg": "iso",
     "udf": "iso",
-    "nycrc": "istanbul",
-    "nycrc.json": "istanbul",
-    "nycrc.yaml": "istanbul",
-    "nycrc.yml": "istanbul",
+    "nycrc": "istanbul_file_dark",
+    "nycrc.json": "istanbul_file_dark",
+    "nycrc.yaml": "istanbul_file_dark",
+    "nycrc.yml": "istanbul_file_dark",
     "io": "io",
     "iodine": "iodine",
     "ik": "ioke",
@@ -16222,7 +16431,7 @@
     "jsp": "jsp",
     "jspf": "jsp",
     "jspx": "jsp",
-    "jss": "jss",
+    "jss": "jss_file_dark",
     "jl": "julia",
     "julia": "julia",
     "ipynb": "jupyternotebook",
@@ -16365,10 +16574,10 @@
     "ll": "llvm",
     "llir": "llvm",
     "llvm": "llvm",
-    "bug-report": "logreport",
-    "log": "log",
-    "logs": "log",
-    "rpt": "logreport",
+    "log": "log_file_dark",
+    "logs": "log_file_dark",
+    "bug-report": "log_file_dark",
+    "rpt": "log_file_dark",
     "lgt": "logtalk",
     "logtalk": "logtalk",
     "lol": "lolcode",
@@ -16482,7 +16691,7 @@
     "mcfi": "maya",
     "mcfp": "maya",
     "mel": "maya",
-    "mdx": "mdx",
+    "mdx": "mdx_file_dark",
     "mediawiki": "mediawiki",
     "wiki": "mediawiki",
     "hg": "mercurial",
@@ -16736,26 +16945,26 @@
     "notes": "note",
     "scratch": "note",
     "nowignore": "nowignore_file_dark",
-    "npmrc": "npm",
+    "npmrc": "npmrc_file_dark",
     "npmignore": "npmignore_file_dark",
     "nsh": "nsis",
     "nsi": "nsis",
     "nsis": "nsis",
-    "integrity.config.cjs": "nsri",
-    "integrity.config.js": "nsri",
-    "integrity.config.mjs": "nsri",
-    "integrity.config.yaml": "nsri",
-    "integrity.config.yml": "nsri",
-    "integrity.json": "nsri",
-    "integrityrc": "nsri",
-    "nsrirc": "nsri",
-    "nsrirc.config.cjs": "nsri",
-    "nsrirc.config.js": "nsri",
-    "nsrirc.config.mjs": "nsri",
-    "nsrirc.config.yaml": "nsri",
-    "nsrirc.config.yml": "nsri",
-    "nsrirc.json": "nsri",
-    "nsriignore": "nsriignore",
+    "integrity.config.cjs": "nsri_file_dark",
+    "integrity.config.js": "nsri_file_dark",
+    "integrity.config.mjs": "nsri_file_dark",
+    "integrity.config.yaml": "nsri_file_dark",
+    "integrity.config.yml": "nsri_file_dark",
+    "integrity.json": "nsri_file_dark",
+    "integrityrc": "nsri_file_dark",
+    "nsrirc": "nsri_file_dark",
+    "nsrirc.config.cjs": "nsri_file_dark",
+    "nsrirc.config.js": "nsri_file_dark",
+    "nsrirc.config.mjs": "nsri_file_dark",
+    "nsrirc.config.yaml": "nsri_file_dark",
+    "nsrirc.config.yml": "nsri_file_dark",
+    "nsrirc.json": "nsri_file_dark",
+    "nsriignore": "nsriignore_file_dark",
     "nu": "nu",
     "npy": "numpy",
     "npz": "numpy",
@@ -16971,14 +17180,14 @@
     "plpgsql": "pgsql",
     "pcss": "postcss",
     "postcss": "postcss",
-    "postcssrc": "postcssconfig",
-    "postcssrc.cjs": "postcssconfig",
-    "postcssrc.js": "postcssconfig",
-    "postcssrc.json": "postcssconfig",
-    "postcssrc.mjs": "postcssconfig",
-    "postcssrc.ts": "postcssconfig",
-    "postcssrc.yaml": "postcssconfig",
-    "postcssrc.yml": "postcssconfig",
+    "postcssrc": "postcssconfig_file",
+    "postcssrc.cjs": "postcssconfig_file",
+    "postcssrc.js": "postcssconfig_file",
+    "postcssrc.json": "postcssconfig_file",
+    "postcssrc.mjs": "postcssconfig_file",
+    "postcssrc.ts": "postcssconfig_file",
+    "postcssrc.yaml": "postcssconfig_file",
+    "postcssrc.yml": "postcssconfig_file",
     "posthtml": "posthtml",
     "posthtmlrc": "posthtml",
     "posthtmlrc.cjs": "posthtml",
@@ -17036,12 +17245,12 @@
     "pre-commit-hooks.yml": "precommit_file_dark",
     "pre-commit.yaml": "precommit_file_dark",
     "pre-commit.yml": "precommit_file_dark",
-    "prettierrc": "prettier",
-    "prettierrc.js": "prettier",
-    "prettierrc.json": "prettier",
-    "prettierrc.toml": "prettier",
-    "prettierrc.yaml": "prettier",
-    "prettierrc.yml": "prettier",
+    "prettierrc": "prettier_file_dark",
+    "prettierrc.js": "prettier_file_dark",
+    "prettierrc.json": "prettier_file_dark",
+    "prettierrc.toml": "prettier_file_dark",
+    "prettierrc.yaml": "prettier_file_dark",
+    "prettierrc.yml": "prettier_file_dark",
     "prettierignore": "prettierignore_file_dark",
     "prisma": "prisma",
     "pde": "processing",
@@ -17054,7 +17263,7 @@
     "rules.yaml": "prometheus",
     "spin": "propeller",
     "prop": "source",
-    "properties": "source",
+    "properties": "properties_file",
     "props": "source",
     "pros": "pros",
     "proselintrc": "proselint",
@@ -17091,14 +17300,14 @@
     "pytd": "pytyped",
     "pytyped": "pytyped",
     "typed": "pytyped",
-    "coveragerc": "pythonconfigs",
-    "pylintrc": "pythonconfigs",
-    "py-version": "pythonversion",
-    "python-version": "pythonversion",
-    "pythonversion": "pythonversion",
+    "coveragerc": "pythonconfigs_file_dark",
+    "pylintrc": "pythonconfigs_file_dark",
+    "py-version": "pythonconfig_file_dark",
+    "python-version": "pythonconfig_file_dark",
+    "pythonversion": "pythonconfig_file_dark",
     "pyup.yml": "pyup",
     "pyup.yaml": "pyup",
-    "qs": "qsharp_dark",
+    "qs": "qsharp_file_dark",
     "qasm": "qiskit",
     "qiskit": "qiskit",
     "qvb": "qlikview",
@@ -17847,8 +18056,9 @@
     "vrscene": "vray",
     "vsix": "vsix_file_dark",
     "vsixmanifest": "vsix_file_dark",
-    "code-workspace": "vscode",
-    "vscode": "vscode",
+    "code-workspace": "vscode_file_dark",
+    "code-snippets": "vscode_file_dark",
+    "vscode": "vscode_file_dark",
     "vscodeignore": "vscodeignore_file_dark",
     "vscodeignore.json": "vscodeignore_file_dark",
     "vsts-ci.yml": "tfs",
@@ -17977,9 +18187,9 @@
     "yamllint": "yamllint",
     "yamllint.yml": "yamllint",
     "yamllint.yaml": "yamllint",
-    "yaspellerignore": "yandex",
-    "yaspellerrc": "yandex",
-    "yaspellerrc.json": "yandex",
+    "yaspellerignore": "yandex_file_dark",
+    "yaspellerrc": "yandex_file_dark",
+    "yaspellerrc.json": "yandex_file_dark",
     "yang": "yang",
     "yar": "yara",
     "yara": "yara",
@@ -18079,7 +18289,6 @@
     "iiq": "image4",
     "k25": "image4",
     "kdc": "image4",
-    "mdc": "image4",
     "mef": "image4",
     "mrw": "image4",
     "nef": "image4",
@@ -18270,14 +18479,14 @@
     "es6": "js_file_dark",
     "js": "js_file_dark",
     "mjs": "js_file_dark",
-    "cson": "json",
-    "ejson": "json",
-    "json": "json",
-    "jsonc": "json",
-    "ndjson": "json",
-    "rsj": "json",
-    "rdjson": "json",
-    "ston": "json",
+    "cson": "json_file_dark",
+    "ejson": "json_file_dark",
+    "json": "json_file_dark",
+    "jsonc": "json_file_dark",
+    "ndjson": "json_file_dark",
+    "rsj": "json_file_dark",
+    "rdjson": "json_file_dark",
+    "ston": "json_file_dark",
     "kotlin": "kotlin",
     "kt": "kotlin",
     "ktm": "kotlin",
@@ -18289,8 +18498,8 @@
     "rbxs": "lua",
     "rockspec": "lua",
     "wlua": "lua",
-    "nginx": "nginx",
-    "nginxconf": "nginx",
+    "nginx": "nginx_file",
+    "nginxconf": "nginx_file",
     "perl": "perl",
     "ph": "perl",
     "pl": "perl",
@@ -18299,23 +18508,23 @@
     "pm6": "perl",
     "psgi": "perl",
     "php": "php",
-    "ipy": "python",
-    "pep": "python",
-    "py": "python",
-    "py3": "python",
-    "pyi": "python",
-    "pyp": "python",
-    "pyt": "python",
-    "python": "python",
-    "pyw": "python",
-    "pyz": "python",
-    "gyp": "python2",
-    "gypi": "python2",
-    "pyde": "python2",
-    "rpy": "python2",
-    "tac": "python2",
-    "wsgi": "python2",
-    "xpy": "python2",
+    "ipy": "python_file_dark",
+    "pep": "python_file_dark",
+    "py": "python_file_dark",
+    "py3": "python_file_dark",
+    "pyi": "python_file_dark",
+    "pyp": "python_file_dark",
+    "pyt": "python_file_dark",
+    "python": "python_file_dark",
+    "pyw": "python_file_dark",
+    "pyz": "python_file_dark",
+    "gyp": "python2_file_dark",
+    "gypi": "python2_file_dark",
+    "pyde": "python2_file_dark",
+    "rpy": "python2_file_dark",
+    "tac": "python2_file_dark",
+    "wsgi": "python2_file_dark",
+    "xpy": "python2_file_dark",
     "rabl": "ruby",
     "rb": "ruby",
     "ruby": "ruby",
@@ -18333,14 +18542,14 @@
     "swift": "swift",
     "template": "template",
     "toml": "toml",
-    "abt": "text",
-    "ans": "text",
-    "brf": "text",
-    "dri": "text",
-    "lcov": "text",
-    "no": "text",
-    "rtf": "text",
-    "txt": "text",
+    "abt": "text_file",
+    "ans": "text_file",
+    "brf": "text_file",
+    "dri": "text_file",
+    "lcov": "text_file",
+    "no": "text_file",
+    "rtf": "text_file",
+    "txt": "text_file",
     "ts": "ts_file_dark",
     "tslint": "ts_file_dark",
     "class": "class",
@@ -18390,21 +18599,33 @@
     "mkdown": "markdown",
     "pmd": "markdown",
     "vue": "vue",
-    "fxml": "xml",
-    "jnlp": "xml",
-    "jrxml": "xml",
-    "rng": "xml",
-    "xml": "xml",
-    "xsl": "xml",
-    "xslt": "xml",
-    "xul": "xml",
-    "wsdl": "wsdl",
-    "xsd": "xsd",
+    "fxml": "xml_file_dark",
+    "jnlp": "xml_file_dark",
+    "jrxml": "xml_file_dark",
+    "rng": "xml_file_dark",
+    "xml": "xml_file_dark",
+    "xslt": "xml_file_dark",
+    "xul": "xml_file_dark",
+    "wsdl": "wsdl_file_dark",
+    "xsl": "xsl_file_dark",
+    "xsd": "xsd_file_dark",
     "info": "yaml_file_dark",
     "yaml": "yaml_file_dark",
     "yml": "yaml_file_dark"
   },
   "fileNames": {
+    "browserslist": "browserslist_file",
+    "copilot-instructions.md": "copilot_file_dark",
+    "github-copilot.xml": "copilot_file_dark",
+    "claude.md": "claude_file_dark",
+    "claude.local.md": "claude_file_dark",
+    ".cursorignore": "cursor_file_dark",
+    ".cursorindexingignore": "cursor_file_dark",
+    ".cursorrules": "cursor_file_dark",
+    ".cursor": "cursor_file_dark",
+    ".cursor.json": "cursor_file_dark",
+    ".cursorrc": "cursor_file_dark",
+    "mcp.json": "mcp_file_dark",
     "architecture": "architecture",
     "architecture.md": "architecture",
     "architecture.rst": "architecture",
@@ -18421,8 +18642,8 @@
     ".github/release.yml": "githubActions",
     ".github/workflow.yaml": "githubActions",
     ".github/workflow.yml": "githubActions",
-    "CODE_OF_CONDUCT.md": "githubCode",
-    "CODE_OF_CONDUCT.txt": "githubCode",
+    "CODE_OF_CONDUCT.md": "githubCode_file_dark",
+    "CODE_OF_CONDUCT.txt": "githubCode_file_dark",
     "CONTRIBUTING.md": "githubContributing",
     "CONTRIBUTING.txt": "githubContributing",
     "COMMIT_MESSAGE_TEMPLATE.md": "github_dark",
@@ -18792,8 +19013,8 @@
     "credits.md": "credits",
     "credits.rst": "credits",
     "credits.txt": "credits",
-    "crowdin.yml": "crowdin",
-    "crowdin.yaml": "crowdin",
+    "crowdin.yml": "crowdin_file_dark",
+    "crowdin.yaml": "crowdin_file_dark",
     "cspell.config.cjs": "cspell",
     "cspell.config.js": "cspell",
     "cspell.config.json": "cspell",
@@ -18917,12 +19138,12 @@
     "elasticsearch.yaml": "elasticconf",
     "cask": "emacscask",
     "Caskfile": "emacscask",
-    "eslint.config.cjs": "eslintconfig",
-    "eslint.config.js": "eslintconfig",
-    "eslint.config.json": "eslintconfig",
-    "eslint.config.mjs": "eslintconfig",
-    "eslint.config.ts": "eslintconfig",
-    "eslint.config.yaml": "eslintconfig",
+    "eslint.config.cjs": "eslint_file_dark",
+    "eslint.config.js": "eslint_file_dark",
+    "eslint.config.json": "eslint_file_dark",
+    "eslint.config.mjs": "eslint_file_dark",
+    "eslint.config.ts": "eslint_file_dark",
+    "eslint.config.yaml": "eslint_file_dark",
     "emakefile": "emakefile",
     "emake": "emakefile",
     "app.config.cjs": "expo",
@@ -19153,14 +19374,14 @@
     "pre-push": "huskyhooks",
     "pre-rebase": "huskyhooks",
     "hooks/sh": "huskyhooksfiles",
-    ".husky/sh": "huskyfiles",
-    ".husky/cjs": "huskyfiles",
-    ".husky/js": "huskyfiles",
-    ".husky/mjs": "huskyfiles",
-    ".husky/ts": "huskyfiles",
-    ".husky/yaml": "huskyfiles",
-    ".husky/yml": "huskyfiles",
-    ".husky/json": "huskyfiles",
+    ".husky/sh": "husky_file_dark",
+    ".husky/cjs": "husky_file_dark",
+    ".husky/js": "husky_file_dark",
+    ".husky/mjs": "husky_file_dark",
+    ".husky/ts": "husky_file_dark",
+    ".husky/yaml": "husky_file_dark",
+    ".husky/yml": "husky_file_dark",
+    ".husky/json": "husky_file_dark",
     "hypestyle.config.cjs": "hypestyle",
     "hypestyle.config.js": "hypestyle",
     "hypestyle.config.mjs": "hypestyle",
@@ -19170,13 +19391,13 @@
     "icomoon.dev.json": "icomoon",
     "icomoon.prod.json": "icomoon",
     "__init__.py": "indexpy",
-    "nyc.config.cjs": "istanbulconf",
-    "nyc.config.js": "istanbulconf",
-    "nyc.config.json": "istanbulconf",
-    "nyc.config.mjs": "istanbulconf",
-    "nyc.config.ts": "istanbulconf",
-    "nyc.config.yaml": "istanbulconf",
-    "nyc.config.yml": "istanbulconf",
+    "nyc.config.cjs": "istanbul_file_dark",
+    "nyc.config.js": "istanbul_file_dark",
+    "nyc.config.json": "istanbul_file_dark",
+    "nyc.config.mjs": "istanbul_file_dark",
+    "nyc.config.ts": "istanbul_file_dark",
+    "nyc.config.yaml": "istanbul_file_dark",
+    "nyc.config.yml": "istanbul_file_dark",
     "ionic.config": "ionic",
     "ionic.config.js": "ionic",
     "ionic.config.json": "ionic",
@@ -19238,8 +19459,8 @@
     "jsconfig.json": "jsconfig_file_dark",
     "jsconfig.mjs": "jsconfig_file_dark",
     "jsconfig.ts": "jsconfig_file_dark",
-    "jsr.json": "jsr",
-    "jsr.jsonc": "jsr",
+    "jsr.json": "jsr_file_dark",
+    "jsr.jsonc": "jsr_file_dark",
     "Notebook": "jupyternotebook",
     "karma.conf.cjs": "karma_file_dark",
     "karma.conf.coffee": "karma_file_dark",
@@ -19553,7 +19774,7 @@
     "normalize.styl": "normalize",
     "normalize.stylus": "normalize",
     "now.json": "now",
-    "package.json": "npm",
+    "package.json": "npm_file_dark",
     "package-lock.json": "npmlock",
     "npm-shrinkwrap.json": "npmshrinkwrap",
     "Nukefile": "nu",
@@ -19648,30 +19869,30 @@
     "ecosystem.config.ts": "pm2",
     "ecosystem.config.yaml": "pm2",
     "ecosystem.config.yml": "pm2",
-    "pnpm-debug.yaml": "pnpm",
-    "pnpm-lock.yaml": "pnpm",
-    "pnpm-workspace.yaml": "pnpm",
-    "pnpmfile.cjs": "pnpmfile",
-    "pnpmfile.js": "pnpmfile",
-    "pnpmfile.mjs": "pnpmfile",
-    "pnpmfile.ts": "pnpmfile",
+    "pnpm-debug.yaml": "pnpm_file_dark",
+    "pnpm-lock.yaml": "pnpm_file_dark",
+    "pnpm-workspace.yaml": "pnpm_file_dark",
+    "pnpmfile.cjs": "pnpm_file_dark",
+    "pnpmfile.js": "pnpm_file_dark",
+    "pnpmfile.mjs": "pnpm_file_dark",
+    "pnpmfile.ts": "pnpm_file_dark",
     "poetry.lock": "poetry",
     "pyproject.toml": "poetry",
     "polymer.json": "polymer",
-    "postcss.config.cjs": "postcssconfig",
-    "postcss.config.js": "postcssconfig",
-    "postcss.config.json": "postcssconfig",
-    "postcss.config.mjs": "postcssconfig",
-    "postcss.config.ts": "postcssconfig",
-    "postcss.config.yaml": "postcssconfig",
-    "postcss.config.yml": "postcssconfig",
-    "postcssrc.config.cjs": "postcssconfig",
-    "postcssrc.config.js": "postcssconfig",
-    "postcssrc.config.json": "postcssconfig",
-    "postcssrc.config.mjs": "postcssconfig",
-    "postcssrc.config.ts": "postcssconfig",
-    "postcssrc.config.yaml": "postcssconfig",
-    "postcssrc.config.yml": "postcssconfig",
+    "postcss.config.cjs": "postcssconfig_file",
+    "postcss.config.js": "postcssconfig_file",
+    "postcss.config.json": "postcssconfig_file",
+    "postcss.config.mjs": "postcssconfig_file",
+    "postcss.config.ts": "postcssconfig_file",
+    "postcss.config.yaml": "postcssconfig_file",
+    "postcss.config.yml": "postcssconfig_file",
+    "postcssrc.config.cjs": "postcssconfig_file",
+    "postcssrc.config.js": "postcssconfig_file",
+    "postcssrc.config.json": "postcssconfig_file",
+    "postcssrc.config.mjs": "postcssconfig_file",
+    "postcssrc.config.ts": "postcssconfig_file",
+    "postcssrc.config.yaml": "postcssconfig_file",
+    "postcssrc.config.yml": "postcssconfig_file",
     "posthtml.config.cjs": "posthtml",
     "posthtml.config.js": "posthtml",
     "posthtml.config.json": "posthtml",
@@ -19683,10 +19904,10 @@
     "preact.config.js": "preact",
     "preact.config.mjs": "preact",
     "preact.config.ts": "preact",
-    "prettier.config.cjs": "prettierconfig",
-    "prettier.config.js": "prettierconfig",
-    "prettier.config.mjs": "prettierconfig",
-    "prettier.config.ts": "prettierconfig",
+    "prettier.config.cjs": "prettier_file_dark",
+    "prettier.config.js": "prettier_file_dark",
+    "prettier.config.mjs": "prettier_file_dark",
+    "prettier.config.ts": "prettier_file_dark",
     "prisma.yml": "prismaconfig",
     "prisma.yaml": "prismaconfig",
     "protractor.conf.cjs": "protractor",
@@ -19729,9 +19950,9 @@
     "requirements.in": "pypi",
     "requirements.txt": "pypi",
     "pytest.ini": "pytest",
-    "manifest.in": "pythonconfig",
-    "python-config.json": "pythonconfig",
-    "pythonconfig.json": "pythonconfig",
+    "manifest.in": "pythonconfig_file_dark",
+    "python-config.json": "pythonconfig_file_dark",
+    "pythonconfig.json": "pythonconfig_file_dark",
     "qodana.yml": "qodana",
     "qodana.yaml": "qodana",
     "quasar.conf.cjs": "quasar",
@@ -20186,14 +20407,14 @@
     "unlicense.md": "unlicense",
     "unlicense.rst": "unlicense",
     "unlicense.txt": "unlicense",
-    "uno.config.cjs": "unocss",
-    "uno.config.js": "unocss",
-    "uno.config.mjs": "unocss",
-    "uno.config.ts": "unocss",
-    "unocss.config.cjs": "unocss",
-    "unocss.config.js": "unocss",
-    "unocss.config.mjs": "unocss",
-    "unocss.config.ts": "unocss",
+    "uno.config.cjs": "unocss_file_dark",
+    "uno.config.js": "unocss_file_dark",
+    "uno.config.mjs": "unocss_file_dark",
+    "uno.config.ts": "unocss_file_dark",
+    "unocss.config.cjs": "unocss_file_dark",
+    "unocss.config.js": "unocss_file_dark",
+    "unocss.config.mjs": "unocss_file_dark",
+    "unocss.config.ts": "unocss_file_dark",
     "vagrantfile": "vagrant",
     "vapor.json": "vapor",
     "vapor.yaml": "vapor",
@@ -20226,25 +20447,26 @@
     "velite.config.ts": "velite",
     "velite.config.cjs": "velite",
     "velite.config.mjs": "velite",
-    "vitest.config.cjs": "vitest",
-    "vitest.config.js": "vitest",
-    "vitest.config.mjs": "vitest",
-    "vitest.config.ts": "vitest",
-    "vitest.workspace.js": "vitest",
-    "vitest.workspace.ts": "vitest",
-    "vitest.workspace.cjs": "vitest",
-    "vitest.workspace.mjs": "vitest",
+    "vitest.config.cjs": "vitest_file",
+    "vitest.config.js": "vitest_file",
+    "vitest.config.mjs": "vitest_file",
+    "vitest.config.ts": "vitest_file",
+    "vitest.workspace.js": "vitest_file",
+    "vitest.workspace.ts": "vitest_file",
+    "vitest.workspace.cjs": "vitest_file",
+    "vitest.workspace.mjs": "vitest_file",
     "vite.config.cjs": "vite",
     "vite.config.js": "vite",
     "vite.config.mjs": "vite",
     "vite.config.ts": "vite",
-    ".vscode/json": "vscodesettings",
+    ".vscode/settings.json": "vscodesettings_file",
+    "User/settings.json": "vscodesettings_file",
     "vsts-ci.yml": "tfs",
     "vsts-ci.yaml": "tfs",
-    "vue.config.cjs": "vueconfig",
-    "vue.config.js": "vueconfig",
-    "vue.config.mjs": "vueconfig",
-    "vue.config.ts": "vueconfig",
+    "vue.config.cjs": "vueconfig_file",
+    "vue.config.js": "vueconfig_file",
+    "vue.config.mjs": "vueconfig_file",
+    "vue.config.ts": "vueconfig_file",
     "w3c.json": "w3c",
     "wallaby.cjs": "wallaby",
     "wallaby.conf.cjs": "wallaby",
@@ -20402,9 +20624,12 @@
     "config": "pref_file_dark",
     "pref": "pref_file_dark",
     "prefs": "pref_file_dark",
-    "nginx.conf": "nginx"
+    "nginx.conf": "nginx_file"
   },
   "languageIds": {
+    "instructions": "copilot_file_dark",
+    "prompt": "prompt_file",
+    "snippets": "vscode_file_dark",
     "ini": "preferences",
     "env": "preferences",
     "dotenv": "preferences",
@@ -20561,7 +20786,7 @@
     "brew": "brewfile",
     "bro": "bro",
     "zeek": "bro",
-    "browserslist": "browserslist",
+    "browserslist": "browserslist_file",
     "broccoli": "broccoli",
     "brocfile": "broccoli",
     "buck": "buck",
@@ -20765,7 +20990,7 @@
     "clipse": "clipse",
     "ecl": "clipse",
     "kel": "clipse",
-    "editorconfig": "editorconfig",
+    "editorconfig": "editorconfig_file",
     "edge": "edge",
     "egg": "egg",
     "eiffel": "eiffel",
@@ -20787,7 +21012,7 @@
     "emberscript": "emberscript",
     "ensime": "ensime",
     "eq": "eq",
-    "eslint": "eslint",
+    "eslint": "eslint_file_dark",
     "erb": "erb",
     "css.erb": "erb",
     "html.erb": "erb",
@@ -20975,7 +21200,7 @@
     "hunspell": "hunspell",
     "hunspell.aff": "hunspell",
     "hunspell.dic": "hunspell",
-    "husky": "husky",
+    "husky": "husky_file_dark",
     "hy": "hy",
     "hygen": "hygen",
     "hypr": "hypr",
@@ -20983,8 +21208,8 @@
     "po": "i18n",
     "pot": "i18n",
     "icl": "icl",
-    "icu": "icu",
-    "nrl": "icu",
+    "icu": "icu_file_dark",
+    "nrl": "icu_file_dark",
     "idea": "idea",
     "icls": "idea",
     "iml": "idea",
@@ -20999,9 +21224,9 @@
     "igor": "igor",
     "igorpro": "igor",
     "ipf": "igor",
-    "imba": "imba",
-    "imba1": "imba",
-    "imba2": "imba",
+    "imba": "imba_file_dark",
+    "imba1": "imba_file_dark",
+    "imba2": "imba_file_dark",
     "informix": "informix",
     "4gl": "informix",
     "4GL": "informix",
@@ -21108,17 +21333,17 @@
     "jsx": "jsx_file_dark",
     "javascriptreact": "jsx_file_dark",
     "typescriptreact": "tsx_file_dark",
-    "cson": "json",
-    "json": "json",
-    "jsonc": "json",
-    "ndjson": "json",
-    "rdjson": "json",
+    "cson": "json_file_dark",
+    "json": "json_file_dark",
+    "jsonc": "json_file_dark",
+    "ndjson": "json_file_dark",
+    "rdjson": "json_file_dark",
     "json5": "json5",
     "jsonld": "jsonld",
     "jsonl": "jsonld",
     "jsonnet": "jsonnet",
     "jsp": "jsp",
-    "jss": "jss",
+    "jss": "jss_file_dark",
     "julia": "julia",
     "juliamarkdown": "julia",
     "jupyter": "jupyter",
@@ -21175,9 +21400,9 @@
     "llvm": "llvm",
     "lock": "lock",
     "ssh_config": "lock",
-    "log": "log",
-    "logfile": "log",
-    "Log": "log",
+    "log": "log_file_dark",
+    "logfile": "log_file_dark",
+    "Log": "log_file_dark",
     "logtalk": "logtalk",
     "lolcode": "lolcode",
     "lookml": "lookml",
@@ -21212,7 +21437,7 @@
     "maxscript": "max",
     "maya": "maya",
     "mel": "maya",
-    "mdx": "mdx",
+    "mdx": "mdx_file_dark",
     "mediawiki": "mediawiki",
     "mercurial": "mercurial",
     "hg": "mercurial",
@@ -21285,8 +21510,8 @@
     "netlinx-library": "netlinx",
     "netlogo": "netlogo",
     "nextflow": "nextflow",
-    "nginx": "nginx",
-    "nginx-log": "nginx",
+    "nginx": "nginx_file",
+    "nginx-log": "nginx_file",
     "nib": "nib",
     "nickle": "nickle",
     "nimble": "nimble",
@@ -21302,8 +21527,8 @@
     "noon": "noon",
     "note": "note",
     "now": "now",
-    "npm": "npm",
-    "npmrc": "npm",
+    "npm": "npm_file_dark",
+    "npmrc": "npmrc_file_dark",
     "nsis": "nsis",
     "nlf": "nsis",
     "nsis-injection": "nsis",
@@ -21412,7 +21637,7 @@
     "platformio-debug.disassembly": "platformio",
     "play": "play",
     "plist": "plist",
-    "pnpm": "pnpm",
+    "pnpm": "pnpm_file_dark",
     "poetry": "poetry",
     "pony": "pony",
     "postcss": "postcss",
@@ -21425,7 +21650,7 @@
     "pb": "powerbuilder",
     "powershell": "powershell",
     "preact": "preact",
-    "prettier": "prettier",
+    "prettier": "prettier_file_dark",
     "prisma": "prisma",
     "processing": "processing",
     "pde": "processing",
@@ -21435,8 +21660,8 @@
     "propeller": "propeller",
     "spin": "propeller",
     "source": "source",
-    "properties": "source",
-    "java-properties": "source",
+    "properties": "properties_file",
+    "java-properties": "properties_file",
     "pros": "pros",
     "proto": "protobuf",
     "proto3": "protobuf",
@@ -21450,11 +21675,11 @@
     "purescript": "purescript",
     "purebasic": "purebasic",
     "pyret": "pyret",
-    "python": "python",
-    "pythonconfig": "pythonconfig",
-    "pip-requirements": "pythonconfig",
-    "qs": "qsharp_dark",
-    "qsharp": "qsharp_dark",
+    "python": "python_file_dark",
+    "pythonconfig": "pythonconfig_file_dark",
+    "pip-requirements": "pythonconfig_file_dark",
+    "qs": "qsharp_file_dark",
+    "qsharp": "qsharp_file_dark",
     "kx": "kx",
     "q": "kx",
     "qasm": "qiskit",
@@ -21669,15 +21894,15 @@
     "terraform-vars": "terraform",
     "terragrunt": "terraform",
     "template": "template",
-    "abt": "text",
-    "ans": "text",
-    "brf": "text",
-    "dri": "text",
-    "lcov": "text",
-    "no": "text",
-    "rtf": "text",
-    "text": "text",
-    "plaintext": "text",
+    "abt": "text_file",
+    "ans": "text_file",
+    "brf": "text_file",
+    "dri": "text_file",
+    "lcov": "text_file",
+    "no": "text_file",
+    "rtf": "text_file",
+    "text": "text_file",
+    "plaintext": "text_file",
     "tex": "tex",
     "latex": "tex",
     "doctex": "tex",
@@ -21801,31 +22026,31 @@
     "wpml": "wpml",
     "wxss": "wxss",
     "wxs": "wxs",
-    "wsdl": "wsdl",
+    "wsdl": "wsdl_file_dark",
     "xcode": "xcode",
     "strings": "xcode",
     "xib": "xib",
     "xliff": "xliff",
     "xlf": "xliff",
     "xmake": "xmake",
-    "fxml": "xml",
-    "jnlp": "xml",
-    "jrxml": "xml",
-    "xslt": "xml",
-    "xul": "xml",
-    "xml": "xml",
+    "fxml": "xml_file_dark",
+    "jnlp": "xml_file_dark",
+    "jrxml": "xml_file_dark",
+    "xslt": "xml_file_dark",
+    "xul": "xml_file_dark",
+    "xml": "xml_file_dark",
     "xquery": "xquery",
-    "xsl": "xsd",
-    "xsd": "xsd",
+    "xsl": "xsl_file_dark",
+    "xsd": "xsd_file_dark",
     "xtend": "xtend",
     "xquery-ml": "xquery",
     "xproc": "xproc",
     "xpl": "xproc",
     "xubuntu": "xubuntu",
     "xdefaults": "xubuntu",
-    "yandex": "yandex",
-    "ydl": "yandex",
-    "wiki": "yandex",
+    "yandex": "yandex_file_dark",
+    "ydl": "yandex_file_dark",
+    "wiki": "yandex_file_dark",
     "info": "yaml_file_dark",
     "yaml": "yaml_file_dark",
     "yang": "yang",
@@ -21859,6 +22084,116 @@
   "light": {
     "file": "default_file_light",
     "fileExtensions": {
+      "wsdl": "wsdl_file_light",
+      "qs": "qsharp_file_light",
+      "py-version": "pythonconfig_file_light",
+      "python-version": "pythonconfig_file_light",
+      "pythonversion": "pythonconfig_file_light",
+      "coveragerc": "pythonconfigs_file_light",
+      "pylintrc": "pythonconfigs_file_light",
+      "gyp": "python2_file_light",
+      "gypi": "python2_file_light",
+      "pyde": "python2_file_light",
+      "rpy": "python2_file_light",
+      "tac": "python2_file_light",
+      "wsgi": "python2_file_light",
+      "xpy": "python2_file_light",
+      "ipy": "python_file_light",
+      "pep": "python_file_light",
+      "py": "python_file_light",
+      "py3": "python_file_light",
+      "pyi": "python_file_light",
+      "pyp": "python_file_light",
+      "pyt": "python_file_light",
+      "python": "python_file_light",
+      "pyw": "python_file_light",
+      "pyz": "python_file_light",
+      "jss": "jss_file_light",
+      "cson": "json_file_light",
+      "ejson": "json_file_light",
+      "json": "json_file_light",
+      "jsonc": "json_file_light",
+      "ndjson": "json_file_light",
+      "rsj": "json_file_light",
+      "rdjson": "json_file_light",
+      "ston": "json_file_light",
+      "imba": "imba_file_light",
+      "imba2": "imba_file_light",
+      "icu": "icu_file_light",
+      "nrm": "icu_file_light",
+      "integrity.config.cjs": "nsri_file_light",
+      "integrity.config.js": "nsri_file_light",
+      "integrity.config.mjs": "nsri_file_light",
+      "integrity.config.yaml": "nsri_file_light",
+      "integrity.config.yml": "nsri_file_light",
+      "integrity.json": "nsri_file_light",
+      "integrityrc": "nsri_file_light",
+      "nsrirc": "nsri_file_light",
+      "nsrirc.config.cjs": "nsri_file_light",
+      "nsrirc.config.js": "nsri_file_light",
+      "nsrirc.config.mjs": "nsri_file_light",
+      "nsrirc.config.yaml": "nsri_file_light",
+      "nsrirc.config.yml": "nsri_file_light",
+      "nsrirc.json": "nsri_file_light",
+      "nsriignore": "nsriignore_file_light",
+      "npmrc": "npmrc_file_light",
+      "yaspellerignore": "yandex_file_light",
+      "yaspellerrc": "yandex_file_light",
+      "yaspellerrc.json": "yandex_file_light",
+      "xsd": "xsd_file_light",
+      "fxml": "xml_file_light",
+      "jnlp": "xml_file_light",
+      "jrxml": "xml_file_light",
+      "rng": "xml_file_light",
+      "xml": "xml_file_light",
+      "xslt": "xml_file_light",
+      "xul": "xml_file_light",
+      "xsl": "xsl_file_light",
+      "log": "log_file_light",
+      "logs": "log_file_light",
+      "0": "log_file_light",
+      "1": "log_file_light",
+      "2": "log_file_light",
+      "3": "log_file_light",
+      "4": "log_file_light",
+      "5": "log_file_light",
+      "6": "log_file_light",
+      "7": "log_file_light",
+      "8": "log_file_light",
+      "9": "log_file_light",
+      "bug-report": "log_file_light",
+      "rpt": "log_file_light",
+      "eslintrc": "eslint_file_light",
+      "eslintrc.cjs": "eslint_file_light",
+      "eslintrc.js": "eslint_file_light",
+      "eslintrc.json": "eslint_file_light",
+      "eslintrc.mjs": "eslint_file_light",
+      "eslintrc.ts": "eslint_file_light",
+      "eslintrc.yaml": "eslint_file_light",
+      "eslintrc.yml": "eslint_file_light",
+      "prettierrc": "prettier_file_light",
+      "prettierrc.js": "prettier_file_light",
+      "prettierrc.json": "prettier_file_light",
+      "prettierrc.toml": "prettier_file_light",
+      "prettierrc.yaml": "prettier_file_light",
+      "prettierrc.yml": "prettier_file_light",
+      "code-workspace": "vscode_file_light",
+      "code-snippets": "vscode_file_light",
+      "vscode": "vscode_file_light",
+      "mdc": "mdc_file",
+      "mdx": "mdx_file_light",
+      "nycrc": "istanbul_file_light",
+      "nycrc.json": "istanbul_file_light",
+      "nycrc.yaml": "istanbul_file_light",
+      "nycrc.yml": "istanbul_file_light",
+      "huskyrc": "husky_file_light",
+      "huskyrc.cjs": "husky_file_light",
+      "huskyrc.js": "husky_file_light",
+      "huskyrc.json": "husky_file_light",
+      "huskyrc.mjs": "husky_file_light",
+      "huskyrc.ts": "husky_file_light",
+      "huskyrc.yaml": "husky_file_light",
+      "huskyrc.yml": "husky_file_light",
       "less": "less_file_light",
       "njs": "nodeversion_file_light",
       "node": "nodeversion_file_light",
@@ -22009,7 +22344,6 @@
       "koka": "koka_file_light",
       "latte": "latte",
       "neon": "neon_file_light",
-      "qs": "qsharp",
       "sk": "skript",
       "skript": "skript",
       "trunk": "trunk",
@@ -22029,6 +22363,67 @@
       "tss": "css_file_light"
     },
     "fileNames": {
+      "manifest.in": "pythonconfig_file_light",
+      "python-config.json": "pythonconfig_file_light",
+      "pythonconfig.json": "pythonconfig_file_light",
+      "jsr.json": "jsr_file_light",
+      "jsr.jsonc": "jsr_file_light",
+      "package.json": "npm_file_light",
+      "pnpm-debug.yaml": "pnpm_file_light",
+      "pnpm-lock.yaml": "pnpm_file_light",
+      "pnpm-workspace.yaml": "pnpm_file_light",
+      "pnpmfile.cjs": "pnpm_file_light",
+      "pnpmfile.js": "pnpm_file_light",
+      "pnpmfile.mjs": "pnpm_file_light",
+      "pnpmfile.ts": "pnpm_file_light",
+      "copilot-instructions.md": "copilot_file_light",
+      "github-copilot.xml": "copilot_file_light",
+      "eslint.config.cjs": "eslint_file_light",
+      "eslint.config.js": "eslint_file_light",
+      "eslint.config.json": "eslint_file_light",
+      "eslint.config.mjs": "eslint_file_light",
+      "eslint.config.ts": "eslint_file_light",
+      "eslint.config.yaml": "eslint_file_light",
+      "prettier.config.cjs": "prettier_file_light",
+      "prettier.config.js": "prettier_file_light",
+      "prettier.config.mjs": "prettier_file_light",
+      "prettier.config.ts": "prettier_file_light",
+      "uno.config.cjs": "unocss_file_light",
+      "uno.config.js": "unocss_file_light",
+      "uno.config.mjs": "unocss_file_light",
+      "uno.config.ts": "unocss_file_light",
+      "unocss.config.cjs": "unocss_file_light",
+      "unocss.config.js": "unocss_file_light",
+      "unocss.config.mjs": "unocss_file_light",
+      "unocss.config.ts": "unocss_file_light",
+      "claude.md": "claude_file_light",
+      "claude.local.md": "claude_file_light",
+      ".cursorignore": "cursor_file_light",
+      ".cursorindexingignore": "cursor_file_light",
+      ".cursorrules": "cursor_file_light",
+      ".cursor": "cursor_file_light",
+      ".cursor.json": "cursor_file_light",
+      ".cursorrc": "cursor_file_light",
+      "mcp.json": "mcp_file_light",
+      "crowdin.yml": "crowdin_file_light",
+      "crowdin.yaml": "crowdin_file_light",
+      "nyc.config.cjs": "istanbul_file_light",
+      "nyc.config.js": "istanbul_file_light",
+      "nyc.config.json": "istanbul_file_light",
+      "nyc.config.mjs": "istanbul_file_light",
+      "nyc.config.ts": "istanbul_file_light",
+      "nyc.config.yaml": "istanbul_file_light",
+      "nyc.config.yml": "istanbul_file_light",
+      ".husky/sh": "husky_file_light",
+      ".husky/cjs": "husky_file_light",
+      ".husky/js": "husky_file_light",
+      ".husky/mjs": "husky_file_light",
+      ".husky/ts": "husky_file_light",
+      ".husky/yaml": "husky_file_light",
+      ".husky/yml": "husky_file_light",
+      ".husky/json": "husky_file_light",
+      "CODE_OF_CONDUCT.md": "githubCode_file_light",
+      "CODE_OF_CONDUCT.txt": "githubCode_file_light",
       "app.cjs": "nodejs_file_light",
       "app.js": "nodejs_file_light",
       "app.mjs": "nodejs_file_light",
@@ -22117,6 +22512,46 @@
       "prefs": "pref_file_light"
     },
     "languageIds": {
+      "wsdl": "wsdl_file_light",
+      "qs": "qsharp_file_light",
+      "qsharp": "qsharp_file_light",
+      "pythonconfig": "pythonconfig_file_light",
+      "pip-requirements": "pythonconfig_file_light",
+      "python": "python_file_light",
+      "jss": "jss_file_light",
+      "cson": "json_file_light",
+      "json": "json_file_light",
+      "jsonc": "json_file_light",
+      "ndjson": "json_file_light",
+      "rdjson": "json_file_light",
+      "imba": "imba_file_light",
+      "imba1": "imba_file_light",
+      "imba2": "imba_file_light",
+      "icu": "icu_file_light",
+      "nrl": "icu_file_light",
+      "npmrc": "npmrc_file_light",
+      "npm": "npm_file_light",
+      "yandex": "yandex_file_light",
+      "ydl": "yandex_file_light",
+      "wiki": "yandex_file_light",
+      "xsd": "xsd_file_light",
+      "pnpm": "pnpm_file_light",
+      "fxml": "xml_file_light",
+      "jnlp": "xml_file_light",
+      "jrxml": "xml_file_light",
+      "xslt": "xml_file_light",
+      "xul": "xml_file_light",
+      "xml": "xml_file_light",
+      "xsl": "xsl_file_light",
+      "log": "log_file_light",
+      "logfile": "log_file_light",
+      "Log": "log_file_light",
+      "instructions": "copilot_file_light",
+      "eslint": "eslint_file_light",
+      "prettier": "prettier_file_light",
+      "snippets": "vscode_file_light",
+      "mdx": "mdx_file_light",
+      "husky": "husky_file_light",
       "bats": "bats_file_light",
       "less": "less_file_light",
       "jsconfig": "jsconfig_file_light",
@@ -22166,13 +22601,82 @@
       "phalcon": "phalcon",
       "volt": "phalcon",
       "js.volt": "phalcon",
-      "qs": "qsharp",
-      "qsharp": "qsharp",
       "wikitext": "wikitext",
       "zeit": "zeit_file_light",
       "zeitignore": "zeit_file_light"
     },
     "folderNames": {
+      "vscode-test": "vscodetest_folder_light",
+      ".vscode-test": "vscodetest_folder_light",
+      "_vscode-test": "vscodetest_folder_light",
+      "json": "json_folder_light",
+      ".json": "json_folder_light",
+      "_json": "json_folder_light",
+      "jsons": "json_folder_light",
+      ".jsons": "json_folder_light",
+      "_jsons": "json_folder_light",
+      "serialization": "json_folder_light",
+      ".serialization": "json_folder_light",
+      "_serialization": "json_folder_light",
+      "serializer": "json_folder_light",
+      ".serializer": "json_folder_light",
+      "_serializer": "json_folder_light",
+      "serializers": "json_folder_light",
+      ".serializers": "json_folder_light",
+      "_serializers": "json_folder_light",
+      "skeleton": "skeleton_folder_light",
+      ".skeleton": "skeleton_folder_light",
+      "_skeleton": "skeleton_folder_light",
+      "skeletons": "skeleton_folder_light",
+      ".skeletons": "skeleton_folder_light",
+      "_skeletons": "skeleton_folder_light",
+      "placeholder": "skeleton_folder_light",
+      ".placeholder": "skeleton_folder_light",
+      "_placeholder": "skeleton_folder_light",
+      "placeholders": "skeleton_folder_light",
+      ".placeholders": "skeleton_folder_light",
+      "_placeholders": "skeleton_folder_light",
+      "pinia": "pinia_folder_light",
+      ".pinia": "pinia_folder_light",
+      "_pinia": "pinia_folder_light",
+      ".claude": "claude_folder",
+      ".cursor": "cursor_folder_light",
+      "snippet": "snippet_folder_light",
+      ".snippet": "snippet_folder_light",
+      "_snippet": "snippet_folder_light",
+      "snippets": "snippet_folder_light",
+      ".snippets": "snippet_folder_light",
+      "_snippets": "snippet_folder_light",
+      "istanbul": "istanbul_folder_light",
+      ".istanbul": "istanbul_folder_light",
+      "_istanbul": "istanbul_folder_light",
+      "nyc": "istanbul_folder_light",
+      ".nyc": "istanbul_folder_light",
+      "_nyc": "istanbul_folder_light",
+      "nyc_output": "istanbul_folder_light",
+      ".nyc_output": "istanbul_folder_light",
+      "_nyc_output": "istanbul_folder_light",
+      "nyc-output": "istanbul_folder_light",
+      ".nyc-output": "istanbul_folder_light",
+      "_nyc-output": "istanbul_folder_light",
+      "husky": "husky_folder_light",
+      ".husky": "husky_folder_light",
+      "_husky": "husky_folder_light",
+      "api": "api_folder_light",
+      ".api": "api_folder_light",
+      "_api": "api_folder_light",
+      "apis": "api_folder_light",
+      ".apis": "api_folder_light",
+      "_apis": "api_folder_light",
+      "openapi": "api_folder_light",
+      ".openapi": "api_folder_light",
+      "_openapi": "api_folder_light",
+      "rest": "api_folder_light",
+      ".rest": "api_folder_light",
+      "_rest": "api_folder_light",
+      "parsers": "api_folder_light",
+      ".parsers": "api_folder_light",
+      "_parsers": "api_folder_light",
       "empty": "empties_folder_light",
       ".empty": "empties_folder_light",
       "_empty": "empties_folder_light",
@@ -22187,6 +22691,77 @@
       "_stocks": "empties_folder_light"
     },
     "folderNamesExpanded": {
+      "vscode-test": "vscodetest_folder_open_light",
+      ".vscode-test": "vscodetest_folder_open_light",
+      "_vscode-test": "vscodetest_folder_open_light",
+      "json": "json_folder_open_light",
+      ".json": "json_folder_open_light",
+      "_json": "json_folder_open_light",
+      "jsons": "json_folder_open_light",
+      ".jsons": "json_folder_open_light",
+      "_jsons": "json_folder_open_light",
+      "serialization": "json_folder_open_light",
+      ".serialization": "json_folder_open_light",
+      "_serialization": "json_folder_open_light",
+      "serializer": "json_folder_open_light",
+      ".serializer": "json_folder_open_light",
+      "_serializer": "json_folder_open_light",
+      "serializers": "json_folder_open_light",
+      ".serializers": "json_folder_open_light",
+      "_serializers": "json_folder_open_light",
+      "skeleton": "skeleton_folder_open_light",
+      ".skeleton": "skeleton_folder_open_light",
+      "_skeleton": "skeleton_folder_open_light",
+      "skeletons": "skeleton_folder_open_light",
+      ".skeletons": "skeleton_folder_open_light",
+      "_skeletons": "skeleton_folder_open_light",
+      "placeholder": "skeleton_folder_open_light",
+      ".placeholder": "skeleton_folder_open_light",
+      "_placeholder": "skeleton_folder_open_light",
+      "placeholders": "skeleton_folder_open_light",
+      ".placeholders": "skeleton_folder_open_light",
+      "_placeholders": "skeleton_folder_open_light",
+      "pinia": "pinia_folder_open_light",
+      ".pinia": "pinia_folder_open_light",
+      "_pinia": "pinia_folder_open_light",
+      ".claude": "claude_folder_open",
+      ".cursor": "cursor_folder_open_light",
+      "snippet": "snippet_folder_open_light",
+      ".snippet": "snippet_folder_open_light",
+      "_snippet": "snippet_folder_open_light",
+      "snippets": "snippet_folder_open_light",
+      ".snippets": "snippet_folder_open_light",
+      "_snippets": "snippet_folder_open_light",
+      "istanbul": "istanbul_folder_open_light",
+      ".istanbul": "istanbul_folder_open_light",
+      "_istanbul": "istanbul_folder_open_light",
+      "nyc": "istanbul_folder_open_light",
+      ".nyc": "istanbul_folder_open_light",
+      "_nyc": "istanbul_folder_open_light",
+      "nyc_output": "istanbul_folder_open_light",
+      ".nyc_output": "istanbul_folder_open_light",
+      "_nyc_output": "istanbul_folder_open_light",
+      "nyc-output": "istanbul_folder_open_light",
+      ".nyc-output": "istanbul_folder_open_light",
+      "_nyc-output": "istanbul_folder_open_light",
+      "husky": "husky_folder_open_light",
+      ".husky": "husky_folder_open_light",
+      "_husky": "husky_folder_open_light",
+      "api": "api_folder_open_light",
+      ".api": "api_folder_open_light",
+      "_api": "api_folder_open_light",
+      "apis": "api_folder_open_light",
+      ".apis": "api_folder_open_light",
+      "_apis": "api_folder_open_light",
+      "openapi": "api_folder_open_light",
+      ".openapi": "api_folder_open_light",
+      "_openapi": "api_folder_open_light",
+      "rest": "api_folder_open_light",
+      ".rest": "api_folder_open_light",
+      "_rest": "api_folder_open_light",
+      "parsers": "api_folder_open_light",
+      ".parsers": "api_folder_open_light",
+      "_parsers": "api_folder_open_light",
       "empty": "empties_folder_open_light",
       ".empty": "empties_folder_open_light",
       "_empty": "empties_folder_open_light",
