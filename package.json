@@ -2,7 +2,7 @@
   "name": "atom-file-icon-with-jetbrains",
   "displayName": "Atom Material Icons + Jetbrains Icons",
   "description": "Atom Material Icons for Visual Studio Code with wider Jetbrains Icons support",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "repository": {
     "type": "git",
     "url": "https://github.com/ShiGongZhi/atom-file-icon-with-jetbrains"
@@ -113,13 +113,15 @@
     },
     "virtualWorkspaces": true
   },
-  "categories": [
-    "Themes"
-  ],
   "galleryBanner": {
     "color": "#263238",
     "theme": "dark"
   },
+  "categories": [
+    "Themes",
+    "Visualization",
+    "Other"
+  ],
   "keywords": [
     "icons",
     "theme",
@@ -149,6 +151,12 @@
     "font",
     "cold",
     "dark",
-    "material"
+    "product",
+    "icon",
+    "icon theme",
+    "semantic",
+    "python",
+    "go",
+    "golang"
   ]
 }
