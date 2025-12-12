@@ -1,0 +1,91 @@
+{
+  "iconDefinitions": {
+    "angular": {
+      "iconPath": "./files/angular.svg"
+    },
+    "angularcomponent": {
+      "iconPath": "./files/angularcomponent.svg"
+    },
+    "angularcontroller": {
+      "iconPath": "./files/angularcontroller.svg"
+    },
+    "angulardirective": {
+      "iconPath": "./files/angulardirective.svg"
+    },
+    "angularguard": {
+      "iconPath": "./files/angularguard.svg"
+    },
+    "angularinterceptor": {
+      "iconPath": "./files/angularinterceptor.svg"
+    },
+    "angularrouting": {
+      "iconPath": "./files/angularrouting.svg"
+    },
+    "angularmodule": {
+      "iconPath": "./files/angularmodule.svg"
+    },
+    "angularservice": {
+      "iconPath": "./files/angularservice.svg"
+    },
+    "angularpipe": {
+      "iconPath": "./files/angularpipe.svg"
+    },
+    "angularresolver": {
+      "iconPath": "./files/angularresolver.svg"
+    }
+  },
+  "fileExtensions": {
+    "ng-template": "angular",
+    "ng.html": "angular",
+    "ng.js": "angular",
+    "ng.ts": "angular",
+    "ngtemplate": "angular",
+    "comp.dart": "angularcomponent",
+    "comp.js": "angularcomponent",
+    "comp.ts": "angularcomponent",
+    "component.dart": "angularcomponent",
+    "component.js": "angularcomponent",
+    "component.ts": "angularcomponent",
+    "controller.dart": "angularcontroller",
+    "controller.js": "angularcontroller",
+    "controller.ts": "angularcontroller",
+    "ctrl.dart": "angularcontroller",
+    "ctrl.js": "angularcontroller",
+    "ctrl.ts": "angularcontroller",
+    "directive.js": "angulardirective",
+    "directive.ts": "angulardirective",
+    "directive.dart": "angulardirective",
+    "guard.js": "angularguard",
+    "guard.ts": "angularguard",
+    "guard.dart": "angularguard",
+    "interceptor.js": "angularinterceptor",
+    "interceptor.ts": "angularinterceptor",
+    "interceptor.dart": "angularinterceptor",
+    "routing.js": "angularrouting",
+    "routing.ts": "angularrouting",
+    "routing.dart": "angularrouting",
+    "module.js": "angularmodule",
+    "module.ts": "angularmodule",
+    "module.dart": "angularmodule",
+    "service.js": "angularservice",
+    "service.ts": "angularservice",
+    "service.dart": "angularservice",
+    "page.js": "ionic",
+    "page.ts": "ionic",
+    "page.dart": "ionic",
+    "pipe.js": "angularpipe",
+    "pipe.ts": "angularpipe",
+    "pipe.dart": "angularpipe",
+    "resolver.js": "angularresolver",
+    "resolver.ts": "angularresolver",
+    "resolver.dart": "angularresolver"
+  },
+  "fileNames": {
+    "angular-routing.dart": "angularrouting",
+    "angular-routing.js": "angularrouting",
+    "angular-routing.ts": "angularrouting",
+    "angular_routing.dart": "angularrouting",
+    "angular_routing.js": "angularrouting",
+    "angular_routing.ts": "angularrouting"
+  }
+}

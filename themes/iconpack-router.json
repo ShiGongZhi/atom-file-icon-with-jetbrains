@@ -1,0 +1,25 @@
+{
+  "iconDefinitions": {
+    "routesfiles_file": {
+      "iconPath": "./files/routesfiles_file.svg"
+    }
+  },
+  "fileExtensions": {
+    "router/js": "routesfiles_file",
+    "router/jsx": "routesfiles_file",
+    "router/ts": "routesfiles_file",
+    "router/tsx": "routesfiles_file",
+    "routes/js": "routesfiles_file",
+    "routes/jsx": "routesfiles_file",
+    "routes/ts": "routesfiles_file",
+    "routes/tsx": "routesfiles_file",
+    "routing/js": "routesfiles_file",
+    "routing/jsx": "routesfiles_file",
+    "routing/ts": "routesfiles_file",
+    "routing/tsx": "routesfiles_file"
+  },
+  "languageIds": {},
+  "light": {
+    "fileExtensions": {}
+  }
+}

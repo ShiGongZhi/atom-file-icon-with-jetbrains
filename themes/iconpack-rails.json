@@ -1,0 +1,76 @@
+{
+  "iconDefinitions": {
+    "railschannelfiles": {
+      "iconPath": "./files/railschannelfiles.svg"
+    },
+    "railsconcernfiles": {
+      "iconPath": "./files/railsconcernfiles.svg"
+    },
+    "railscontrollerfiles": {
+      "iconPath": "./files/railscontrollerfiles.svg"
+    },
+    "railsdbfiles": {
+      "iconPath": "./files/railsdbfiles.svg"
+    },
+    "railsfactoryfiles": {
+      "iconPath": "./files/railsfactoryfiles.svg"
+    },
+    "railsfixturefiles": {
+      "iconPath": "./files/railsfixturefiles.svg"
+    },
+    "railshelperfiles": {
+      "iconPath": "./files/railshelperfiles.svg"
+    },
+    "railsjobfiles": {
+      "iconPath": "./files/railsjobfiles.svg"
+    },
+    "railsmailerfiles": {
+      "iconPath": "./files/railsmailerfiles.svg"
+    },
+    "railsroutesfiles": {
+      "iconPath": "./files/railsroutesfiles.svg"
+    },
+    "railsschemafiles": {
+      "iconPath": "./files/railsschemafiles.svg"
+    },
+    "railsserializerfiles": {
+      "iconPath": "./files/railsserializerfiles.svg"
+    },
+    "railsservicefiles": {
+      "iconPath": "./files/railsservicefiles.svg"
+    },
+    "railsseedfiles": {
+      "iconPath": "./files/railsseedfiles.svg"
+    }
+  },
+  "fileExtensions": {
+    "channel/rb": "railschannelfiles",
+    "channels/rb": "railschannelfiles",
+    "concern/rb": "railsconcernfiles",
+    "concerns/rb": "railsconcernfiles",
+    "controller/rb": "railscontrollerfiles",
+    "controllers/rb": "railscontrollerfiles",
+    "factory/rb": "railsfactoryfiles",
+    "factories/rb": "railsfactoryfiles",
+    "fixture/rb": "railsfixturefiles",
+    "fixtures/rb": "railsfixturefiles",
+    "helper/rb": "railshelperfiles",
+    "helpers/rb": "railshelperfiles",
+    "job/rb": "railsjobfiles",
+    "jobs/rb": "railsjobfiles",
+    "mailer/rb": "railsmailerfiles",
+    "mailers/rb": "railsmailerfiles",
+    "schema/rb": "railsschemafiles",
+    "schemas/rb": "railsschemafiles",
+    "serializer/rb": "railsserializerfiles",
+    "serializers/rb": "railsserializerfiles",
+    "service/rb": "railsservicefiles",
+    "services/rb": "railsservicefiles"
+  },
+  "fileNames": {
+    "database.yml": "railsdbfiles",
+    "database.yaml": "railsdbfiles",
+    "routes.rb": "railsroutesfiles",
+    "seed.rb": "railsseedfiles"
+  }
+}

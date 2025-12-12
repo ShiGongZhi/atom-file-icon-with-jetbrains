@@ -1,0 +1,45 @@
+{
+  "iconDefinitions": {
+    "next-404": {
+      "iconPath": "./files/next-404.svg"
+    },
+    "next-error": {
+      "iconPath": "./files/next-error.svg"
+    },
+    "next-layout": {
+      "iconPath": "./files/next-layout.svg"
+    },
+    "next-page": {
+      "iconPath": "./files/next-page.svg"
+    },
+    "next-route": {
+      "iconPath": "./files/next-route.svg"
+    }
+  },
+  "fileExtensions": {
+    "404.js": "next-404",
+    "404.jsx": "next-404",
+    "404.ts": "next-404",
+    "404.tsx": "next-404",
+    "not-found.js": "next-404",
+    "not-found.jsx": "next-404",
+    "not-found.ts": "next-404",
+    "not-found.tsx": "next-404",
+    "error.js": "next-error",
+    "error.jsx": "next-error",
+    "error.ts": "next-error",
+    "error.tsx": "next-error",
+    "layout.js": "next-layout",
+    "layout.jsx": "next-layout",
+    "layout.ts": "next-layout",
+    "layout.tsx": "next-layout",
+    "page.js": "next-page",
+    "page.jsx": "next-page",
+    "page.ts": "next-page",
+    "page.tsx": "next-page",
+    "route.js": "next-route",
+    "route.jsx": "next-route",
+    "route.ts": "next-route",
+    "route.tsx": "next-route"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "iconDefinitions": {
+    "eslintfiles_file": {
+      "iconPath": "./files/eslintfiles_file.svg"
+    }
+  },
+  "fileExtensions": {
+    "rules/js": "eslintfiles_file",
+    "rules/ts": "eslintfiles_file",
+    "rules/cjs": "eslintfiles_file",
+    "rules/ms": "eslintfiles_file"
+  },
+  "languageIds": {},
+  "light": {
+    "fileExtensions": {}
+  }
+}

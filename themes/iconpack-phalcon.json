@@ -1,0 +1,20 @@
+{
+  "iconDefinitions": {
+    "phalcon_file_light": {
+      "iconPath": "./files/phalcon_file_light.svg"
+    },
+    "phalcon_file_dark": {
+      "iconPath": "./files/phalcon_file_dark.svg"
+    }
+  },
+  "fileExtensions": {
+    "phalcon": "phalcon_file_dark",
+    "volt": "phalcon_file_dark"
+  },
+  "light": {
+    "fileExtensions": {
+      "phalcon": "phalcon_file_light",
+      "volt": "phalcon_file_light"
+    }
+  }
+}

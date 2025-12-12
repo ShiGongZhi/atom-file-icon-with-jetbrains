@@ -1,0 +1,39 @@
+{
+  "iconDefinitions": {
+    "recoil_file": {
+      "iconPath": "./files/recoil_file.svg"
+    }
+  },
+  "fileExtensions": {
+    "atom.js": "recoil_file",
+    "atom.ts": "recoil_file",
+    "atoms.js": "recoil_file",
+    "atoms.ts": "recoil_file",
+    "selector.js": "recoil_file",
+    "selector.ts": "recoil_file",
+    "selectors.js": "recoil_file",
+    "selectors.ts": "recoil_file",
+    "atoms/js": "recoil_file",
+    "atoms/ts": "recoil_file",
+    "atom/js": "recoil_file",
+    "atom/ts": "recoil_file",
+    "recoil/js": "recoil_file",
+    "recoil/ts": "recoil_file"
+  },
+  "fileNames": {
+    "atoms/app.ts": "recoil_file",
+    "atom/app.ts": "recoil_file",
+    "recoil/app.ts": "recoil_file",
+    "atoms/app.js": "recoil_file",
+    "atom/app.js": "recoil_file",
+    "recoil/app.js": "recoil_file",
+    "atom.js": "recoil_file",
+    "atom.ts": "recoil_file",
+    "atoms.js": "recoil_file",
+    "atoms.ts": "recoil_file",
+    "selector.js": "recoil_file",
+    "selector.ts": "recoil_file",
+    "selectors.js": "recoil_file",
+    "selectors.ts": "recoil_file"
+  }
+}
