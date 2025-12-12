@@ -1,30 +1,33 @@
-<!--
-  - The MIT License (MIT)
-  -
-  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
-  -
-  - Permission is hereby granted, free of charge, to any person obtaining a copy
-  - of this software and associated documentation files (the "Software"), to deal
-  - in the Software without restriction, including without limitation the rights
-  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  - copies of the Software, and to permit persons to whom the Software is
-  - furnished to do so, subject to the following conditions:
-  -
-  - The above copyright notice and this permission notice shall be included in all
-  - copies or substantial portions of the Software.
-  -
-  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  - SOFTWARE.
-  -
-  -->
-
-<svg  enable-background="new 0 0 24 24" version="1.1" viewBox="0 0 24 24" width="16px" height="16px"
-     xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-    <path fill="#FFCE00" data-iconColor="Smarty"
-          d="m9.1409 20.577c0 .55593.39709.95303.95303.95303h3.8121c.55593 0 .95303-.39709.95303-.95303v-.95303h-5.7182zm2.8591-18.108c-3.6533 0-6.6712 3.0179-6.6712 6.6712 0 2.3031 1.1119 4.2886 2.8591 5.4799v2.1443c0 .55593.39709.95303.95303.95303h5.7182c.55593 0 .95303-.3971.95303-.95303v-2.1443c1.7472-1.1913 2.8591-3.1768 2.8591-5.4799 0-3.6533-3.0179-6.6712-6.6712-6.6712zm2.7002 10.563-.79419.55593v2.2237h-3.8121v-2.2237l-.79419-.55593c-1.2707-.87361-2.0649-2.3031-2.0649-3.8915 0-2.6208 2.1443-4.7651 4.7651-4.7651 2.6208 0 4.7651 2.1443 4.7651 4.7651 0 1.5884-.79419 3.0179-2.0649 3.8915z"/>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  viewBox="0 0 16 16"
+>
+  <g
+    fill="none"
+    fill-rule="evenodd"
+  >
+    <rect
+      width="4"
+      height="1"
+      x="6"
+      y="12"
+      fill="#666"
+    />
+    <path
+      fill="#666"
+      d="M6.5,14 L9.5,14 L9.5,14 C9.5,14.5522847 9.05228475,15 8.5,15 L7.5,15 C6.94771525,15 6.5,14.5522847 6.5,14 Z"
+    />
+    <path
+      fill="#f39c12"
+      fill-opacity=".7"
+      d="M11,7.52 C11,9.92 9.8,9.78125 9.8,11 L6.2,11 C6.2,9.81875 5,9.92 5,7.52 C5,6.1946 6.34327344,5 8,5 C9.65675,5 11,6.19461875 11,7.52 Z"
+    />
+    <path
+      fill="#f39c12"
+      fill-opacity=".7"
+      d="M14.998,10.003 L12.217,7.452 L14,4 L9.877,4.441 L8,1 L6.123,4.441 L2,4 L3.783,7.452 L1,10 L4.618,11.206 L4,15 L5.704,14.891 C5.503,14.502 5.462,14.112 5.462,13.91 L5.462,12.109 L5.462,11.692 L5.462,11.43 C4.822,10.713 4,9.635 4,8.246 C4,5.905 5.794,4 8,4 C10.206,4 12,5.905 12,8.246 C12,9.629 11.186,10.701 10.538,11.43 L10.538,11.692 L10.538,12.109 L10.538,13.91 C10.538,14.112 10.497,14.502 10.296,14.891 L12,15 L11.382,11.206 L14.998,10.003 Z"
+    />
+  </g>
 </svg>

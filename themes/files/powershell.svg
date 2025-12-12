@@ -1,30 +1,26 @@
-<!--
-  - The MIT License (MIT)
-  -
-  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
-  -
-  - Permission is hereby granted, free of charge, to any person obtaining a copy
-  - of this software and associated documentation files (the "Software"), to deal
-  - in the Software without restriction, including without limitation the rights
-  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  - copies of the Software, and to permit persons to whom the Software is
-  - furnished to do so, subject to the following conditions:
-  -
-  - The above copyright notice and this permission notice shall be included in all
-  - copies or substantial portions of the Software.
-  -
-  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  - SOFTWARE.
-  -
-  -->
-
-<svg  xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16">
-  <path fill="#497CE3" data-iconColor="PowerShell"
-        d="M12.07,13H1.558a0.577,0.577,0,0,1-.544-0.713L3.079,2.876A0.966,0.966,0,0,1,4.009,2H14.461a0.556,0.556,0,0,1,.525.687l-2.112,9.644A0.833,0.833,0,0,1,12.07,13ZM4.554,11.529L9.389,7.9A0.662,0.662,0,0,0,9.478,6.94L6.284,3.4c-0.526-.583-1.425.3-0.9,0.883L8.1,7.287l-4.262,3.2A0.635,0.635,0,1,0,4.554,11.529Zm5.911-1.254H7.9a0.583,0.583,0,0,0,0,1.166h2.566A0.584,0.584,0,0,0,10.465,10.276Z"
+<svg
+  width="16"
+  height="16"
+  viewBox="0 0 16 16"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M14.1935 3H4.09506C3.7804 3 3.46665 3.2567 3.39415 3.5733L1.36756 12.4267C1.29517 12.7434 1.49142 13 1.80608 13H11.9044C12.219 13 12.5328 12.7434 12.6053 12.4267L14.6319 3.57318C14.7044 3.2567 14.508 3 14.1935 3Z"
+    fill="#2A7DEB"
+  />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M9.49876 8.16533C9.45649 8.25045 9.36876 8.34431 9.21365 8.45329L4.65535 11.727C4.40649 11.9078 4.04922 11.8408 3.85751 11.5772C3.66581 11.3135 3.71206 10.9533 3.96092 10.7724L8.07149 7.79579V7.73465L5.48876 4.98715C5.27808 4.76306 5.30001 4.40068 5.53774 4.17761C5.77547 3.95465 6.13887 3.95556 6.34956 4.17965L9.44853 7.47647C9.62444 7.66363 9.63751 7.94704 9.49876 8.16533Z"
+    fill="white"
+  />
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M7.94966 10.6138H10.4057C10.6913 10.6138 10.9227 10.8427 10.9227 11.1251C10.9227 11.4075 10.6913 11.6365 10.4057 11.6365H7.94966C7.66409 11.6365 7.43262 11.4075 7.43262 11.1251C7.43262 10.8427 7.66409 10.6138 7.94966 10.6138Z"
+    fill="white"
   />
 </svg>

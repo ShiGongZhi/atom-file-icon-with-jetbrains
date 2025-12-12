@@ -1,30 +1,153 @@
-<!--
-  - The MIT License (MIT)
-  -
-  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
-  -
-  - Permission is hereby granted, free of charge, to any person obtaining a copy
-  - of this software and associated documentation files (the "Software"), to deal
-  - in the Software without restriction, including without limitation the rights
-  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  - copies of the Software, and to permit persons to whom the Software is
-  - furnished to do so, subject to the following conditions:
-  -
-  - The above copyright notice and this permission notice shall be included in all
-  - copies or substantial portions of the Software.
-  -
-  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  - SOFTWARE.
-  -
-  -->
-
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 387 512" width="16px"
-     height="16px">
-  <path fill="#FF5370" data-iconColor="Rollup"
-        d="M0,424.237915V0c0-0.0000221,214.4265747,0,214.4265747,0c59.985199,0.9047534,112.3703918,32.8415298,141.9558411,80.522049c-21.7140808-26.6902275-55.2804871-41.7091141-88.5754089-41.7091141c-63.3327332,0-79.2563629,22.5283279-200.8552551,246.0929565C39.1691704,335.5903015,15.8385849,382.8205566,0,424.237915z M386.2718201,512l-96.3962097-190.8722534c82.7416077-42.782074,118.753418-147.2455292,69.9448547-234.7247925c-38.0960083-38.6881065-117.3150024-47.1472778-138.0653687-0.1809616c-19.962326,46.5788422,31.1603241,98.2388611,56.3742065,97.6726685c23.5373535-1.0623322,16.0852661-35.0139008-3.0390015-76.2300034c20.5595093,38.781868,30.0801697,55.379921,27.0989075,68.6203842c-3.7574158,17.0569611-28.12146,28.4887543-76.0008392,74.330658C141.1414948,332.043457,55.8213921,503.1380615,39.9101524,512H386.2718201z"/>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 800"
+>
+  <path
+    d="M706.075 263.386c0-47.098-12.335-91.253-34.062-129.52-57.611-59.2939-182.927-73.0309-214.045-.281-31.96 74.573 53.686 157.556 91.113 150.967 47.659-8.41-8.411-117.746-8.411-117.746 72.89 137.371 56.07 95.319-75.694 221.475-131.763 126.156-266.33 392.346-285.954 403.56-.841.561-1.682.982-2.664 1.402h516.821c9.111 0 14.999-9.672 10.934-17.802L568.985 507.989c-2.943-5.747-.841-12.896 4.766-16.12 79.058-45.416 132.324-130.642 132.324-228.483Z"
+    fill="url(#a)"
+  />
+  <path
+    d="M706.075 263.386c0-47.098-12.335-91.253-34.062-129.52-57.611-59.2939-182.927-73.0309-214.045-.281-31.96 74.573 53.686 157.556 91.113 150.967 47.659-8.41-8.411-117.746-8.411-117.746 72.89 137.371 56.07 95.319-75.694 221.475-131.763 126.156-266.33 392.346-285.954 403.56-.841.561-1.682.982-2.664 1.402h516.821c9.111 0 14.999-9.672 10.934-17.802L568.985 507.989c-2.943-5.747-.841-12.896 4.766-16.12 79.058-45.416 132.324-130.642 132.324-228.483Z"
+    fill="url(#b)"
+  />
+  <path
+    d="M179.022 791.843c19.625-11.214 154.192-277.544 285.955-403.7 131.763-126.157 148.584-84.105 75.694-221.475 0 0-278.946 391.085-379.871 584.525"
+    fill="url(#c)"
+  />
+  <path
+    d="M218.271 441.407C406.665 95.0378 431.335 60.1345 529.457 60.1345c51.584 0 103.588 23.2689 137.23 64.6205C620.85 50.8831 539.689 1.4017 446.754 0H126.738c-6.729 0-12.196 5.4668-12.196 12.1951V657.275c19.064-49.201 51.444-119.568 103.729-215.868Z"
+    fill="url(#d)"
+  />
+  <path
+    d="M464.977 388.142C333.213 514.299 198.646 780.629 179.022 791.843c-19.624 11.214-52.565 12.615-70.087-7.009-18.6429-20.886-47.6588-54.668 109.336-343.426C406.664 95.039 431.335 60.1357 529.457 60.1357c51.584 0 103.588 23.2689 137.23 64.6203 1.822 2.944 3.644 6.027 5.467 9.111-57.612-59.2933-182.927-73.0304-214.046-.28-31.96 74.572 53.687 157.555 91.113 150.967 47.659-8.41-8.41-117.746-8.41-117.746 72.75 137.23 55.929 95.178-75.834 221.334Z"
+    fill="url(#e)"
+  />
+  <path
+    opacity=".3"
+    d="M233.69 456.828C422.083 110.458 446.754 75.5549 544.876 75.5549c42.472 0 85.225 15.8396 117.746 44.4351-33.642-38.4077-83.544-59.8543-133.165-59.8543-98.122 0-122.793 34.9033-311.186 381.2723C61.2762 730.166 90.2921 763.948 108.935 784.834c2.664 2.944 5.747 5.467 8.971 7.57-16.4-23.83-23.689-79.199 115.784-335.576Z"
+    fill="url(#f)"
+  />
+  <defs>
+    <linearGradient
+      id="a"
+      x1="318.451"
+      y1="426.059"
+      x2="534.319"
+      y2="476.522"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#FF6533" />
+      <stop
+        offset=".157"
+        stop-color="#FF5633"
+      />
+      <stop
+        offset=".434"
+        stop-color="#FF4333"
+      />
+      <stop
+        offset=".714"
+        stop-color="#FF3733"
+      />
+      <stop
+        offset="1"
+        stop-color="#F33"
+      />
+    </linearGradient>
+    <linearGradient
+      id="b"
+      x1="284.688"
+      y1="354.502"
+      x2="671.569"
+      y2="654.474"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#BF3338" />
+      <stop
+        offset="1"
+        stop-color="#F33"
+      />
+    </linearGradient>
+    <linearGradient
+      id="c"
+      x1="297.309"
+      y1="413.593"
+      x2="353.379"
+      y2="472.466"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#FF6533" />
+      <stop
+        offset=".157"
+        stop-color="#FF5633"
+      />
+      <stop
+        offset=".434"
+        stop-color="#FF4333"
+      />
+      <stop
+        offset=".714"
+        stop-color="#FF3733"
+      />
+      <stop
+        offset="1"
+        stop-color="#F33"
+      />
+    </linearGradient>
+    <linearGradient
+      id="d"
+      x1="399.251"
+      y1="514.938"
+      x2="382.43"
+      y2="273.839"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#FF6533" />
+      <stop
+        offset=".157"
+        stop-color="#FF5633"
+      />
+      <stop
+        offset=".434"
+        stop-color="#FF4333"
+      />
+      <stop
+        offset=".714"
+        stop-color="#FF3733"
+      />
+      <stop
+        offset="1"
+        stop-color="#F33"
+      />
+    </linearGradient>
+    <linearGradient
+      id="e"
+      x1="326.38"
+      y1="409.461"
+      x2="406.024"
+      y2="463.62"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#FBB040" />
+      <stop
+        offset="1"
+        stop-color="#FB8840"
+      />
+    </linearGradient>
+    <linearGradient
+      id="f"
+      x1="407.972"
+      y1="103.25"
+      x2="326.671"
+      y2="997.559"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#fff" />
+      <stop
+        offset="1"
+        stop-color="#fff"
+        stop-opacity="0"
+      />
+    </linearGradient>
+  </defs>
 </svg>
