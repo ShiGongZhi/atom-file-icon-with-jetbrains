@@ -11,3 +11,5 @@ src/fix-icon-paths.js
 DYNAMIC_ICONS.md
 assets
 assets-ws
+scripts
+templates

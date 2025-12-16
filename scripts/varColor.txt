@@ -1,0 +1,9 @@
+/**
+ * 脚本模板文件名包含_template，这样好忽略。但需要修改json文件里配置的路径
+ *   先看看会不会误匹配已有文件
+ * 使用脚本是否可以通过用户配置自定义颜色
+ *   svg大概率预加载的，应该需要提醒用户重新加载窗口
+ */
+
+var(--ignore_file_light_color, #000)
+var(--folder_icon_light_color, #000)
