@@ -11,13 +11,14 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
+    fill="#5C6BC0"
+    opacity="var(--folder_light_opacity, 0.5)"
     d="m10 4h-6c-1.11 0-2 0.89-2 2v12c0 1.097 0.903 2 2 2h16c1.097 0 2-0.903 2-2v-10c0-1.11-0.9-2-2-2h-8l-2-2z"
-    fill="#5C6BC088"
     fill-rule="nonzero"
     data-folderColor="Sources"
   />
   <g
-    fill="#000"
+    fill="var(--folder_icon_light_color, #000)"
     data-folderIconColor="Sources"
   >
     <g transform="matrix(.70678 0 0 .70678 2.0647 -.2245)">

@@ -11,14 +11,15 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
+    fill="#4FC3F7"
+    opacity="var(--folder_light_opacity, 0.8)"
     d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
-    fill="#4FC3F7aa"
     fill-rule="nonzero"
     data-folderColor="Python"
   />
   <g
+    fill="var(--folder_icon_light_color, #000)"
     transform="matrix(.6453 0 0 .64533 9.5434 7.2458)"
-    fill="#000"
     data-folderIconColor="Python"
   >
     <g>

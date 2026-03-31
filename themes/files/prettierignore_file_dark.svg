@@ -1,16 +1,16 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <rect width="8" height="1" x="3" y="1" fill="#90a4ae" rx=".5"/>
-  <rect width="5" height="1" x="3" y="3" fill="#90a4ae" rx=".5"/>
-  <rect width="3" height="1" x="3" y="5" fill="#90a4ae" rx=".5"/>
-  <rect width="4" height="1" x="9" y="3" fill="#90a4ae" rx=".5"/>
-  <rect width="4" height="1" x="10" y="5" fill="#90a4ae" rx=".5"/>
-  <rect width="4" height="1" x="9" y="7" fill="#90a4ae" rx=".5"/>
-  <rect width="3" height="1" x="3" y="7" fill="#90a4ae" rx=".5"/>
-  <rect width="1" height="1" x="7" y="7" fill="#90a4ae" rx=".5"/>
-  <rect width="2" height="1" x="3" y="11" fill="#90a4ae" rx=".5"/>
-  <rect width="1" height="1" x="6" y="11" fill="#90a4ae" rx=".5"/>
-  <rect width="4" height="1" x="3" y="13" fill="#90a4ae" rx=".5"/>
-  <rect width="6" height="1" x="5" y="9" fill="#90a4ae" rx=".5"/>
-  <rect width="1" height="1" x="3" y="9" fill="#90a4ae" rx=".5"/>
+  <rect width="8" height="1" x="3" y="1" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="5" height="1" x="3" y="3" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="3" height="1" x="3" y="5" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="4" height="1" x="9" y="3" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="4" height="1" x="10" y="5" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="4" height="1" x="9" y="7" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="3" height="1" x="3" y="7" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="1" height="1" x="7" y="7" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="2" height="1" x="3" y="11" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="1" height="1" x="6" y="11" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="4" height="1" x="3" y="13" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="6" height="1" x="5" y="9" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
+  <rect width="1" height="1" x="3" y="9" fill="var(--ignore_file_dark_color, #90a4ae)" rx=".5"/>
 </svg>

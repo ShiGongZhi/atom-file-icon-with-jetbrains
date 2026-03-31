@@ -42,11 +42,17 @@
     "redux-slice-files": {
       "iconPath": "./files/redux-slice-files.svg"
     },
-    "redux-store": {
-      "iconPath": "./files/redux-store.svg"
+    "reduxStore_file_dark": {
+      "iconPath": "./files/reduxStore_file_dark.svg"
     },
-    "redux-store-files": {
-      "iconPath": "./files/redux-store-files.svg"
+    "reduxStore_file_light": {
+      "iconPath": "./files/reduxStore_file_light.svg"
+    },
+    "reduxStore_files_dark": {
+      "iconPath": "./files/reduxStore_file_dark.svg"
+    },
+    "reduxStore_files_light": {
+      "iconPath": "./files/reduxStore_file_light.svg"
     }
   },
   "fileExtensions": {
@@ -158,22 +164,22 @@
     "slices/jsx": "redux-slice-files",
     "slices/ts": "redux-slice-files",
     "slices/tsx": "redux-slice-files",
-    "store.js": "redux-store",
-    "store.jsx": "redux-store",
-    "store.ts": "redux-store",
-    "store.tsx": "redux-store",
-    "store/js": "redux-store-files",
-    "store/jsx": "redux-store-files",
-    "store/ts": "redux-store-files",
-    "store/tsx": "redux-store-files",
-    "stores.js": "redux-store",
-    "stores.jsx": "redux-store",
-    "stores.ts": "redux-store",
-    "stores.tsx": "redux-store",
-    "stores/js": "redux-store-files",
-    "stores/jsx": "redux-store-files",
-    "stores/ts": "redux-store-files",
-    "stores/tsx": "redux-store-files"
+    "store.js": "reduxStore_file_dark",
+    "store.jsx": "reduxStore_file_dark",
+    "store.ts": "reduxStore_file_dark",
+    "store.tsx": "reduxStore_file_dark",
+    "stores.js": "reduxStore_file_dark",
+    "stores.jsx": "reduxStore_file_dark",
+    "stores.ts": "reduxStore_file_dark",
+    "stores.tsx": "reduxStore_file_dark",
+    "store/js": "reduxStore_files_dark",
+    "store/jsx": "reduxStore_files_dark",
+    "store/ts": "reduxStore_files_dark",
+    "store/tsx": "reduxStore_files_dark",
+    "stores/js": "reduxStore_files_dark",
+    "stores/jsx": "reduxStore_files_dark",
+    "stores/ts": "reduxStore_files_dark",
+    "stores/tsx": "reduxStore_files_dark"
   },
   "fileNames": {
     "action.js": "redux-action",
@@ -232,13 +238,43 @@
     "slices.jsx": "redux-slice",
     "slices.ts": "redux-slice",
     "slices.tsx": "redux-slice",
-    "store.js": "redux-store",
-    "store.jsx": "redux-store",
-    "store.ts": "redux-store",
-    "store.tsx": "redux-store",
-    "stores.js": "redux-store",
-    "stores.jsx": "redux-store",
-    "stores.ts": "redux-store",
-    "stores.tsx": "redux-store"
+    "store.js": "reduxStore_file_dark",
+    "store.jsx": "reduxStore_file_dark",
+    "store.ts": "reduxStore_file_dark",
+    "store.tsx": "reduxStore_file_dark",
+    "stores.js": "reduxStore_file_dark",
+    "stores.jsx": "reduxStore_file_dark",
+    "stores.ts": "reduxStore_file_dark",
+    "stores.tsx": "reduxStore_file_dark"
+  },
+  "light": {
+    "fileExtensions": {
+      "store.js": "reduxStore_file_light",
+      "store.jsx": "reduxStore_file_light",
+      "store.ts": "reduxStore_file_light",
+      "store.tsx": "reduxStore_file_light",
+      "stores.js": "reduxStore_file_light",
+      "stores.jsx": "reduxStore_file_light",
+      "stores.ts": "reduxStore_file_light",
+      "stores.tsx": "reduxStore_file_light",
+      "store/js": "reduxStore_files_light",
+      "store/jsx": "reduxStore_files_light",
+      "store/ts": "reduxStore_files_light",
+      "store/tsx": "reduxStore_files_light",
+      "stores/js": "reduxStore_files_light",
+      "stores/jsx": "reduxStore_files_light",
+      "stores/ts": "reduxStore_files_light",
+      "stores/tsx": "reduxStore_files_light"
+    },
+    "fileNames": {
+      "store.js": "reduxStore_file_light",
+      "store.jsx": "reduxStore_file_light",
+      "store.ts": "reduxStore_file_light",
+      "store.tsx": "reduxStore_file_light",
+      "stores.js": "reduxStore_file_light",
+      "stores.jsx": "reduxStore_file_light",
+      "stores.ts": "reduxStore_file_light",
+      "stores.tsx": "reduxStore_file_light"
+    }
   }
 }

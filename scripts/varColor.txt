@@ -6,4 +6,15 @@
  */
 
 var(--ignore_file_light_color, #000)
+var(--ignore_file_dark_color, #90a4ae)
+
+var(--folder_light_opacity, 0.4)
+var(--folder_light_opacity, 0.5)
+var(--folder_light_opacity, 0.6)
+var(--folder_light_opacity, 0.7)
+var(--folder_light_opacity, 0.8)
+var(--folder_light_opacity, 0.9)
+
+var(--folder_light_color, #000)
+
 var(--folder_icon_light_color, #000)

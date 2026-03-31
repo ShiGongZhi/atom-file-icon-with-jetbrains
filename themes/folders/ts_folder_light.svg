@@ -11,13 +11,14 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <path
+    fill="#0288D1"
+    opacity="var(--folder_light_opacity, 0.6)"
     d="m10 4h-6c-1.11 0-2 .89-2 2v12c0 1.097.903 2 2 2h16c1.097 0 2-.903 2-2v-10c0-1.11-.9-2-2-2h-8l-2-2z"
     fill-rule="nonzero"
-    fill="#0288D199"
     data-folderColor="TypeScript"
   />
   <g
-    fill="#000"
+    fill="var(--folder_icon_light_color, #000)"
     transform="matrix(.62325 0 0 .62325 3.8992 1.5796)"
     data-folderIconColor="TypeScript"
   >

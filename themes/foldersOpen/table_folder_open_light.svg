@@ -1,0 +1,22 @@
+<svg
+  viewBox="0 0 24 24"
+  width="16px"
+  height="16px"
+  xml:space="preserve"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill="#bbb"
+    d="M20,18H4V8H20M20,6H12L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z"
+  />
+  <g
+    fill="var(--folder_icon_light_color, #000)"
+    transform="scale(0.9) translate(10 8)"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M1 4C1 2.89543 1.89543 2 3 2H13C14.1046 2 15 2.89543 15 4V12C15 13.1046 14.1046 14 13 14H3C1.89543 14 1 13.1046 1 12V4ZM6 3H10V5H6V3ZM5 5V3H3C2.44772 3 2 3.44772 2 4V5H5ZM2 6V12C2 12.5523 2.44772 13 3 13H5V6H2ZM6 6H10V13H6V6ZM11 6V13H13C13.5523 13 14 12.5523 14 12V6H11ZM14 5V4C14 3.44772 13.5523 3 13 3H11V5H14Z"
+    />
+  </g>
+</svg>
