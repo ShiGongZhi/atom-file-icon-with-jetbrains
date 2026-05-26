@@ -54,6 +54,11 @@
     "tests/python": "pythonTest_file_dark",
     "tests/whl": "pythonTest_file_dark",
 
+    "spec/go": "test_go_file_dark",
+    "specs/go": "test_go_file_dark",
+    "test/go": "test_go_file_dark",
+    "tests/go": "test_go_file_dark",
+
     "spec/php": "testphpfiles",
     "specs/php": "testphpfiles",
     "test/php": "testphpfiles",
@@ -121,11 +126,6 @@
     "specs/hs": "testhaskellfiles",
     "test/hs": "testhaskellfiles",
     "tests/hs": "testhaskellfiles",
-
-    "spec/go": "testgofiles",
-    "specs/go": "testgofiles",
-    "test/go": "testgofiles",
-    "tests/go": "testgofiles",
 
     "spec/dart": "testdartfiles",
     "specs/dart": "testdartfiles",
@@ -195,7 +195,12 @@
       "tests/py": "pythonTest_file_light",
       "tests/py3": "pythonTest_file_light",
       "tests/python": "pythonTest_file_light",
-      "tests/whl": "pythonTest_file_light"
+      "tests/whl": "pythonTest_file_light",
+
+      "spec/go": "test_go_file_light",
+      "specs/go": "test_go_file_light",
+      "test/go": "test_go_file_light",
+      "tests/go": "test_go_file_light"
     }
   }
 }
